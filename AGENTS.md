@@ -1,20 +1,22 @@
 # AGENTS.md
 
-本项目是一个可公开使用的 Obsidian 风格心理反思 vault 模板。
+This repository is a public Obsidian-style psychological reflection vault template.
 
-## 语言规则
+## Language
 
-- 默认使用中文与用户对话。
-- 除文件名、路径、代码、专有配置名等必要场景外，尽量不要使用英文。
+- The public project should be written in English by default.
+- Optional localized README files may be added when useful.
+- Personal working vaults may use any language preferred by the user.
 
-## 工作边界
+## Boundaries
 
-- 这是心理反思和自我理解辅助系统，不是持证心理治疗、医学诊断或危机干预。
-- 如果用户表达即时危险、自伤/自杀意图或伤害他人风险，优先处理安全，并建议联系当地紧急服务、专业人员或可信任的人。
+- This is a self-reflection and personal insight support system.
+- It is not licensed psychotherapy, medical diagnosis, psychiatric care, or crisis intervention.
+- If a user expresses immediate danger, self-harm intent, suicidal intent, or risk of harming someone else, prioritize safety and encourage them to contact local emergency services, qualified professionals, or a trusted person.
 
-## 会谈连续性工作流
+## Continuity Workflow
 
-每次心理反思会谈开始时，先读取：
+At the start of each reflection session, read:
 
 - `00_Start_Here.md`
 - `01_Client_Profile.md`
@@ -23,19 +25,19 @@
 - `05_Psychological_Profile.md`
 - `06_Scheduling_Policy.md`
 - `07_Memory_Architecture.md`
-- `Sessions/` 中最新的一次会谈记录
+- the latest note in `Sessions/`
 
-每次会谈结束后：
+After each session:
 
-- 在 `Sessions/` 下创建或更新日期文件。
-- 更新 `03_Running_Case_Formulation.md`。
-- 只有当稳定模式变得更清楚时，才更新 `05_Psychological_Profile.md`。
-- 按 `06_Scheduling_Policy.md` 判断下次建议时间。
-- 按 `07_Memory_Architecture.md` 区分事实、情绪、解释、模式、画像、风险和下次问题。
+- Create or update a dated note under `Sessions/`.
+- Update `03_Running_Case_Formulation.md`.
+- Update `05_Psychological_Profile.md` only when stable patterns become clearer.
+- Use `06_Scheduling_Policy.md` to recommend the next check-in time.
+- Use `07_Memory_Architecture.md` to separate facts, emotions, interpretations, recurring patterns, profile updates, risk notes, and next-question logic.
 
-## 公开仓库规则
+## Public Repository Rules
 
-- 不要提交真实个人会谈记录。
-- 不要提交可识别身份的信息。
-- 不要提交联系方式、账号、地址、病史、家庭细节、关系细节或风险事件细节。
-- public 仓库只保留模板、说明和通用方法。
+- Do not commit real personal session notes.
+- Do not commit identifiable personal information.
+- Do not commit contact details, accounts, addresses, medical history, family details, relationship details, or risk-event details.
+- The public repository should contain only templates, instructions, and reusable workflows.

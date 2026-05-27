@@ -1,66 +1,66 @@
-# 会谈记录模板
+# Session Note Template
 
-日期：
+Date:
 
-## 本次阶段
+## Session Phase
 
-- 初始理解期 / 稳定工作期 / 短期承接期 / 月度整合期：
+- Initial assessment / stable working phase / short follow-up / monthly integration:
 
-## 用户明确提到的事实
-
--
-
-## 本次主要事件
+## Explicit Facts Mentioned By The User
 
 -
 
-## 情绪与身体状态
+## Main Events Discussed
 
 -
 
-## 关键表达或原话
+## Emotions And Body State
 
 -
 
-## 本次心理理解
-
-- 暂时假设：
-- 需要继续验证：
-
-## 观察到的模式
+## Key Phrases Or Direct Quotes
 
 -
 
-## 可能的防御或应对方式
+## Psychological Understanding From This Session
+
+- Tentative hypothesis:
+- Needs further validation:
+
+## Observed Patterns
 
 -
 
-## 可能的深层需要
+## Possible Defenses Or Coping Strategies
 
 -
 
-## 本次小练习或观察任务
+## Possible Deeper Needs
 
 -
 
-## 长期记忆更新
+## Small Practice Or Observation Task
 
-- 是否更新人物侧写：
-- 是否更新个案理解：
-- 更新理由：
+-
 
-## 风险与边界
+## Long-Term Memory Updates
 
-- 是否出现危机信号：
-- 是否需要现实支持或专业服务：
+- Update psychological profile:
+- Update running case formulation:
+- Reason for update:
 
-## 下次排期建议
+## Risk And Boundaries
 
-- 本次会谈收束判断：
-- 建议下次触发时间：
-- 排期理由：
-- 下次启动问题方向：
+- Any crisis signal:
+- Need for real-world support or professional service:
 
-## 给下次会谈的简短摘要
+## Next Scheduling Recommendation
+
+- Session closure assessment:
+- Suggested next trigger time:
+- Scheduling rationale:
+- Next opening-question direction:
+
+## Short Summary For The Next Session
 
 -

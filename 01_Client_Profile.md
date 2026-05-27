@@ -1,21 +1,21 @@
-# 个人资料模板
+# Client Profile Template
 
-## 基本背景
+## Basic Context
 
-- 年龄：
-- 工作/学习状态：
-- 当前主要压力：
-- 家庭与关系背景：
-- 睡眠与健康习惯：
-- 长期目标：
-- 当前情绪基线：
+- Age:
+- Work or study situation:
+- Current major stressors:
+- Family and relationship context:
+- Sleep and health habits:
+- Long-term goals:
+- Current emotional baseline:
 
-## 沟通偏好
+## Communication Preferences
 
-- 希望回应更偏：支持 / 分析 / 行动建议 / 提问探索 / 综合
-- 希望会谈节奏更偏：慢慢探索 / 直接进入重点 / 先情绪整理后分析
-- 希望记录重点放在：情绪 / 关系 / 工作学习 / 家庭 / 亲密关系 / 自我价值 / 其他
+- Preferred response style: support / analysis / practical suggestions / exploratory questions / balanced
+- Preferred session pace: slow exploration / direct focus / emotional grounding before analysis
+- Preferred tracking focus: emotions / relationships / work or study / family / romantic relationships / self-worth / other
 
-## 使用者自己填写的注意事项
+## User-Written Notes
 
 -

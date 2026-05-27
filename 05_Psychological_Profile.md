@@ -1,45 +1,45 @@
-# 人物侧写模板
+# Psychological Profile Template
 
-最后更新：
+Last updated:
 
-## 使用原则
+## Use Principle
 
-这个文件不是诊断书，而是一个持续更新的心理画像。它只记录多次对话中反复出现、相对稳定、对理解使用者有帮助的内容。
+This file is not a diagnosis. It is a living psychological profile. It should record only information that appears repeatedly across sessions, is relatively stable, and helps future reflection.
 
-单次情绪或单个事件优先放入当次会谈记录，不要立刻写成稳定人格判断。
+Single emotions or one-time events should usually stay in the relevant session note. Do not turn them into stable personality conclusions too quickly.
 
-## 基本画像
-
--
-
-## 可能的核心需求
+## Basic Profile
 
 -
 
-## 沟通偏好
+## Possible Core Needs
 
 -
 
-## 常见情绪模式
+## Communication Preferences
 
 -
 
-## 常见关系模式
+## Common Emotional Patterns
 
 -
 
-## 常见应对方式或防御
+## Common Relational Patterns
 
 -
 
-## 成长方向
+## Common Coping Strategies Or Defenses
 
 -
 
-## 待确认内容
+## Growth Direction
 
 -
 
-## 变化记录
+## Items To Confirm
+
+-
+
+## Change Log
 
 -

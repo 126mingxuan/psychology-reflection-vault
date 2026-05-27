@@ -1,53 +1,53 @@
-# 自适应排期规则
+# Adaptive Scheduling Policy
 
-最后更新：
+Last updated:
 
-## 目标
+## Goal
 
-每次心理反思结束后，根据本次内容、情绪强度、未完成主题和稳定程度，判断下一次什么时候继续更合适。
+After each reflection session, recommend the next check-in time based on session content, emotional intensity, unfinished material, and the user's stability.
 
-## 默认设置
+## Default Setting
 
-- 默认频率：每周 1 次
-- 默认时长：45-60 分钟
-- 默认触发：使用者自己选择固定时间
+- Default frequency: once per week
+- Default duration: 45-60 minutes
+- Default trigger: a regular time chosen by the user
 
-## 建议 2-3 天后
+## Suggest 2-3 Days Later
 
-适用于：
+Use when:
 
-- 情绪强度较高；
-- 重要主题尚未充分展开；
-- 使用者明显需要短期承接；
-- 等一周可能导致材料断裂或压力累积。
+- emotional intensity is high;
+- an important theme remains insufficiently explored;
+- the user clearly needs short-term containment;
+- waiting a full week may break continuity or allow pressure to build.
 
-## 建议 4-5 天后
+## Suggest 4-5 Days Later
 
-适用于：
+Use when:
 
-- 有重要主题需要较快继续；
-- 情绪强度中等，但不是急性状态；
-- 需要几天观察现实生活中的反应。
+- an important topic should be continued soon;
+- emotional intensity is moderate, but not acute;
+- the user needs a few days to observe real-life reactions.
 
-## 建议 7 天后
+## Suggest 7 Days Later
 
-适用于：
+Use when:
 
-- 本次主题基本收束；
-- 情绪相对稳定；
-- 已经形成清晰的下周观察点。
+- the session theme is mostly complete;
+- the user's state is relatively stable;
+- a clear observation point has been formed for the coming week.
 
-## 建议 10-14 天后
+## Suggest 10-14 Days Later
 
-适用于：
+Use when:
 
-- 本次会谈已经充分整理；
-- 使用者需要更多时间消化、实践或观察；
-- 暂时没有高强度情绪或紧急主题。
+- the session has been well integrated;
+- the user needs more time to digest, practice, or observe;
+- there is no high-intensity emotion or urgent theme.
 
-## 会谈结束时必须记录
+## Required Closing Notes
 
-- 本次会谈收束判断：
-- 建议下次触发时间：
-- 排期理由：
-- 下次启动问题方向：
+- Session closure assessment:
+- Suggested next trigger time:
+- Scheduling rationale:
+- Next opening-question direction:

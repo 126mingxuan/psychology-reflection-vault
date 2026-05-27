@@ -1,8 +1,8 @@
 # Sessions
 
-这里保存单次会谈记录。
+Save individual session notes here.
 
-公开模板仓库中不要放真实会谈记录。实际使用时，可以复制 `../04_Session_Template.md` 并按日期命名，例如：
+The public template repository should not contain real session notes. In actual use, copy `../04_Session_Template.md` and name the file by date, for example:
 
 ```text
 2026-01-01-session.md

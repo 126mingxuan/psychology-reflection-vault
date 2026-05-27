@@ -1,56 +1,56 @@
-# 公开模板与私人数据分离工作流
+# Public And Private Vault Workflow
 
-## 核心原则
+## Core Principle
 
-公开仓库只放“系统模板”。私人仓库或本地文件夹才放“真实个人内容”。
+The public repository stores the system template. A private repository or local folder stores real personal material.
 
-## 推荐结构
+## Recommended Structure
 
 ```text
-psychology-reflection-vault-public/
-  模板、说明、通用规则
+psychology-reflection-vault/
+  public templates, instructions, and reusable rules
 
 my-private-psychology-vault/
-  真实个人资料
-  真实 Sessions/
-  真实 Reports/
-  真实个案理解和人物侧写
+  real client profile
+  real Sessions/
+  real Reports/
+  real case formulation and psychological profile
 ```
 
-## public 仓库可以包含
+## What The Public Repository May Include
 
-- 通用 README
-- AGENTS.md 工作规则
-- 会谈模板
-- 记忆架构
-- 排期规则
-- 空白人物侧写模板
-- 空白个案理解模板
-- 示例结构说明
+- General README
+- AGENTS.md instructions
+- Session templates
+- Memory architecture
+- Scheduling policy
+- Blank psychological profile template
+- Blank case formulation template
+- Public/private workflow instructions
 
-## public 仓库不应该包含
+## What The Public Repository Should Not Include
 
-- 真实会谈记录
-- 真实姓名、联系方式、地址、账号
-- 家庭、亲密关系、工作单位等可识别信息
-- 心理风险、病史、诊断、药物等私人内容
-- AI 自动化生成的个人画像
-- 任何不希望陌生人看到的内容
+- Real session notes
+- Real names, contact details, addresses, or accounts
+- Family, romantic relationship, workplace, school, or other identifying details
+- Psychological risk notes, medical history, diagnosis, or medication details
+- AI-generated personal psychological profiles
+- Anything the user would not want strangers to read
 
-## 更新 public 项目的方式
+## Updating The Public Project
 
-当私人使用过程中发现某个“通用机制”变得更好时：
+When a private working vault produces a reusable improvement:
 
-1. 先在私人 vault 中验证。
-2. 把它抽象成不含个人细节的模板或规则。
-3. 更新 public 项目。
-4. 检查没有隐私信息后再提交和推送。
+1. Validate the mechanism privately first.
+2. Abstract it into a template or rule without personal details.
+3. Update the public project.
+4. Check for private information before committing and pushing.
 
-## 更新 private vault 的方式
+## Updating A Private Vault
 
-每次真实会谈结束后：
+After each real session:
 
-1. 保存 `Sessions/` 会谈记录。
-2. 更新 `03_Running_Case_Formulation.md`。
-3. 必要时更新 `05_Psychological_Profile.md`。
-4. 可选：提交到 private Git 仓库或只保留本地。
+1. Save the session note in `Sessions/`.
+2. Update `03_Running_Case_Formulation.md`.
+3. Update `05_Psychological_Profile.md` only if needed.
+4. Optionally commit to a private Git repository or keep the vault local only.

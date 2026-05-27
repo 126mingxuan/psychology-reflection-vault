@@ -1,5 +1,5 @@
 # Yearly Reports
 
-这里保存年度总结。
+Save yearly summaries here.
 
-年度总结适合整理长期变化、核心模式、重要转折和下一年的心理成长方向。
+Yearly reports are useful for reviewing long-term change, core patterns, major turning points, and the next year's psychological growth direction.

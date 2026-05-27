@@ -1,55 +1,55 @@
-# 记忆架构与更新规则
+# Memory Architecture And Update Rules
 
-最后更新：
+Last updated:
 
-## 目标
+## Goal
 
-让心理反思记忆像一个可读、可编辑、可长期积累的系统，而不是普通聊天记录堆积。
+Make psychological reflection memory readable, editable, and cumulative instead of turning it into a pile of unstructured chat logs.
 
-## 分层记忆
+## Layered Memory
 
-### 1. 事实层
+### 1. Fact Layer
 
-记录使用者明确说过的内容：发生了什么、涉及谁、做了什么选择、明确表达了什么需求。
+Record what the user explicitly said: what happened, who was involved, what choices were made, and what needs were clearly expressed.
 
-不要把推测写成事实。
+Do not write interpretations as facts.
 
-### 2. 情绪层
+### 2. Emotion Layer
 
-记录表达出的情绪、强度、身体感受和变化。
+Record expressed emotions, intensity, body sensations, and emotional shifts.
 
-### 3. 解释层
+### 3. Interpretation Layer
 
-记录本次形成的心理理解，但必须保持假设性，例如“可能与……有关”“暂时看起来像……”“需要后续验证”。
+Record psychological understanding from the session, but keep it tentative. Use wording such as "may be related to...", "temporarily appears to...", or "needs further validation."
 
-### 4. 模式层
+### 4. Pattern Layer
 
-只有当某个现象反复出现，才写入长期模式。
+Write something into long-term patterns only when it appears repeatedly.
 
-### 5. 画像层
+### 5. Profile Layer
 
-人物侧写只写相对稳定的信息，例如沟通偏好、关系模式、自我价值来源、常见防御方式、深层需要和成长方向。
+The psychological profile should include only relatively stable information, such as communication preferences, relational patterns, sources of self-worth, common defenses, deeper needs, and growth direction.
 
-### 6. 问题层
+### 6. Question Layer
 
-每次启动只提出一个问题。优先来源：
+Each session should start with one question only. Priority sources:
 
-1. 上次会谈未完成的核心主题；
-2. 人物侧写中最需要验证的假设；
-3. 运行中的个案理解里最重要的开放问题；
-4. 最近一次会谈记录中的情绪残留；
-5. 月度或年度报告中的长期主题。
+1. the unfinished core theme from the previous session;
+2. the hypothesis in the profile that most needs validation;
+3. the most important open question in the running case formulation;
+4. emotional residue from the latest session note;
+5. long-term themes in monthly or yearly reports.
 
-### 7. 风险层
+### 7. Risk Layer
 
-如果出现自伤、自杀、伤害他人、严重失控或现实安全问题，停止普通心理分析，优先处理安全。
+If self-harm, suicidal intent, harm to others, severe loss of control, or real-world safety issues appear, stop ordinary reflection and prioritize safety.
 
-## 更新规则
+## Update Rules
 
-- 每次会谈都保存单次记录。
-- 每次会谈都可以更新个案理解。
-- 人物侧写只在信息稳定或反复出现时更新。
-- 月度报告用于整理一个月的主题。
-- 年度报告用于总结长期变化。
-- 不要因为一次强烈情绪就贴人格标签。
-- 不要把助手解释写成使用者事实。
+- Save a session note after every session.
+- Update the running case formulation when the session changes the overall understanding.
+- Update the psychological profile only when information is stable or repeated.
+- Use monthly reports to integrate themes from a month.
+- Use yearly reports to summarize long-term change.
+- Do not label personality based on one strong emotion.
+- Do not write the assistant's interpretation as the user's fact.

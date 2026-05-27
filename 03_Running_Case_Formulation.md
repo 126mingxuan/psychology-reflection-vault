@@ -1,35 +1,35 @@
-# 运行中的个案理解模板
+# Running Case Formulation Template
 
-最后更新：
+Last updated:
 
-## 当前理解
+## Current Understanding
 
-这里记录多次会谈中逐渐形成的整体理解。保持假设性，不要把一次材料写成确定结论。
+Record the overall understanding that gradually emerges across multiple sessions. Keep it tentative. Do not turn a single session into a fixed conclusion.
 
-## 目前观察到的稳定倾向
-
--
-
-## 反复出现的情绪主题
+## Currently Observed Stable Tendencies
 
 -
 
-## 反复出现的人际或关系模式
+## Recurring Emotional Themes
 
 -
 
-## 可能的核心需要
+## Recurring Relational Patterns
 
 -
 
-## 可能的防御或应对方式
+## Possible Core Needs
 
 -
 
-## 开放问题
+## Possible Defenses Or Coping Strategies
 
 -
 
-## 下次会谈重点
+## Open Questions
+
+-
+
+## Next Session Focus
 
 -

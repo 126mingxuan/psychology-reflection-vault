@@ -1,5 +1,5 @@
 # Monthly Reports
 
-这里保存月度总结。
+Save monthly summaries here.
 
-月度总结适合整理本月反复出现的主题、情绪变化、关系模式、行动尝试和下个月关注点。
+Monthly reports are useful for reviewing recurring themes, emotional shifts, relationship patterns, practical experiments, and the next month's focus.

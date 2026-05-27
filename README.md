@@ -1,44 +1,71 @@
 # Psychology Reflection Vault
 
-一个 Obsidian 风格的心理反思 vault 模板，用于和 AI 助手进行连续性的自我理解、情绪整理、会谈记录和阶段性总结。
+**Languages:** English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
 
-> 重要提示：本项目不是心理治疗、医学诊断或危机干预服务。如果你处于即时危险、自伤/自杀风险或可能伤害他人的状态，请立刻联系当地紧急服务、专业人员或可信任的人。
+An Obsidian-style template for continuous AI-assisted psychological reflection, session notes, case formulation, personal pattern tracking, and monthly or yearly review.
 
-## 这个项目解决什么问题
+> Important: This project is not therapy, medical diagnosis, psychiatric care, or crisis intervention. If you are in immediate danger, at risk of self-harm, or at risk of harming someone else, contact local emergency services, a qualified professional, or a trusted person immediately.
 
-普通 AI 对话容易每次从零开始。本模板把心理反思拆成可持续维护的 Markdown 文件，让每次对话都能继承之前的背景、个案理解、人物侧写和未完成问题。
+## Why This Exists
 
-## 推荐用法
+AI conversations often start from zero. This vault turns reflection into a structured, readable, long-term Markdown system, so each session can inherit previous context instead of repeating the same background every time.
 
-1. 用这个仓库作为模板创建你自己的仓库。
-2. 如果会写入真实个人经历，强烈建议把你的个人仓库设为 private。
-3. 在 Obsidian 或任意 Markdown 编辑器中打开。
-4. 每次反思前，让 AI 读取核心文件和最新一次 `Sessions/` 记录。
-5. 每次反思后，保存新的会谈记录，并按需更新个案理解和人物侧写。
+It is designed for people who want:
 
-## 文件结构
+- a weekly or recurring self-reflection practice;
+- continuity across AI conversations;
+- session notes that can be reviewed later;
+- careful separation between facts, emotions, interpretations, stable patterns, and next questions;
+- a public template that can be adapted into a private personal vault.
 
-- `00_Start_Here.md`：入口说明
-- `01_Client_Profile.md`：个人背景占位模板
-- `02_Therapy_Framework.md`：心理反思工作框架
-- `03_Running_Case_Formulation.md`：持续更新的个案理解模板
-- `04_Session_Template.md`：单次会谈记录模板
-- `05_Psychological_Profile.md`：长期人物侧写模板
-- `06_Scheduling_Policy.md`：自适应排期规则
-- `07_Memory_Architecture.md`：记忆分层与更新规则
-- `08_Public_Private_Workflow.md`：公开模板与私人数据分离说明
-- `Sessions/`：单次会谈记录
-- `Reports/Monthly/`：月度总结
-- `Reports/Yearly/`：年度总结
+## How To Use
 
-## 隐私原则
+1. Use this repository as a template or fork it.
+2. If you will store real personal material, keep your working vault private.
+3. Open the folder in Obsidian or any Markdown editor.
+4. At the start of each reflection session, ask your AI assistant to read the core files and the latest note in `Sessions/`.
+5. After each session, save a new note in `Sessions/`, update `03_Running_Case_Formulation.md`, and update `05_Psychological_Profile.md` only when a stable pattern becomes clearer.
 
-这个仓库可以公开，因为它只包含模板和方法论。你的真实个人经历、会谈记录、关系信息、风险信息和长期画像不应该提交到 public 仓库。
+## Repository Structure
 
-如果你想基于这个模板长期使用，建议：
+- `00_Start_Here.md`: entry point and operating boundaries
+- `01_Client_Profile.md`: user profile template
+- `02_Therapy_Framework.md`: reflection framework and safety boundaries
+- `03_Running_Case_Formulation.md`: running case formulation template
+- `04_Session_Template.md`: reusable session note template
+- `05_Psychological_Profile.md`: long-term psychological profile template
+- `06_Scheduling_Policy.md`: adaptive scheduling policy
+- `07_Memory_Architecture.md`: layered memory and update rules
+- `08_Public_Private_Workflow.md`: public/private data separation workflow
+- `Sessions/`: session notes
+- `Reports/Monthly/`: monthly summaries
+- `Reports/Yearly/`: yearly summaries
 
-- public 仓库：只放模板、说明、通用工作流。
-- private 仓库或本地文件夹：保存你的真实心理记录。
+## Public vs Private
+
+This public repository is only a template. It should contain reusable structure, instructions, and blank templates.
+
+Your real personal reflections should live in a separate private repository or local folder. Do not publish real session notes, personal history, relationship details, risk notes, contact information, health details, or anything you would not want strangers to read.
+
+## README Translations
+
+GitHub does not provide a built-in README language switch. The common approach is to create separate README files and link them at the top:
+
+```text
+README.md
+README.zh-CN.md
+README.ja.md
+README.es.md
+README.fr.md
+```
+
+Then add a simple language line:
+
+```markdown
+**Languages:** English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
+```
+
+See `TRANSLATIONS.md` for the localization maintenance policy.
 
 ## License
 
