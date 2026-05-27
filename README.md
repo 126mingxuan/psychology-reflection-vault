@@ -8,11 +8,26 @@
 [![AI Assisted Reflection](https://img.shields.io/badge/AI--assisted-Reflection-111827.svg)](./02_Therapy_Framework.md)
 [![Local First](https://img.shields.io/badge/Privacy-Local--first-0F766E.svg)](./docs/PRIVACY_AND_SAFETY.md)
 
+[Overview](#overview) · [Core Advantages](#core-advantages) · [Strategy Routing](#adaptive-strategy-routing) · [Long-term Memory](#long-term-memory-system) · [Privacy Model](#privacy-model) · [Public vs Private](#public-template-private-vault) · [Quick Start](#quick-start) · [Docs](#docs-and-examples) · [Translations](#readme-translations)
+
+## Overview
+
 Build a **private, local-first, AI-assisted psychological reflection vault** that remembers the previous session, adapts its reflective strategy, and turns scattered conversations into a long-term self-understanding system.
 
 Most AI chats start from zero. Psychology Reflection Vault gives your reflection process durable memory: session notes, running case formulation, long-term psychological profile, adaptive scheduling, privacy boundaries, and monthly or yearly review.
 
 > Important: This project is not therapy, medical diagnosis, psychiatric care, or crisis intervention. If you are in immediate danger, at risk of self-harm, or at risk of harming someone else, contact local emergency services, a qualified professional, or a trusted person immediately.
+
+## Core Advantages
+
+- **Local-first privacy architecture**: your working vault is plain Markdown on your own device or in your own private repository. The project has no hosted backend, no project server, no hidden database, and no built-in telemetry.
+- **Adaptive psychological strategy routing**: the assistant can shift its reflective lens based on what the user says, instead of forcing every session into one fixed coaching or journaling style.
+- **Visible long-term memory**: memory is stored in readable files, not a black-box product database. You can inspect, edit, remove, or migrate it at any time.
+- **Layered personality and pattern formation**: session notes stay concrete, running formulations stay tentative, and the psychological profile is updated only when stable patterns become clearer.
+- **Public template, private personal vault**: this repository can stay public because it contains reusable structure, instructions, and fictional examples. Real reflections belong in a separate private vault.
+- **Obsidian and Markdown native**: the system works with Obsidian, VS Code, any Markdown editor, and any AI assistant that can read local files.
+- **Model-agnostic and editor-agnostic**: the vault is a file architecture, not a proprietary platform. You choose your editor and AI provider.
+- **Multilingual entry points**: localized README files help users enter the same template from different languages while keeping their private vault in their preferred language.
 
 ## Why This Is Different
 
@@ -64,6 +79,18 @@ Use it with Obsidian, VS Code, any Markdown editor, and any AI assistant that ca
 - **Obsidian-native structure**: readable, editable, portable files.
 - **Adaptive scheduling**: recommend the next check-in based on emotional intensity, unfinished material, and stability.
 - **Multilingual README entry points**: English, Chinese, Japanese, Spanish, French, German, Korean, Portuguese, Russian, and Arabic.
+
+## Privacy Model
+
+The privacy model is intentionally simple:
+
+- the public repository contains templates, instructions, docs, and fictional examples;
+- your real working vault should stay local or private;
+- the project itself does not provide a server, hosted account system, hidden database, or telemetry layer;
+- all important memory files are plain Markdown and can be reviewed directly;
+- any external data transmission depends on the AI assistant, sync service, or cloud provider you choose to use.
+
+This design is especially important for psychological reflection because sensitive material should not be locked inside an opaque product memory system just to preserve continuity.
 
 ## Quick Start
 
@@ -126,6 +153,16 @@ flowchart TD
 
 ## Adaptive Strategy Routing
 
+The project is designed around adaptive psychological strategy routing. The assistant should read the user's current response and choose the most useful reflective lens for that moment:
+
+- **Psychodynamic or psychoanalytic**: recurring emotional conflicts, defenses, shame, attachment, self-worth, and relationship repetition.
+- **CBT-style tools**: rumination, avoidance, anxiety loops, cognitive distortions, action difficulty, and concrete behavior planning.
+- **Family systems**: family roles, loyalty conflicts, boundaries, inherited expectations, and relationship structure.
+- **Mindfulness-based reflection**: body signals, attention, emotional regulation, and observing experience without immediate over-analysis.
+- **Existential reflection**: meaning, freedom, responsibility, loneliness, mortality, choice, and life direction.
+- **Humanistic support**: warmth, acceptance, emotional holding, self-compassion, and nonjudgmental exploration.
+- **Safety boundary**: crisis risk, self-harm intent, harm-to-others risk, or situations where ordinary reflection is not appropriate.
+
 ```mermaid
 flowchart LR
     U["User response"] --> R["Reflection router"]
@@ -144,6 +181,18 @@ flowchart LR
     H --> V
     S --> V
 ```
+
+## Long-term Memory System
+
+The vault separates different levels of memory so one emotional moment does not become a permanent identity label:
+
+- `Sessions/` stores concrete dated records: what happened, what was felt, what was discussed, and what should be revisited.
+- `03_Running_Case_Formulation.md` stores evolving hypotheses about repeated conflicts, relationship patterns, defenses, needs, and growth signals.
+- `05_Psychological_Profile.md` stores stable patterns only when enough repeated evidence exists.
+- `Reports/` turns many sessions into monthly or yearly synthesis.
+- `07_Memory_Architecture.md` defines how to separate raw events, emotions, interpretations, recurring patterns, profile updates, risk notes, and next-question logic.
+
+The core rule is: **one moment is not a personality**. Stable profile updates should come from repeated patterns, context, and careful interpretation.
 
 ## Vault Architecture
 
@@ -209,7 +258,7 @@ flowchart LR
 - [Fictional Session Note Example](./examples/fictional-session-note.md)
 - [Fictional Monthly Report Example](./examples/monthly-report-example.md)
 
-## Public vs Private
+## Public Template, Private Vault
 
 This public repository is only a template. It should contain reusable structure, instructions, fictional examples, and blank templates.
 
