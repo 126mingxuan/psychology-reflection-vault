@@ -58,3 +58,9 @@ Update `03_Running_Case_Formulation.md` after each meaningful session.
 Update `05_Psychological_Profile.md` only when a pattern is stable, repeated, or strongly supported.
 
 Do not turn one emotional moment into a personality conclusion.
+
+## 7. Keep The Privacy Boundary Clear
+
+The vault itself is local-first. It does not require a hosted backend.
+
+If you use a cloud AI assistant, only share the files or excerpts you intentionally provide. For highly sensitive material, consider using a local AI setup or keeping some notes outside AI workflows entirely.

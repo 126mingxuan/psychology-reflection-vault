@@ -9,6 +9,11 @@ This repository uses English as the source language for the public template.
 - `README.ja.md`: Japanese
 - `README.es.md`: Spanish
 - `README.fr.md`: French
+- `README.de.md`: German
+- `README.ko.md`: Korean
+- `README.pt-BR.md`: Brazilian Portuguese
+- `README.ru.md`: Russian
+- `README.ar.md`: Arabic
 
 ## Maintenance Rules
 
@@ -29,13 +34,18 @@ README.zh-CN.md
 README.ja.md
 README.es.md
 README.fr.md
+README.de.md
+README.ko.md
+README.pt-BR.md
+README.ru.md
+README.ar.md
 ```
 
 Additional languages should follow the same pattern, for example:
 
 ```text
-README.ko.md
-README.de.md
-README.pt-BR.md
-README.ar.md
+README.hi.md
+README.it.md
+README.tr.md
+README.id.md
 ```

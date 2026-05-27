@@ -2,6 +2,14 @@
 
 Use this checklist before publishing, sharing, or forking a working vault.
 
+## Local-First Privacy Model
+
+This vault is made of local Markdown files. The template has no hosted backend, no project server, no hidden database, and no built-in telemetry.
+
+That means your working vault can stay entirely on your own device or in your own private repository.
+
+Important limitation: if you paste, upload, or connect vault content to a cloud AI service, that service may receive the content you provide. The vault architecture is local-first; your AI provider choice determines any external data transmission.
+
 ## Never Publish
 
 - real session notes;
