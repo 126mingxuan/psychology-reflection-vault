@@ -1,6 +1,6 @@
 # Psychology Reflection Vault
 
-**Languages:** English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
+**Languages:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
 
 An Obsidian-style template for continuous AI-assisted psychological reflection, session notes, case formulation, personal pattern tracking, and monthly or yearly review.
 
@@ -62,7 +62,7 @@ README.fr.md
 Then add a simple language line:
 
 ```markdown
-**Languages:** English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
+**Languages:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
 ```
 
 See `TRANSLATIONS.md` for the localization maintenance policy.

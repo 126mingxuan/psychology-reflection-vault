@@ -1,6 +1,6 @@
 # Psychology Reflection Vault
 
-**Idiomas:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | Español | [Français](./README.fr.md)
+**Idiomas:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
 
 Una plantilla de vault al estilo Obsidian para reflexión psicológica continua asistida por IA, notas de sesión, formulación de caso, seguimiento de patrones personales y revisiones mensuales o anuales.
 

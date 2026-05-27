@@ -1,6 +1,6 @@
 # Psychology Reflection Vault
 
-**语言：** [English](./README.md) | 简体中文 | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
+**语言：** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
 
 一个 Obsidian 风格的心理反思 vault 模板，用于持续进行 AI 辅助的心理反思、会谈记录、个案理解、心理模式追踪，以及月度或年度回顾。
 
@@ -62,7 +62,7 @@ README.fr.md
 然后在 README 顶部写：
 
 ```markdown
-**Languages:** English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
+**Languages:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
 ```
 
 ## License

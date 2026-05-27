@@ -1,6 +1,6 @@
 # Psychology Reflection Vault
 
-**言語:** [English](./README.md) | [简体中文](./README.zh-CN.md) | 日本語 | [Español](./README.es.md) | [Français](./README.fr.md)
+**言語:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
 
 継続的な AI 支援の心理的リフレクション、セッションノート、ケースフォーミュレーション、個人的なパターン追跡、月次・年次レビューのための Obsidian 形式の vault テンプレートです。
 
