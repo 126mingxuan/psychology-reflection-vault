@@ -2,50 +2,73 @@
 
 **Langues :** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
 
-Un modèle de vault de type Obsidian pour la réflexion psychologique continue assistée par IA, les notes de séance, la formulation de cas, le suivi des schémas personnels et les bilans mensuels ou annuels.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Template](https://img.shields.io/badge/GitHub-Template-blue.svg)](./08_Public_Private_Workflow.md)
+[![Made for Obsidian](https://img.shields.io/badge/Made%20for-Obsidian-7C3AED.svg)](https://obsidian.md/)
+[![AI Assisted Reflection](https://img.shields.io/badge/AI--assisted-Reflection-111827.svg)](./02_Therapy_Framework.md)
+
+Un modèle de type Obsidian pour créer un système privé, continu et assisté par IA de réflexion psychologique.
+
+La plupart des conversations avec l'IA oublient le contexte. Ce vault donne une mémoire au processus : notes de séance, formulation de cas, profil psychologique à long terme, logique de planification et bilans mensuels ou annuels.
 
 > Important : ce projet n'est pas une thérapie, un diagnostic médical, un soin psychiatrique ni une intervention de crise. Si vous êtes en danger immédiat, à risque d'automutilation ou susceptible de blesser quelqu'un d'autre, contactez immédiatement les services d'urgence locaux, un professionnel qualifié ou une personne de confiance.
 
-## Pourquoi Ce Projet Existe
+## Highlights
 
-Les conversations avec une IA repartent souvent de zéro. Ce vault transforme la réflexion en un système Markdown structuré, lisible et durable, afin que chaque séance puisse reprendre le contexte précédent au lieu de répéter les mêmes informations.
+- **Continuité entre les séances** : chaque conversation peut reprendre les notes précédentes.
+- **Structure native Obsidian** : fichiers Markdown lisibles, modifiables et portables.
+- **Mémoire en couches** : sépare faits, émotions, interprétations, schémas, profil, risques et prochaines questions.
+- **Flux public/privé** : ce dépôt reste un modèle public, les données réelles restent dans un vault privé.
+- **Planification adaptative** : recommande le prochain suivi selon l'intensité émotionnelle, les thèmes ouverts et la stabilité.
 
-Il est conçu pour les personnes qui veulent :
+## Quick Start
 
-- une pratique hebdomadaire ou récurrente d'auto-réflexion ;
-- une continuité entre les conversations avec l'IA ;
-- des notes de séance consultables plus tard ;
-- une séparation claire entre faits, émotions, interprétations, schémas stables et prochaines questions ;
-- un modèle public pouvant être adapté en vault personnel privé.
+1. Cliquez sur **Use this template** ou forkez ce dépôt.
+2. Si vous stockez du contenu personnel réel, gardez votre vault en **private**.
+3. Ouvrez le dossier dans [Obsidian](https://obsidian.md/) ou tout éditeur Markdown.
+4. Remplissez `01_Client_Profile.md` avec le contexte que vous souhaitez transmettre à votre assistant IA.
+5. Commencez avec ce prompt :
 
-## Comment L'utiliser
+```text
+Read the core vault files and the latest note in Sessions/.
+Continue from the existing psychological reflection system.
+Start with one focused opening question.
+```
 
-1. Utilisez ce dépôt comme modèle ou forkez-le.
-2. Si vous stockez du contenu personnel réel, gardez votre vault de travail privé.
-3. Ouvrez le dossier dans Obsidian ou dans n'importe quel éditeur Markdown.
-4. Au début de chaque séance de réflexion, demandez à votre assistant IA de lire les fichiers principaux et la note la plus récente dans `Sessions/`.
-5. Après chaque séance, enregistrez une nouvelle note dans `Sessions/`, mettez à jour `03_Running_Case_Formulation.md`, et ne mettez à jour `05_Psychological_Profile.md` que lorsqu'un schéma stable devient plus clair.
+6. Après la séance, copiez `04_Session_Template.md` dans `Sessions/` et nommez le fichier avec une date.
+7. Mettez à jour `03_Running_Case_Formulation.md`, et `05_Psychological_Profile.md` seulement lorsqu'un schéma stable devient plus clair.
 
-## Structure Du Dépôt
+## Use Cases
 
-- `00_Start_Here.md` : point d'entrée et limites d'utilisation
-- `01_Client_Profile.md` : modèle de profil utilisateur
-- `02_Therapy_Framework.md` : cadre de réflexion et limites de sécurité
-- `03_Running_Case_Formulation.md` : modèle de formulation de cas évolutive
-- `04_Session_Template.md` : modèle réutilisable de note de séance
-- `05_Psychological_Profile.md` : modèle de profil psychologique à long terme
-- `06_Scheduling_Policy.md` : politique de planification adaptative
-- `07_Memory_Architecture.md` : mémoire en couches et règles de mise à jour
-- `08_Public_Private_Workflow.md` : flux de séparation entre données publiques et privées
-- `Sessions/` : notes de séance
-- `Reports/Monthly/` : synthèses mensuelles
-- `Reports/Yearly/` : synthèses annuelles
+- vault personnel de réflexion avec IA ;
+- système de connaissance personnelle dans Obsidian ;
+- modèle de coaching ou de journal ;
+- exemple de conception de mémoire IA à long terme ;
+- organisation personnelle sans remplacer un accompagnement professionnel.
 
-## Public Et Privé
+## How It Works
 
-Ce dépôt public est uniquement un modèle. Il doit contenir une structure réutilisable, des instructions et des modèles vierges.
+```mermaid
+flowchart TD
+    A["Start a reflection session"] --> B["Read core vault files"]
+    B --> C["Read latest Sessions note"]
+    C --> D["Ask one focused opening question"]
+    D --> E["Explore events, emotions, relationships, and patterns"]
+    E --> F["Save dated session note"]
+    F --> G["Update running case formulation"]
+    G --> H{"Stable pattern repeated?"}
+    H -- Yes --> I["Update psychological profile"]
+    H -- No --> J["Keep insight in session note"]
+    I --> K["Recommend next check-in"]
+    J --> K
+    K --> L["Next session continues from memory"]
+```
 
-Vos réflexions personnelles réelles doivent être conservées dans un dépôt privé séparé ou dans un dossier local. Ne publiez pas de vraies notes de séance, d'histoire personnelle, de détails relationnels, de notes de risque, d'informations de contact, d'informations de santé ou tout autre contenu que vous ne voudriez pas rendre public.
+## Community
+
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
+- [ROADMAP.md](./ROADMAP.md)
 
 ## Licence
 

@@ -2,44 +2,118 @@
 
 **Languages:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
 
-An Obsidian-style template for continuous AI-assisted psychological reflection, session notes, case formulation, personal pattern tracking, and monthly or yearly review.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Template](https://img.shields.io/badge/GitHub-Template-blue.svg)](./08_Public_Private_Workflow.md)
+[![Made for Obsidian](https://img.shields.io/badge/Made%20for-Obsidian-7C3AED.svg)](https://obsidian.md/)
+[![AI Assisted Reflection](https://img.shields.io/badge/AI--assisted-Reflection-111827.svg)](./02_Therapy_Framework.md)
+
+An Obsidian-style template for building a private, continuous, AI-assisted psychological reflection system.
+
+Most AI chats forget who you are. This vault gives your reflection process memory: session notes, running case formulation, long-term psychological profile, scheduling logic, and monthly or yearly review.
 
 > Important: This project is not therapy, medical diagnosis, psychiatric care, or crisis intervention. If you are in immediate danger, at risk of self-harm, or at risk of harming someone else, contact local emergency services, a qualified professional, or a trusted person immediately.
 
-## Why This Exists
+## Highlights
 
-AI conversations often start from zero. This vault turns reflection into a structured, readable, long-term Markdown system, so each session can inherit previous context instead of repeating the same background every time.
+- **Continuity across sessions**: every conversation can inherit previous notes instead of starting from zero.
+- **Obsidian-native structure**: plain Markdown files that are readable, editable, and portable.
+- **Layered memory system**: separates facts, emotions, interpretations, recurring patterns, profile updates, risk notes, and next questions.
+- **Public/private workflow**: keep this repository public as a template while storing real personal material in a private vault.
+- **Adaptive scheduling**: recommend the next check-in based on emotional intensity, unfinished material, and stability.
+- **Multilingual README entry points**: English, Simplified Chinese, Japanese, Spanish, and French.
 
-It is designed for people who want:
+## Quick Start
 
-- a weekly or recurring self-reflection practice;
-- continuity across AI conversations;
-- session notes that can be reviewed later;
-- careful separation between facts, emotions, interpretations, stable patterns, and next questions;
-- a public template that can be adapted into a private personal vault.
+1. Click **Use this template** or fork this repository.
+2. Create your own working vault. If it will contain real personal material, keep it **private**.
+3. Open the folder in [Obsidian](https://obsidian.md/) or any Markdown editor.
+4. Fill in `01_Client_Profile.md` with only the background you want your AI assistant to remember.
+5. Start a reflection session with this prompt:
 
-## How To Use
+```text
+Read the core vault files and the latest note in Sessions/.
+Continue from the existing psychological reflection system.
+Start with one focused opening question.
+```
 
-1. Use this repository as a template or fork it.
-2. If you will store real personal material, keep your working vault private.
-3. Open the folder in Obsidian or any Markdown editor.
-4. At the start of each reflection session, ask your AI assistant to read the core files and the latest note in `Sessions/`.
-5. After each session, save a new note in `Sessions/`, update `03_Running_Case_Formulation.md`, and update `05_Psychological_Profile.md` only when a stable pattern becomes clearer.
+6. After the session, copy `04_Session_Template.md` into `Sessions/` and save it with a date-based filename.
+7. Update `03_Running_Case_Formulation.md`, and update `05_Psychological_Profile.md` only when a stable pattern becomes clearer.
+
+## Use Cases
+
+- **Personal AI reflection vault**: build continuity across weekly self-reflection conversations.
+- **Obsidian personal knowledge system**: connect emotional patterns, life events, and long-term self-understanding.
+- **Coaching or journaling template**: structure recurring reflective conversations without storing private data in an app.
+- **AI memory design example**: study how to separate short-term session notes from long-term profile memory.
+- **Therapy-adjacent self-organization**: organize thoughts before or after professional therapy without replacing professional care.
+
+## How It Works
+
+```mermaid
+flowchart TD
+    A["Start a reflection session"] --> B["Read core vault files"]
+    B --> C["Read latest Sessions note"]
+    C --> D["Ask one focused opening question"]
+    D --> E["Explore events, emotions, relationships, and patterns"]
+    E --> F["Save dated session note"]
+    F --> G["Update running case formulation"]
+    G --> H{"Stable pattern repeated?"}
+    H -- Yes --> I["Update psychological profile"]
+    H -- No --> J["Keep insight in session note"]
+    I --> K["Recommend next check-in"]
+    J --> K
+    K --> L["Next session continues from memory"]
+```
+
+## Vault Architecture
+
+```mermaid
+flowchart LR
+    subgraph PrivateVault["Private working vault"]
+        CP["01_Client_Profile.md"]
+        FW["02_Therapy_Framework.md"]
+        CF["03_Running_Case_Formulation.md"]
+        ST["04_Session_Template.md"]
+        PP["05_Psychological_Profile.md"]
+        SP["06_Scheduling_Policy.md"]
+        MA["07_Memory_Architecture.md"]
+        SN["Sessions/"]
+        RP["Reports/"]
+    end
+
+    subgraph PublicTemplate["Public template repository"]
+        PT["Templates"]
+        DOCS["Instructions"]
+        WF["Public/private workflow"]
+    end
+
+    PublicTemplate -->|"Copy or use as template"| PrivateVault
+    SN --> CF
+    CF --> PP
+    SP --> SN
+    MA --> CF
+```
 
 ## Repository Structure
 
-- `00_Start_Here.md`: entry point and operating boundaries
-- `01_Client_Profile.md`: user profile template
-- `02_Therapy_Framework.md`: reflection framework and safety boundaries
-- `03_Running_Case_Formulation.md`: running case formulation template
-- `04_Session_Template.md`: reusable session note template
-- `05_Psychological_Profile.md`: long-term psychological profile template
-- `06_Scheduling_Policy.md`: adaptive scheduling policy
-- `07_Memory_Architecture.md`: layered memory and update rules
-- `08_Public_Private_Workflow.md`: public/private data separation workflow
-- `Sessions/`: session notes
-- `Reports/Monthly/`: monthly summaries
-- `Reports/Yearly/`: yearly summaries
+```text
+.
+├── 00_Start_Here.md
+├── 01_Client_Profile.md
+├── 02_Therapy_Framework.md
+├── 03_Running_Case_Formulation.md
+├── 04_Session_Template.md
+├── 05_Psychological_Profile.md
+├── 06_Scheduling_Policy.md
+├── 07_Memory_Architecture.md
+├── 08_Public_Private_Workflow.md
+├── Sessions/
+├── Reports/
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── ROADMAP.md
+└── TRANSLATIONS.md
+```
 
 ## Public vs Private
 
@@ -47,9 +121,20 @@ This public repository is only a template. It should contain reusable structure,
 
 Your real personal reflections should live in a separate private repository or local folder. Do not publish real session notes, personal history, relationship details, risk notes, contact information, health details, or anything you would not want strangers to read.
 
+See [Public And Private Vault Workflow](./08_Public_Private_Workflow.md) for the recommended setup.
+
+## Community
+
+Contributions are welcome when they improve the template without adding private or clinical claims.
+
+- Read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening a pull request.
+- Review [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for community expectations.
+- See [ROADMAP.md](./ROADMAP.md) for planned improvements.
+- Use the issue templates to report problems or propose improvements.
+
 ## README Translations
 
-GitHub does not provide a built-in README language switch. The common approach is to create separate README files and link them at the top:
+GitHub does not provide a built-in README language switch. This project uses separate localized README files and links them at the top of each file:
 
 ```text
 README.md
@@ -59,13 +144,7 @@ README.es.md
 README.fr.md
 ```
 
-Then add a simple language line:
-
-```markdown
-**Languages:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
-```
-
-See `TRANSLATIONS.md` for the localization maintenance policy.
+See [TRANSLATIONS.md](./TRANSLATIONS.md) for the localization maintenance policy.
 
 ## License
 

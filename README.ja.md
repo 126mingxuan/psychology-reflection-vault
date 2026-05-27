@@ -2,51 +2,74 @@
 
 **言語:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
 
-継続的な AI 支援の心理的リフレクション、セッションノート、ケースフォーミュレーション、個人的なパターン追跡、月次・年次レビューのための Obsidian 形式の vault テンプレートです。
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Template](https://img.shields.io/badge/GitHub-Template-blue.svg)](./08_Public_Private_Workflow.md)
+[![Made for Obsidian](https://img.shields.io/badge/Made%20for-Obsidian-7C3AED.svg)](https://obsidian.md/)
+[![AI Assisted Reflection](https://img.shields.io/badge/AI--assisted-Reflection-111827.svg)](./02_Therapy_Framework.md)
+
+プライベートで継続的な AI 支援の心理的リフレクションシステムを作るための Obsidian 形式テンプレートです。
+
+多くの AI チャットは文脈を忘れます。この vault は、セッションノート、継続的なケースフォーミュレーション、長期的な心理プロフィール、スケジューリング、月次・年次レビューを通して、リフレクションに記憶を持たせます。
 
 > 重要: このプロジェクトは心理療法、医学的診断、精神科医療、危機介入ではありません。差し迫った危険、自傷のリスク、または他者を傷つけるリスクがある場合は、直ちに地域の緊急サービス、資格を持つ専門家、または信頼できる人に連絡してください。
 
-## このプロジェクトの目的
+## Highlights
 
-AI との会話は、毎回ゼロから始まりがちです。この vault は、リフレクションを構造化された読みやすい長期的な Markdown システムに変えることで、各セッションが以前の文脈を引き継げるようにします。
+- **継続性**: 各セッションが以前のノートを引き継ぎます。
+- **Obsidian ネイティブ**: 読みやすく編集しやすい Markdown ファイルです。
+- **階層化された記憶**: 事実、感情、解釈、反復パターン、プロフィール更新、リスク、次の問いを分けます。
+- **public/private 分離**: public にはテンプレートのみ、実際の個人内容は private vault に保存します。
+- **適応的スケジューリング**: 感情の強さ、未完了のテーマ、安定度に基づいて次回を提案します。
 
-このテンプレートは、次のような人に向いています。
+## Quick Start
 
-- 週次または定期的な自己リフレクションを行いたい人
-- AI との会話に継続性を持たせたい人
-- 後から見返せるセッションノートを残したい人
-- 事実、感情、解釈、安定したパターン、次の問いを丁寧に分けたい人
-- 公開テンプレートをもとに、非公開の個人 vault を作りたい人
+1. **Use this template** をクリックするか、このリポジトリを fork します。
+2. 実際の個人的な内容を保存する場合は、作業用 vault を **private** にします。
+3. [Obsidian](https://obsidian.md/) または任意の Markdown エディタで開きます。
+4. `01_Client_Profile.md` に AI に覚えてほしい背景を記入します。
+5. 次のプロンプトで開始します。
 
-## 使い方
+```text
+Read the core vault files and the latest note in Sessions/.
+Continue from the existing psychological reflection system.
+Start with one focused opening question.
+```
 
-1. このリポジトリをテンプレートとして使うか、fork します。
-2. 実際の個人的な内容を保存する場合は、作業用 vault を private にしてください。
-3. Obsidian または任意の Markdown エディタでフォルダを開きます。
-4. 各リフレクションの開始時に、AI アシスタントにコアファイルと `Sessions/` 内の最新ノートを読ませます。
-5. 各セッション後、`Sessions/` に新しいノートを保存し、`03_Running_Case_Formulation.md` を更新します。`05_Psychological_Profile.md` は、安定したパターンがより明確になった場合のみ更新します。
+6. セッション後、`04_Session_Template.md` を `Sessions/` にコピーし、日付で保存します。
+7. `03_Running_Case_Formulation.md` を更新し、安定したパターンが明確になった場合のみ `05_Psychological_Profile.md` を更新します。
 
-## リポジトリ構成
+## Use Cases
 
-- `00_Start_Here.md`: 入口と運用上の境界
-- `01_Client_Profile.md`: ユーザープロフィールのテンプレート
-- `02_Therapy_Framework.md`: リフレクションの枠組みと安全上の境界
-- `03_Running_Case_Formulation.md`: 継続的なケースフォーミュレーションのテンプレート
-- `04_Session_Template.md`: 再利用可能なセッションノートテンプレート
-- `05_Psychological_Profile.md`: 長期的な心理プロフィールテンプレート
-- `06_Scheduling_Policy.md`: 適応的なスケジューリング方針
-- `07_Memory_Architecture.md`: 階層化された記憶と更新ルール
-- `08_Public_Private_Workflow.md`: public/private データ分離ワークフロー
-- `Sessions/`: セッションノート
-- `Reports/Monthly/`: 月次サマリー
-- `Reports/Yearly/`: 年次サマリー
+- 個人用 AI リフレクション vault
+- Obsidian 個人知識システム
+- コーチングやジャーナリングのテンプレート
+- AI 長期記憶設計の例
+- 専門的支援を置き換えない自己整理ツール
 
-## Public と Private
+## How It Works
 
-この public リポジトリはテンプレートのみです。再利用可能な構造、説明、空のテンプレートだけを含めるべきです。
+```mermaid
+flowchart TD
+    A["Start a reflection session"] --> B["Read core vault files"]
+    B --> C["Read latest Sessions note"]
+    C --> D["Ask one focused opening question"]
+    D --> E["Explore events, emotions, relationships, and patterns"]
+    E --> F["Save dated session note"]
+    F --> G["Update running case formulation"]
+    G --> H{"Stable pattern repeated?"}
+    H -- Yes --> I["Update psychological profile"]
+    H -- No --> J["Keep insight in session note"]
+    I --> K["Recommend next check-in"]
+    J --> K
+    K --> L["Next session continues from memory"]
+```
 
-実際の個人的なリフレクションは、別の private リポジトリまたはローカルフォルダに保存してください。実際のセッションノート、個人史、関係の詳細、リスクノート、連絡先、健康情報、または他人に読まれたくない内容を公開しないでください。
+## Community
 
-## ライセンス
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
+- [ROADMAP.md](./ROADMAP.md)
+
+## License
 
 MIT

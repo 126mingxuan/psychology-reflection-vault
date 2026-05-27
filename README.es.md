@@ -2,50 +2,73 @@
 
 **Idiomas:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md)
 
-Una plantilla de vault al estilo Obsidian para reflexión psicológica continua asistida por IA, notas de sesión, formulación de caso, seguimiento de patrones personales y revisiones mensuales o anuales.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Template](https://img.shields.io/badge/GitHub-Template-blue.svg)](./08_Public_Private_Workflow.md)
+[![Made for Obsidian](https://img.shields.io/badge/Made%20for-Obsidian-7C3AED.svg)](https://obsidian.md/)
+[![AI Assisted Reflection](https://img.shields.io/badge/AI--assisted-Reflection-111827.svg)](./02_Therapy_Framework.md)
 
-> Importante: Este proyecto no es terapia, diagnóstico médico, atención psiquiátrica ni intervención en crisis. Si estás en peligro inmediato, en riesgo de autolesión o en riesgo de hacer daño a otra persona, contacta de inmediato con los servicios de emergencia locales, un profesional cualificado o una persona de confianza.
+Una plantilla estilo Obsidian para construir un sistema privado, continuo y asistido por IA para reflexión psicológica.
 
-## Por Qué Existe
+La mayoría de los chats con IA olvidan el contexto. Este vault da memoria al proceso: notas de sesión, formulación de caso, perfil psicológico a largo plazo, lógica de programación y revisiones mensuales o anuales.
 
-Las conversaciones con IA suelen empezar desde cero. Este vault convierte la reflexión en un sistema Markdown estructurado, legible y de largo plazo, para que cada sesión pueda heredar el contexto previo en lugar de repetir la misma información una y otra vez.
+> Importante: Este proyecto no es terapia, diagnóstico médico, atención psiquiátrica ni intervención en crisis. Si estás en peligro inmediato, en riesgo de autolesión o de hacer daño a otra persona, contacta de inmediato con servicios de emergencia, un profesional cualificado o una persona de confianza.
 
-Está diseñado para personas que quieren:
+## Highlights
 
-- una práctica semanal o recurrente de autorreflexión;
-- continuidad entre conversaciones con IA;
-- notas de sesión que puedan revisarse más adelante;
-- una separación cuidadosa entre hechos, emociones, interpretaciones, patrones estables y próximas preguntas;
-- una plantilla pública que pueda adaptarse a un vault personal privado.
+- **Continuidad entre sesiones**: cada conversación hereda notas anteriores.
+- **Estructura nativa de Obsidian**: archivos Markdown legibles, editables y portables.
+- **Memoria por capas**: separa hechos, emociones, interpretaciones, patrones, perfil, riesgos y próximas preguntas.
+- **Flujo público/privado**: este repositorio es plantilla pública; el material real va en un vault privado.
+- **Programación adaptativa**: recomienda el próximo seguimiento según intensidad emocional, temas pendientes y estabilidad.
 
-## Cómo Usarlo
+## Quick Start
 
-1. Usa este repositorio como plantilla o haz un fork.
-2. Si vas a guardar material personal real, mantén tu vault de trabajo en privado.
-3. Abre la carpeta en Obsidian o en cualquier editor Markdown.
-4. Al inicio de cada sesión de reflexión, pide a tu asistente de IA que lea los archivos principales y la nota más reciente en `Sessions/`.
-5. Después de cada sesión, guarda una nueva nota en `Sessions/`, actualiza `03_Running_Case_Formulation.md` y actualiza `05_Psychological_Profile.md` solo cuando un patrón estable se vuelva más claro.
+1. Haz clic en **Use this template** o haz fork del repositorio.
+2. Si guardarás material personal real, mantén tu vault en **private**.
+3. Abre la carpeta en [Obsidian](https://obsidian.md/) o en cualquier editor Markdown.
+4. Completa `01_Client_Profile.md` con el contexto que quieres que recuerde tu asistente de IA.
+5. Empieza con este prompt:
 
-## Estructura Del Repositorio
+```text
+Read the core vault files and the latest note in Sessions/.
+Continue from the existing psychological reflection system.
+Start with one focused opening question.
+```
 
-- `00_Start_Here.md`: punto de entrada y límites de uso
-- `01_Client_Profile.md`: plantilla de perfil del usuario
-- `02_Therapy_Framework.md`: marco de reflexión y límites de seguridad
-- `03_Running_Case_Formulation.md`: plantilla de formulación de caso en curso
-- `04_Session_Template.md`: plantilla reutilizable de nota de sesión
-- `05_Psychological_Profile.md`: plantilla de perfil psicológico a largo plazo
-- `06_Scheduling_Policy.md`: política de programación adaptativa
-- `07_Memory_Architecture.md`: memoria por capas y reglas de actualización
-- `08_Public_Private_Workflow.md`: flujo de separación entre datos públicos y privados
-- `Sessions/`: notas de sesión
-- `Reports/Monthly/`: resúmenes mensuales
-- `Reports/Yearly/`: resúmenes anuales
+6. Después de la sesión, copia `04_Session_Template.md` en `Sessions/` y guárdalo con fecha.
+7. Actualiza `03_Running_Case_Formulation.md`, y actualiza `05_Psychological_Profile.md` solo cuando un patrón estable sea más claro.
 
-## Público Y Privado
+## Use Cases
 
-Este repositorio público es solo una plantilla. Debe contener estructura reutilizable, instrucciones y plantillas vacías.
+- vault personal de reflexión con IA;
+- sistema de conocimiento personal en Obsidian;
+- plantilla de coaching o journaling;
+- ejemplo de diseño de memoria a largo plazo para IA;
+- organización personal sin reemplazar atención profesional.
 
-Tus reflexiones personales reales deben vivir en un repositorio privado separado o en una carpeta local. No publiques notas reales de sesión, historia personal, detalles de relaciones, notas de riesgo, información de contacto, información de salud ni nada que no quieras que lean personas desconocidas.
+## How It Works
+
+```mermaid
+flowchart TD
+    A["Start a reflection session"] --> B["Read core vault files"]
+    B --> C["Read latest Sessions note"]
+    C --> D["Ask one focused opening question"]
+    D --> E["Explore events, emotions, relationships, and patterns"]
+    E --> F["Save dated session note"]
+    F --> G["Update running case formulation"]
+    G --> H{"Stable pattern repeated?"}
+    H -- Yes --> I["Update psychological profile"]
+    H -- No --> J["Keep insight in session note"]
+    I --> K["Recommend next check-in"]
+    J --> K
+    K --> L["Next session continues from memory"]
+```
+
+## Community
+
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
+- [ROADMAP.md](./ROADMAP.md)
 
 ## Licencia
 
