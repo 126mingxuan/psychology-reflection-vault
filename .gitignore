@@ -1,0 +1,17 @@
+.DS_Store
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Obsidian local workspace/cache files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Local secrets and private exports
+.env
+.env.*
+Private/
+private/
+*.bak
