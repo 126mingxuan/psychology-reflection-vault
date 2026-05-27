@@ -47,6 +47,21 @@ Start with one focused opening question.
 - **AI memory design example**: study how to separate short-term session notes from long-term profile memory.
 - **Therapy-adjacent self-organization**: organize thoughts before or after professional therapy without replacing professional care.
 
+## Who This Is For
+
+- people who already use AI for journaling or reflection;
+- Obsidian users who want a structured personal vault;
+- builders studying long-term AI memory design;
+- coaches, educators, or facilitators designing reusable reflection templates;
+- people who want a private self-organization system around therapy-adjacent topics.
+
+## Who This Is Not For
+
+- anyone seeking emergency mental health support;
+- anyone looking for medical diagnosis or treatment;
+- teams that want to collect sensitive user data;
+- public repositories containing real personal session notes.
+
 ## How It Works
 
 ```mermaid
@@ -109,11 +124,25 @@ flowchart LR
 ├── 08_Public_Private_Workflow.md
 ├── Sessions/
 ├── Reports/
+├── docs/
+├── examples/
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
+├── SUPPORT.md
+├── SECURITY.md
 ├── ROADMAP.md
+├── CHANGELOG.md
 └── TRANSLATIONS.md
 ```
+
+## Docs And Examples
+
+- [Getting Started](./docs/GETTING_STARTED.md)
+- [Prompt Recipes](./docs/PROMPT_RECIPES.md)
+- [Privacy And Safety Checklist](./docs/PRIVACY_AND_SAFETY.md)
+- [FAQ](./docs/FAQ.md)
+- [Fictional Session Note Example](./examples/fictional-session-note.md)
+- [Fictional Monthly Report Example](./examples/monthly-report-example.md)
 
 ## Public vs Private
 
@@ -129,7 +158,9 @@ Contributions are welcome when they improve the template without adding private 
 
 - Read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening a pull request.
 - Review [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for community expectations.
+- Read [SUPPORT.md](./SUPPORT.md) for where to ask questions.
 - See [ROADMAP.md](./ROADMAP.md) for planned improvements.
+- See [CHANGELOG.md](./CHANGELOG.md) for project history.
 - Use the issue templates to report problems or propose improvements.
 
 ## README Translations
