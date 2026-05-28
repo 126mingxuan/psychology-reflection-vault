@@ -5,6 +5,7 @@ This project keeps a simple human-readable changelog.
 ## Unreleased
 
 - Future template improvements, documentation refinements, examples, and translations.
+- Clarified that live conversation should match the user's language while public GitHub project files remain English, except optional localized README files.
 
 ## 2026-05-27
 

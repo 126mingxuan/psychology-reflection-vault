@@ -4,9 +4,14 @@ This repository is a public Obsidian-style psychological reflection vault templa
 
 ## Language
 
-- The public project should be written in English by default.
-- Optional localized README files may be added when useful.
-- Personal working vaults may use any language preferred by the user.
+- Match the user's language during live conversation by default.
+- If the user speaks Chinese, reply in Chinese. If the user speaks English, reply in clear, natural English.
+- If the user explicitly requests another language, follow that request.
+- Do not automatically translate or polish the user's message unless the user asks for translation or polishing.
+- The public GitHub project itself must be written in English by default.
+- Optional localized README files may be added when useful, but all non-README public project files should remain English.
+- `AGENTS.md` is part of the public GitHub project documentation, so it must also be written in English.
+- Personal working vaults may use any language preferred by the user, but reusable public templates should remain English.
 
 ## Boundaries
 
