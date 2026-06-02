@@ -23,7 +23,8 @@ Most AI chats start from zero. Psychology Reflection Vault gives your reflection
 - **Local-first privacy architecture**: your working vault is plain Markdown on your own device or in your own private repository. The project has no hosted backend, no project server, no hidden database, and no built-in telemetry.
 - **Adaptive psychological strategy routing**: the assistant can shift its reflective lens based on what the user says, instead of forcing every session into one fixed coaching or journaling style.
 - **Visible long-term memory**: memory is stored in readable files, not a black-box product database. You can inspect, edit, remove, or migrate it at any time.
-- **Layered personality and pattern formation**: session notes stay concrete, running formulations stay tentative, and the psychological profile is updated only when stable patterns become clearer.
+- **Session-based memory updates**: the conversation comes first. Durable memory is written after the session, not after every message.
+- **Layered personality and pattern formation**: session notes stay concrete, running formulations stay tentative, and the psychological profile is reviewed after every session. Stable patterns are integrated into the profile; uncertain clues stay provisional.
 - **Public template, private personal vault**: this repository can stay public because it contains reusable structure, instructions, and fictional examples. Real reflections belong in a separate private vault.
 - **Obsidian and Markdown native**: the system works with Obsidian, VS Code, any Markdown editor, and any AI assistant that can read local files.
 - **Model-agnostic and editor-agnostic**: the vault is a file architecture, not a proprietary platform. You choose your editor and AI provider.
@@ -39,7 +40,15 @@ That matters for psychological reflection: the most sensitive material should no
 
 Privacy note: if you choose to paste or connect your vault content to a cloud AI service, that service may receive the content you provide. The vault itself is local-first; your AI provider choice determines any external data transmission.
 
-### 2. Adaptive multi-strategy reflection
+### 2. A vault you invoke during conversation
+
+This repository is not an app that runs by itself. It is a project structure that an AI assistant can read at the start of a reflection conversation.
+
+After downloading or forking the repository, use it by asking your AI assistant to read `AGENTS.md`, the core vault files, the latest psychological profile, and prior session notes. The assistant then uses those files as the framework for the current conversation.
+
+Durable memory should live in the vault files, not in hidden platform-level memory. Platform memory can be helpful, but it should not be the primary source of truth for sensitive psychological reflection.
+
+### 3. Adaptive multi-strategy reflection
 
 The vault is designed for an AI assistant that can switch reflective lenses based on what the user actually says. It is not locked into one style.
 
@@ -53,20 +62,24 @@ Depending on the session, the assistant may lean toward:
 - humanistic support for warmth, acceptance, and stable emotional holding;
 - safety-first crisis boundaries when ordinary reflection is not appropriate.
 
-### 3. Long-term memory without black boxes
+The strategy can change across sessions without losing continuity. Unlike a fixed-style workflow, this vault keeps prior notes, formulation, and profile available while allowing the next session to use a different primary lens when the user's material calls for it.
+
+### 4. Long-term memory without black boxes
 
 Instead of hiding memory inside an app, this vault makes memory visible and editable:
 
 - `Sessions/` keeps concrete session records.
 - `03_Running_Case_Formulation.md` keeps evolving hypotheses.
-- `05_Psychological_Profile.md` stores only stable, repeated patterns.
+- `05_Psychological_Profile.md` is reviewed after every session. It stores stable, repeated patterns while keeping new uncertain observations provisional.
 - `07_Memory_Architecture.md` prevents one emotional moment from becoming a permanent label.
 
-### 4. Public template, private life
+The project keeps one current psychological profile file. Do not create a new profile file after every session. Instead, update `05_Psychological_Profile.md` as the latest working profile and use session notes plus monthly/yearly reports to preserve change history.
+
+### 5. Public template, private life
 
 This repository can be public because it contains only structure, prompts, examples, and blank templates. Your real reflections should live in a separate private vault.
 
-### 5. Model-agnostic and editor-agnostic
+### 6. Model-agnostic and editor-agnostic
 
 Use it with Obsidian, VS Code, any Markdown editor, and any AI assistant that can read files. The system is the file architecture, not a proprietary platform.
 
@@ -75,7 +88,7 @@ Use it with Obsidian, VS Code, any Markdown editor, and any AI assistant that ca
 - **Local-first privacy**: plain Markdown, no backend, no required account beyond your chosen tools.
 - **Adaptive psychological strategy routing**: shifts between depth exploration, CBT-style tools, family systems, mindfulness, existential reflection, and safety boundaries.
 - **Continuity across sessions**: every conversation can inherit previous notes instead of starting from zero.
-- **Layered memory architecture**: separates facts, emotions, interpretations, recurring patterns, profile updates, risk notes, and next questions.
+- **Layered memory architecture**: separates facts, emotions, interpretations, recurring patterns, profile updates, provisional observations, risk notes, and next questions.
 - **Obsidian-native structure**: readable, editable, portable files.
 - **Adaptive scheduling**: recommend the next check-in based on emotional intensity, unfinished material, and stability.
 - **Multilingual README entry points**: English, Chinese, Japanese, Spanish, French, German, Korean, Portuguese, Russian, and Arabic.
@@ -98,16 +111,20 @@ This design is especially important for psychological reflection because sensiti
 2. Create your own working vault. If it will contain real personal material, keep it **private**.
 3. Open the folder in [Obsidian](https://obsidian.md/) or any Markdown editor.
 4. Fill in `01_Client_Profile.md` with only the background you want your AI assistant to remember.
-5. Start a reflection session with this prompt:
+5. Start each reflection session by invoking the vault with this prompt:
 
 ```text
-Read the core vault files and the latest note in Sessions/.
-Continue from the existing psychological reflection system.
+Read AGENTS.md, the core vault files, the latest psychological profile,
+the running case formulation, and prior session notes in Sessions/.
+Use this vault as the framework for this conversation.
+Continue from previous material instead of starting from zero.
 Start with one focused opening question.
 ```
 
 6. After the session, copy `04_Session_Template.md` into `Sessions/` and save it with a date-based filename.
-7. Update `03_Running_Case_Formulation.md`, and update `05_Psychological_Profile.md` only when a stable pattern becomes clearer.
+7. Update `03_Running_Case_Formulation.md`.
+8. Review and update the single current `05_Psychological_Profile.md`: stable evidence goes into profile sections, while new uncertain clues go into items to confirm or provisional observations.
+9. End by recommending the next check-in time using `06_Scheduling_Policy.md`.
 
 ## Use Cases
 
@@ -141,19 +158,21 @@ flowchart TD
     C --> D["Ask one focused opening question"]
     D --> E["Choose reflective lens based on response"]
     E --> F["Explore events, emotions, relationships, and patterns"]
-    F --> G["Save dated session note"]
-    G --> H["Update running case formulation"]
-    H --> I{"Stable pattern repeated?"}
-    I -- Yes --> J["Update psychological profile"]
-    I -- No --> K["Keep insight in session note"]
-    J --> L["Recommend next check-in"]
-    K --> L
-    L --> M["Next session continues from memory"]
+    F --> G["Close session before durable memory writes"]
+    G --> H["Save dated session note"]
+    H --> I["Update running case formulation"]
+    I --> J["Review psychological profile"]
+    J --> K{"Stable or repeated evidence?"}
+    K -- Yes --> L["Integrate into profile"]
+    K -- No --> M["Record as provisional or item to confirm"]
+    L --> N["Recommend next check-in"]
+    M --> N
+    N --> O["Next session continues from memory"]
 ```
 
 ## Adaptive Strategy Routing
 
-The project is designed around adaptive psychological strategy routing. The assistant should read the user's current response and choose the most useful reflective lens for that moment:
+The project is designed around adaptive psychological strategy routing. The assistant should read prior sessions, the current profile, and the user's current response, then choose the most useful reflective lens for the session:
 
 - **Psychodynamic or psychoanalytic**: recurring emotional conflicts, defenses, shame, attachment, self-worth, and relationship repetition.
 - **CBT-style tools**: rumination, avoidance, anxiety loops, cognitive distortions, action difficulty, and concrete behavior planning.
@@ -162,6 +181,8 @@ The project is designed around adaptive psychological strategy routing. The assi
 - **Existential reflection**: meaning, freedom, responsibility, loneliness, mortality, choice, and life direction.
 - **Humanistic support**: warmth, acceptance, emotional holding, self-compassion, and nonjudgmental exploration.
 - **Safety boundary**: crisis risk, self-harm intent, harm-to-others risk, or situations where ordinary reflection is not appropriate.
+
+At the end of the session, record which strategy was used and which strategy should be tried next. The next session should inherit both continuity and strategy recommendation: it may keep the current lens, combine lenses, or shift to another lens while still using all prior user material.
 
 ```mermaid
 flowchart LR
@@ -188,11 +209,13 @@ The vault separates different levels of memory so one emotional moment does not 
 
 - `Sessions/` stores concrete dated records: what happened, what was felt, what was discussed, and what should be revisited.
 - `03_Running_Case_Formulation.md` stores evolving hypotheses about repeated conflicts, relationship patterns, defenses, needs, and growth signals.
-- `05_Psychological_Profile.md` stores stable patterns only when enough repeated evidence exists.
+- `05_Psychological_Profile.md` is reviewed after every session. Stable or repeated evidence is integrated; uncertain material is kept provisional or listed as an item to confirm.
 - `Reports/` turns many sessions into monthly or yearly synthesis.
 - `07_Memory_Architecture.md` defines how to separate raw events, emotions, interpretations, recurring patterns, profile updates, risk notes, and next-question logic.
 
-The core rule is: **one moment is not a personality**. Stable profile updates should come from repeated patterns, context, and careful interpretation.
+The core rule is: **conversation first, documentation after**. Do not update durable memory after every message. Close the session, then save one coherent session note, update the running formulation, review the psychological profile, and recommend the next check-in.
+
+The vault files are the durable memory system. Do not rely on platform-level memory as the primary archive for psychological material.
 
 ## Vault Architecture
 

@@ -6,12 +6,15 @@ This is an Obsidian-style vault template for ongoing psychological reflection.
 
 1. Copy, fork, or use this repository as a template.
 2. If you will store real personal material, keep your working vault private.
-3. At the start of each session, read the core files and the latest session note.
-4. After each session, save a new note in `Sessions/`.
-5. Continuously update `03_Running_Case_Formulation.md`.
-6. Update `05_Psychological_Profile.md` only when stable patterns appear repeatedly.
-7. Create monthly summaries in `Reports/Monthly/` when enough material exists.
-8. Create yearly summaries in `Reports/Yearly/` when enough long-term material exists.
+3. At the start of each session, ask your AI assistant to read `AGENTS.md`, the core files, the latest psychological profile, the running case formulation, and prior notes in `Sessions/`.
+4. Use the vault files as the framework for the current conversation instead of relying on platform-level memory.
+5. During the conversation, prioritize reflection over documentation and do not update durable memory after every message.
+6. After each session, save one new note in `Sessions/`.
+7. Continuously update `03_Running_Case_Formulation.md`.
+8. Review and update the single current `05_Psychological_Profile.md` after every session. Stable evidence belongs in the profile; uncertain clues belong in provisional observations or items to confirm.
+9. Record which reflective strategy was used and what strategy is recommended for the next session.
+10. Create monthly summaries in `Reports/Monthly/` when enough material exists.
+11. Create yearly summaries in `Reports/Yearly/` when enough long-term material exists.
 
 ## Boundaries
 

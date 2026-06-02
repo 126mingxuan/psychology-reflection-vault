@@ -28,14 +28,19 @@ Keep it minimal at first. You can add more later.
 
 ## 4. Start Your First Session
 
+This project does not run by itself. Use it by asking your AI assistant to read the vault and treat it as the framework for the conversation.
+
 Use this prompt:
 
 ```text
-Read 00_Start_Here.md, 01_Client_Profile.md, 02_Therapy_Framework.md,
+Read AGENTS.md, 00_Start_Here.md, 01_Client_Profile.md, 02_Therapy_Framework.md,
 03_Running_Case_Formulation.md, 05_Psychological_Profile.md,
-06_Scheduling_Policy.md, 07_Memory_Architecture.md, and the latest note in Sessions/.
+06_Scheduling_Policy.md, 07_Memory_Architecture.md, and prior notes in Sessions/.
+If the archive is large, read monthly/yearly summaries first, then the latest
+and most relevant session notes.
 
-Continue from this vault as a psychological reflection system.
+Use this vault as the framework for this conversation.
+Continue from previous material instead of starting from zero.
 Start with one focused opening question.
 ```
 
@@ -55,12 +60,27 @@ After the session:
 
 Update `03_Running_Case_Formulation.md` after each meaningful session.
 
-Update `05_Psychological_Profile.md` only when a pattern is stable, repeated, or strongly supported.
+Review and update the single current `05_Psychological_Profile.md` after every session. Do not create a new profile file for each session.
+
+Stable, repeated, or strongly supported material should go into the main profile sections. New but uncertain material should go into items to confirm or provisional observations.
 
 Do not turn one emotional moment into a personality conclusion.
 
-## 7. Keep The Privacy Boundary Clear
+## 7. Record Strategy For The Next Session
+
+At the end of each session, record:
+
+- which reflective strategy was used;
+- why it fit the session;
+- whether the next session should continue, combine, or shift strategy;
+- what prior material should be carried forward.
+
+The next conversation should preserve continuity while allowing the working lens to change when the user's material calls for it.
+
+## 8. Keep The Privacy Boundary Clear
 
 The vault itself is local-first. It does not require a hosted backend.
 
 If you use a cloud AI assistant, only share the files or excerpts you intentionally provide. For highly sensitive material, consider using a local AI setup or keeping some notes outside AI workflows entirely.
+
+Do not rely on platform-level memory as the primary archive. The vault files should remain the source of truth for durable psychological memory.

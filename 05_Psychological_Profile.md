@@ -20,6 +20,13 @@ Single emotions or one-time events should usually stay in the relevant session n
 
 -
 
+## Effective Reflective Strategies
+
+- Strategies that seem helpful:
+- Strategies that seem less helpful:
+- Preferred depth/action balance:
+- Triggers for shifting strategy:
+
 ## Common Emotional Patterns
 
 -
