@@ -46,6 +46,8 @@ This repository is not an app that runs by itself. It is a project structure tha
 
 After downloading or forking the repository, use it by asking your AI assistant to read `AGENTS.md`, the core vault files, the latest psychological profile, and prior session notes. The assistant then uses those files as the framework for the current conversation.
 
+For a smoother experience, context reading should normally happen once at the beginning of a session. The assistant should avoid repeatedly rereading files unless the user asks, a major new theme requires older material, or safety handling requires it.
+
 Durable memory should live in the vault files, not in hidden platform-level memory. Platform memory can be helpful, but it should not be the primary source of truth for sensitive psychological reflection.
 
 ### 3. Adaptive multi-strategy reflection
@@ -70,10 +72,10 @@ Instead of hiding memory inside an app, this vault makes memory visible and edit
 
 - `Sessions/` keeps concrete session records.
 - `03_Running_Case_Formulation.md` keeps evolving hypotheses.
-- `05_Psychological_Profile.md` is reviewed after every session. It stores stable, repeated patterns while keeping new uncertain observations provisional.
+- `05_Psychological_Profile.md` is reviewed and updated after every completed session. It stores stable, repeated patterns while keeping new uncertain observations provisional.
 - `07_Memory_Architecture.md` prevents one emotional moment from becoming a permanent label.
 
-The project keeps one current psychological profile file. Do not create a new profile file after every session. Instead, update `05_Psychological_Profile.md` as the latest working profile and use session notes plus monthly/yearly reports to preserve change history.
+The project keeps one current psychological profile file. Do not create a new profile file after every session. Instead, update `05_Psychological_Profile.md` as the latest cumulative portrait of the user and use session notes plus monthly/yearly reports to preserve change history.
 
 ### 5. Public template, private life
 
@@ -123,7 +125,7 @@ Start with one focused opening question.
 
 6. After the session, copy `04_Session_Template.md` into `Sessions/` and save it with a date-based filename.
 7. Update `03_Running_Case_Formulation.md`.
-8. Review and update the single current `05_Psychological_Profile.md`: stable evidence goes into profile sections, while new uncertain clues go into items to confirm or provisional observations.
+8. Review and update the single current `05_Psychological_Profile.md` after every completed session: stable evidence goes into profile sections, while new uncertain clues go into items to confirm or provisional observations.
 9. End by recommending the next check-in time using `06_Scheduling_Policy.md`.
 
 ## Use Cases
@@ -209,11 +211,11 @@ The vault separates different levels of memory so one emotional moment does not 
 
 - `Sessions/` stores concrete dated records: what happened, what was felt, what was discussed, and what should be revisited.
 - `03_Running_Case_Formulation.md` stores evolving hypotheses about repeated conflicts, relationship patterns, defenses, needs, and growth signals.
-- `05_Psychological_Profile.md` is reviewed after every session. Stable or repeated evidence is integrated; uncertain material is kept provisional or listed as an item to confirm.
+- `05_Psychological_Profile.md` is reviewed and updated after every completed session. Stable or repeated evidence is integrated; uncertain material is kept provisional or listed as an item to confirm.
 - `Reports/` turns many sessions into monthly or yearly synthesis.
 - `07_Memory_Architecture.md` defines how to separate raw events, emotions, interpretations, recurring patterns, profile updates, risk notes, and next-question logic.
 
-The core rule is: **conversation first, documentation after**. Do not update durable memory after every message. Close the session, then save one coherent session note, update the running formulation, review the psychological profile, and recommend the next check-in.
+The core rule is: **conversation first, documentation after**. Do not update durable memory after every message. Read context once at the beginning when possible, close the session, then save one coherent session note, update the running formulation, review the psychological profile, and recommend the next check-in.
 
 The vault files are the durable memory system. Do not rely on platform-level memory as the primary archive for psychological material.
 

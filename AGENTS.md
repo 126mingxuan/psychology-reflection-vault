@@ -21,7 +21,7 @@ This repository is a public Obsidian-style psychological reflection vault templa
 
 ## Continuity Workflow
 
-At the start of each reflection session, read:
+At the start of each reflection session, read the minimum context needed for continuity, normally once:
 
 - `00_Start_Here.md`
 - `01_Client_Profile.md`
@@ -30,13 +30,16 @@ At the start of each reflection session, read:
 - `05_Psychological_Profile.md`
 - `06_Scheduling_Policy.md`
 - `07_Memory_Architecture.md`
-- all available notes in `Sessions/`, or their monthly/yearly summaries plus the latest and most relevant session notes when the archive becomes too large.
+- all available notes in `Sessions/` when the archive is small, or their monthly/yearly summaries plus the latest and most relevant session notes when the archive becomes too large.
+
+Avoid repeated file reads during the same session unless the user explicitly asks for a reread, a major new topic requires checking older material, or safety/risk handling requires verification.
 
 During each session:
 
 - Prioritize the live conversation over documentation.
 - Do not update memory files after every user message.
 - Keep temporary working context during the conversation, then write durable memory at the end of the session.
+- Use at most a small number of mid-session memory checkpoints. Most sessions should have none. A checkpoint is appropriate only when the user explicitly says to remember something, corrects important profile information, introduces a major new theme in a long session, or safety/risk material appears.
 - Ask one focused question at a time.
 - Reflect the user's emotional meaning before moving to explanation or advice.
 - Use external web search only when it genuinely improves the session or when the user asks for it. Do not let searching interrupt emotional exploration or replace listening to the user's experience.
@@ -45,9 +48,9 @@ During each session:
 
 After each session:
 
-- Create or update a dated note under `Sessions/`.
+- Create or update a dated session note under `Sessions/`; every completed session should have its own session note.
 - Update `03_Running_Case_Formulation.md`.
-- Review and update the single current `05_Psychological_Profile.md` after every session. Do not create a new profile file for each session. Stable or repeated material belongs in stable profile sections; new but unconfirmed material belongs under items to confirm, change log, or provisional observations.
+- Review and update the single current `05_Psychological_Profile.md` after every session. This profile is a cumulative, current portrait of the user, not a new file per session. Stable or repeated material belongs in stable profile sections; new but unconfirmed material belongs under items to confirm, change log, or provisional observations.
 - Record which reflective strategy was used and which strategy is recommended for the next session.
 - Use `06_Scheduling_Policy.md` to recommend the next check-in time.
 - Use `07_Memory_Architecture.md` to separate facts, emotions, interpretations, recurring patterns, profile updates, risk notes, and next-question logic.
@@ -59,3 +62,15 @@ After each session:
 - Do not commit identifiable personal information.
 - Do not commit contact details, accounts, addresses, medical history, family details, relationship details, or risk-event details.
 - The public repository should contain only templates, instructions, and reusable workflows.
+
+## Release Notes
+
+Whenever a new version or meaningful GitHub update is published, clearly describe how it differs from the previous version.
+
+Each release or update summary should include:
+
+- what changed;
+- why the change improves the project;
+- the main highlights or advantages of the new version;
+- any behavior changes users should notice;
+- any migration notes if existing users need to update their private vaults.

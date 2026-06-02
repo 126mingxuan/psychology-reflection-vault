@@ -4,9 +4,11 @@ Last updated:
 
 ## Use Principle
 
-This file is not a diagnosis. It is a living psychological profile. It should record only information that appears repeatedly across sessions, is relatively stable, and helps future reflection.
+This file is not a diagnosis. It is one living, cumulative psychological profile. It should be reviewed and updated after every completed session, while still separating stable patterns from provisional observations.
 
 Single emotions or one-time events should usually stay in the relevant session note. Do not turn them into stable personality conclusions too quickly.
+
+Stable, repeated, or strongly supported material belongs in the main profile sections. New but uncertain material belongs in `Items To Confirm` or the change log.
 
 ## Basic Profile
 

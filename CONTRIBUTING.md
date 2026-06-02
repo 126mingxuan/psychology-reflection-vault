@@ -30,8 +30,19 @@ Before opening a pull request:
 - [ ] The change does not include private or identifiable information.
 - [ ] Mental health language stays careful and non-clinical.
 - [ ] Public templates remain reusable by strangers.
+- [ ] The update explains what changed compared with the previous version.
+- [ ] The update explains the practical improvement or highlight users should notice.
 - [ ] README translations are updated if the English README changed.
 - [ ] Links are relative when pointing to files inside the repository.
+
+## Release Notes
+
+For each meaningful version update, include a short release note or changelog entry that answers:
+
+- What changed compared with the previous version?
+- Why is the new version better or clearer?
+- What are the most important highlights?
+- Do existing users need to change anything in their private vaults?
 
 ## Translation Contributions
 

@@ -38,6 +38,7 @@ Read AGENTS.md, 00_Start_Here.md, 01_Client_Profile.md, 02_Therapy_Framework.md,
 06_Scheduling_Policy.md, 07_Memory_Architecture.md, and prior notes in Sessions/.
 If the archive is large, read monthly/yearly summaries first, then the latest
 and most relevant session notes.
+Read this context once at the start unless I explicitly ask you to reread.
 
 Use this vault as the framework for this conversation.
 Continue from previous material instead of starting from zero.
@@ -60,7 +61,7 @@ After the session:
 
 Update `03_Running_Case_Formulation.md` after each meaningful session.
 
-Review and update the single current `05_Psychological_Profile.md` after every session. Do not create a new profile file for each session.
+Review and update the single current `05_Psychological_Profile.md` after every completed session. Do not create a new profile file for each session.
 
 Stable, repeated, or strongly supported material should go into the main profile sections. New but uncertain material should go into items to confirm or provisional observations.
 

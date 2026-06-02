@@ -8,6 +8,7 @@ These prompts are starting points. Adapt them to your own vault and language.
 Read AGENTS.md, the core vault files, the latest psychological profile, the running case formulation,
 and prior session notes in Sessions/. If the archive is large, read monthly/yearly
 summaries first, then the latest and most relevant session notes.
+Read this context once at the start unless I explicitly ask you to reread.
 Use this vault as the framework for this conversation.
 Continue from the existing psychological reflection system.
 Start with one focused opening question.
@@ -38,10 +39,11 @@ uncertain clues as provisional observations or items to confirm.
 
 ```text
 Do not update durable memory after every user message.
+Avoid repeated file reads during the same session unless the user asks, a major new theme requires it, or safety handling requires it.
 During the session, keep temporary working context only.
 After the session closes, save one coherent session note.
 Update 03_Running_Case_Formulation.md with tentative hypotheses.
-Review 05_Psychological_Profile.md after every session.
+Review and update 05_Psychological_Profile.md after every completed session.
 Put stable repeated material into profile sections.
 Put uncertain material into provisional observations or items to confirm.
 Keep one current psychological profile file instead of creating a new profile file every session.

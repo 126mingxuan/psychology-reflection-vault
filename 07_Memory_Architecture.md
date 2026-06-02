@@ -8,6 +8,8 @@ Make psychological reflection memory readable, editable, and cumulative instead 
 
 The system follows a session-based memory rhythm: conversation first, documentation after. Do not write durable memory after every user message. During a session, keep temporary working context; after the session closes, write one coherent session note and update long-term files in a batch.
 
+Memory should support the session, not interrupt it. File reads should normally happen once at the beginning of a session. Additional reads or mid-session writes should be rare and justified by user request, major topic shift, corrected profile information, or risk material.
+
 ## Layered Memory
 
 ### 1. Fact Layer
@@ -32,7 +34,7 @@ Write something into long-term patterns only when it appears repeatedly.
 
 The psychological profile should include only relatively stable information, such as communication preferences, relational patterns, sources of self-worth, common defenses, deeper needs, and growth direction.
 
-The psychological profile must be reviewed after every session. If the session adds stable or repeated evidence, update the relevant stable section. If the session adds a new but unconfirmed clue, record it under items to confirm or provisional observations rather than treating it as a permanent trait.
+The psychological profile must be reviewed and updated after every completed session. It is one cumulative current portrait of the user, not a new file per session. If the session adds stable or repeated evidence, update the relevant stable section. If the session adds a new but unconfirmed clue, record it under items to confirm or provisional observations rather than treating it as a permanent trait.
 
 ### 6. Strategy Layer
 
@@ -60,7 +62,7 @@ If self-harm, suicidal intent, harm to others, severe loss of control, or real-w
 
 - Save a session note after every session.
 - Update the running case formulation when the session changes the overall understanding.
-- Review and update the psychological profile after every session. Stable material should be integrated into the profile; uncertain material should be recorded as provisional or as an item to confirm.
+- Review and update the psychological profile after every completed session. Stable material should be integrated into the profile; uncertain material should be recorded as provisional or as an item to confirm.
 - Keep one current psychological profile file rather than creating a new profile file for every session.
 - Record the strategy used in the session and the recommended strategy for the next session.
 - Use monthly reports to integrate themes from a month.
@@ -71,8 +73,10 @@ If self-harm, suicidal intent, harm to others, severe loss of control, or real-w
 ## Continuity Rules
 
 - The next session must continue from prior material rather than starting from zero.
+- Read the minimum necessary context once at the beginning of the session.
 - Read all prior session notes when the vault is small enough to do so.
 - When the archive becomes large, read monthly/yearly summaries first, then the latest session note and any earlier notes directly relevant to the current theme.
+- Avoid rereading files repeatedly during the same session unless the user asks, a major new topic requires it, or risk handling requires it.
 - Always read the latest `05_Psychological_Profile.md` before opening the session.
 - Always read the latest strategy recommendation before choosing the working lens for the session.
 - Always end with a recommended next session time or interval based on `06_Scheduling_Policy.md`.

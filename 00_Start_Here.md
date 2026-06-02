@@ -8,13 +8,14 @@ This is an Obsidian-style vault template for ongoing psychological reflection.
 2. If you will store real personal material, keep your working vault private.
 3. At the start of each session, ask your AI assistant to read `AGENTS.md`, the core files, the latest psychological profile, the running case formulation, and prior notes in `Sessions/`.
 4. Use the vault files as the framework for the current conversation instead of relying on platform-level memory.
-5. During the conversation, prioritize reflection over documentation and do not update durable memory after every message.
-6. After each session, save one new note in `Sessions/`.
-7. Continuously update `03_Running_Case_Formulation.md`.
-8. Review and update the single current `05_Psychological_Profile.md` after every session. Stable evidence belongs in the profile; uncertain clues belong in provisional observations or items to confirm.
-9. Record which reflective strategy was used and what strategy is recommended for the next session.
-10. Create monthly summaries in `Reports/Monthly/` when enough material exists.
-11. Create yearly summaries in `Reports/Yearly/` when enough long-term material exists.
+5. Ask the assistant to read context once at the start whenever possible, avoiding repeated file reads unless you request them or the session clearly requires them.
+6. During the conversation, prioritize reflection over documentation and do not update durable memory after every message.
+7. After each session, save one new note in `Sessions/`.
+8. Continuously update `03_Running_Case_Formulation.md`.
+9. Review and update the single current `05_Psychological_Profile.md` after every completed session. Stable evidence belongs in the profile; uncertain clues belong in provisional observations or items to confirm.
+10. Record which reflective strategy was used and what strategy is recommended for the next session.
+11. Create monthly summaries in `Reports/Monthly/` when enough material exists.
+12. Create yearly summaries in `Reports/Yearly/` when enough long-term material exists.
 
 ## Boundaries
 
