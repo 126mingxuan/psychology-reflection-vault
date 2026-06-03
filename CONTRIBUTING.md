@@ -44,6 +44,8 @@ For each meaningful version update, include a short release note or changelog en
 - What are the most important highlights?
 - Do existing users need to change anything in their private vaults?
 
+Use `.github/RELEASE_TEMPLATE.md` when preparing a formal release.
+
 ## Translation Contributions
 
 English is the source language. If you update a localized README, preserve the same language selector at the top and translate meaning rather than word order.

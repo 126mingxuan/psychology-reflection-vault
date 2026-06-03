@@ -12,6 +12,7 @@ Record the overall understanding that gradually emerges across multiple sessions
 - Supporting lenses:
 - Why this strategy currently fits:
 - Strategy risks or limits:
+- Onboarding-derived strategy hints to confirm:
 
 ## Recommended Strategy For Next Session
 
@@ -40,6 +41,12 @@ Record the overall understanding that gradually emerges across multiple sessions
 -
 
 ## Open Questions
+
+-
+
+## Provisional Onboarding Hypotheses
+
+These should come from first-contact onboarding only when the user explicitly shared them. Do not treat them as stable until later sessions support them.
 
 -
 

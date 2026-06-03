@@ -12,6 +12,12 @@ Memory should support the session, not interrupt it. File reads should normally 
 
 ## Layered Memory
 
+### 0. Onboarding Layer
+
+Use the first-contact onboarding questionnaire only when a new private vault has little or no profile context.
+
+Store explicit user preferences, broad goals, privacy boundaries, and initial strategy preferences in `01_Client_Profile.md`. Treat early psychological observations as provisional until they are supported by later sessions.
+
 ### 1. Fact Layer
 
 Record what the user explicitly said: what happened, who was involved, what choices were made, and what needs were clearly expressed.
@@ -61,6 +67,7 @@ If self-harm, suicidal intent, harm to others, severe loss of control, or real-w
 ## Update Rules
 
 - Save a session note after every session.
+- Use first-contact onboarding only for a new or empty private vault. Do not repeat the full questionnaire every session.
 - Update the running case formulation when the session changes the overall understanding.
 - Review and update the psychological profile after every completed session. Stable material should be integrated into the profile; uncertain material should be recorded as provisional or as an item to confirm.
 - Keep one current psychological profile file rather than creating a new profile file for every session.

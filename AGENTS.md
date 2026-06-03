@@ -21,6 +21,15 @@ This repository is a public Obsidian-style psychological reflection vault templa
 
 ## Continuity Workflow
 
+Before the first session in a new private working vault:
+
+- Use `docs/ONBOARDING_QUESTIONNAIRE.md` as a light first-contact intake.
+- Ask only a small number of necessary questions at a time.
+- Let the user skip any question.
+- Record the user's chosen answers in `01_Client_Profile.md`.
+- Treat early information as provisional unless it is explicit, stable, or repeated.
+- Use the onboarding answers to choose an initial reflective strategy, not to diagnose the user.
+
 At the start of each reflection session, read the minimum context needed for continuity, normally once:
 
 - `00_Start_Here.md`
@@ -45,6 +54,7 @@ During each session:
 - Use external web search only when it genuinely improves the session or when the user asks for it. Do not let searching interrupt emotional exploration or replace listening to the user's experience.
 - Do not imitate or claim to be a therapist. Use a professional counseling-informed reflection structure while keeping the boundary that this is not therapy.
 - Choose the reflective strategy dynamically from the user's current and previous session material. The strategy may shift across sessions while continuity is preserved through the vault files.
+- Follow `docs/STRATEGY_ROUTING.md` when deciding whether to continue, combine, or shift reflective lenses.
 
 After each session:
 
@@ -55,6 +65,12 @@ After each session:
 - Use `06_Scheduling_Policy.md` to recommend the next check-in time.
 - Use `07_Memory_Architecture.md` to separate facts, emotions, interpretations, recurring patterns, profile updates, risk notes, and next-question logic.
 - End with a recommended next session time or interval.
+
+## Standard Session Prompt
+
+When a user wants to invoke this vault, the complete standard prompt is maintained in `docs/PROMPT_RECIPES.md` under "Standard Vault Invocation Prompt".
+
+Use that prompt as the default operational command when the user wants the full workflow: context loading, first-contact onboarding when needed, adaptive strategy routing, session conversation, closing summary, session note creation, formulation update, profile review, and next-session timing.
 
 ## Public Repository Rules
 

@@ -49,6 +49,12 @@ Stable, repeated, or strongly supported material belongs in the main profile sec
 
 -
 
+## Provisional Onboarding Observations
+
+Use this only for early setup clues that are not yet stable. Move an item into the main profile only after it is repeated, strongly supported, or explicitly confirmed by the user.
+
+-
+
 ## Change Log
 
 -

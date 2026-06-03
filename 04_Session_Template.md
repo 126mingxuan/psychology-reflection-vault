@@ -5,6 +5,7 @@ Date:
 ## Session Phase
 
 - Initial assessment / stable working phase / short follow-up / monthly integration:
+- First-contact onboarding completed or updated:
 
 ## Reflective Strategy Used
 
@@ -55,6 +56,7 @@ Date:
 - Update psychological profile:
 - Profile sections changed:
 - New provisional profile observations:
+- Client profile sections changed:
 - Update running case formulation:
 - Reason for update:
 

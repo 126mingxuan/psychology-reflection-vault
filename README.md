@@ -8,7 +8,7 @@
 [![AI Assisted Reflection](https://img.shields.io/badge/AI--assisted-Reflection-111827.svg)](./02_Therapy_Framework.md)
 [![Local First](https://img.shields.io/badge/Privacy-Local--first-0F766E.svg)](./docs/PRIVACY_AND_SAFETY.md)
 
-[Overview](#overview) · [Core Advantages](#core-advantages) · [Strategy Routing](#adaptive-strategy-routing) · [Long-term Memory](#long-term-memory-system) · [Privacy Model](#privacy-model) · [Public vs Private](#public-template-private-vault) · [Quick Start](#quick-start) · [Docs](#docs-and-examples) · [Translations](#readme-translations)
+[Overview](#overview) · [Core Advantages](#core-advantages) · [Onboarding](#first-contact-onboarding) · [Strategy Routing](#adaptive-strategy-routing) · [Long-term Memory](#long-term-memory-system) · [Privacy Model](#privacy-model) · [Public vs Private](#public-template-private-vault) · [Quick Start](#quick-start) · [Docs](#docs-and-examples) · [Translations](#readme-translations)
 
 ## Overview
 
@@ -21,6 +21,7 @@ Most AI chats start from zero. Psychology Reflection Vault gives your reflection
 ## Core Advantages
 
 - **Local-first privacy architecture**: your working vault is plain Markdown on your own device or in your own private repository. The project has no hosted backend, no project server, no hidden database, and no built-in telemetry.
+- **First-contact onboarding**: a light setup questionnaire helps a new private vault understand the user's preferences, goals, boundaries, and initial strategy needs without collecting unnecessary private information.
 - **Adaptive psychological strategy routing**: the assistant can shift its reflective lens based on what the user says, instead of forcing every session into one fixed coaching or journaling style.
 - **Visible long-term memory**: memory is stored in readable files, not a black-box product database. You can inspect, edit, remove, or migrate it at any time.
 - **Session-based memory updates**: the conversation comes first. Durable memory is written after the session, not after every message.
@@ -66,7 +67,15 @@ Depending on the session, the assistant may lean toward:
 
 The strategy can change across sessions without losing continuity. Unlike a fixed-style workflow, this vault keeps prior notes, formulation, and profile available while allowing the next session to use a different primary lens when the user's material calls for it.
 
-### 4. Long-term memory without black boxes
+### 4. First-contact onboarding without over-collection
+
+When a user first creates a private working vault, the assistant can run a brief onboarding questionnaire from `docs/ONBOARDING_QUESTIONNAIRE.md`.
+
+This onboarding is not a diagnosis. It asks only for useful setup information: preferred language, response style, current goals, privacy boundaries, reflection preferences, and broad current themes. The user can skip any question.
+
+Onboarding answers help choose the initial reflective strategy and fill `01_Client_Profile.md`. Later sessions should not repeat the full questionnaire. They should update the profile only when the user corrects information, adds important context, or stable patterns become clear.
+
+### 5. Long-term memory without black boxes
 
 Instead of hiding memory inside an app, this vault makes memory visible and editable:
 
@@ -77,17 +86,18 @@ Instead of hiding memory inside an app, this vault makes memory visible and edit
 
 The project keeps one current psychological profile file. Do not create a new profile file after every session. Instead, update `05_Psychological_Profile.md` as the latest cumulative portrait of the user and use session notes plus monthly/yearly reports to preserve change history.
 
-### 5. Public template, private life
+### 6. Public template, private life
 
 This repository can be public because it contains only structure, prompts, examples, and blank templates. Your real reflections should live in a separate private vault.
 
-### 6. Model-agnostic and editor-agnostic
+### 7. Model-agnostic and editor-agnostic
 
 Use it with Obsidian, VS Code, any Markdown editor, and any AI assistant that can read files. The system is the file architecture, not a proprietary platform.
 
 ## Highlights
 
 - **Local-first privacy**: plain Markdown, no backend, no required account beyond your chosen tools.
+- **First-contact onboarding**: a minimal questionnaire helps the vault start with the user's preferences, boundaries, goals, and initial strategy hints.
 - **Adaptive psychological strategy routing**: shifts between depth exploration, CBT-style tools, family systems, mindfulness, existential reflection, and safety boundaries.
 - **Continuity across sessions**: every conversation can inherit previous notes instead of starting from zero.
 - **Layered memory architecture**: separates facts, emotions, interpretations, recurring patterns, profile updates, provisional observations, risk notes, and next questions.
@@ -112,7 +122,7 @@ This design is especially important for psychological reflection because sensiti
 1. Click **Use this template** or fork this repository.
 2. Create your own working vault. If it will contain real personal material, keep it **private**.
 3. Open the folder in [Obsidian](https://obsidian.md/) or any Markdown editor.
-4. Fill in `01_Client_Profile.md` with only the background you want your AI assistant to remember.
+4. For a new private vault, run the first-contact onboarding workflow in `docs/ONBOARDING_QUESTIONNAIRE.md`, or fill in `01_Client_Profile.md` manually with only the background you want your AI assistant to remember.
 5. Start each reflection session by invoking the vault with this prompt:
 
 ```text
@@ -120,6 +130,7 @@ Read AGENTS.md, the core vault files, the latest psychological profile,
 the running case formulation, and prior session notes in Sessions/.
 Use this vault as the framework for this conversation.
 Continue from previous material instead of starting from zero.
+Use docs/STRATEGY_ROUTING.md to choose the reflective strategy.
 Start with one focused opening question.
 ```
 
@@ -155,21 +166,47 @@ Start with one focused opening question.
 
 ```mermaid
 flowchart TD
-    A["Start a reflection session"] --> B["Read local vault files"]
-    B --> C["Read latest Sessions note"]
-    C --> D["Ask one focused opening question"]
-    D --> E["Choose reflective lens based on response"]
-    E --> F["Explore events, emotions, relationships, and patterns"]
-    F --> G["Close session before durable memory writes"]
-    G --> H["Save dated session note"]
-    H --> I["Update running case formulation"]
-    I --> J["Review psychological profile"]
-    J --> K{"Stable or repeated evidence?"}
-    K -- Yes --> L["Integrate into profile"]
-    K -- No --> M["Record as provisional or item to confirm"]
-    L --> N["Recommend next check-in"]
-    M --> N
-    N --> O["Next session continues from memory"]
+    A["Create private working vault"] --> B{"Profile already exists?"}
+    B -- No --> C["Run first-contact onboarding"]
+    B -- Yes --> D["Read local vault files once"]
+    C --> D
+    D --> E["Read latest relevant session context"]
+    E --> F["Choose reflective lens"]
+    F --> G["Ask one focused opening question"]
+    G --> H["Explore events, emotions, relationships, and patterns"]
+    H --> I["Close session before durable memory writes"]
+    I --> J["Save dated session note"]
+    J --> K["Update running case formulation"]
+    K --> L["Review psychological profile"]
+    L --> M{"Stable or repeated evidence?"}
+    M -- Yes --> N["Integrate into profile"]
+    M -- No --> O["Record as provisional or item to confirm"]
+    N --> P["Recommend next check-in"]
+    O --> P
+    P --> Q["Next session continues from memory"]
+```
+
+## First-Contact Onboarding
+
+Use [First-Contact Onboarding Questionnaire](./docs/ONBOARDING_QUESTIONNAIRE.md) when a user first creates a private working vault.
+
+The onboarding flow collects only the minimum useful setup context:
+
+- language and communication preferences;
+- broad current goals and stressors;
+- preferred balance between support, analysis, and practical steps;
+- privacy boundaries and topics to avoid unless the user brings them up;
+- initial hints for strategy routing.
+
+The questionnaire should not be repeated every session. It creates a starting profile, while later sessions refine the profile through session notes and stable repeated evidence.
+
+```mermaid
+flowchart LR
+    Q["Onboarding answers"] --> CP["01_Client_Profile.md"]
+    Q --> FS["First session note"]
+    FS --> CF["03_Running_Case_Formulation.md"]
+    CF --> PP["05_Psychological_Profile.md"]
+    PP --> R["Initial strategy recommendation"]
 ```
 
 ## Adaptive Strategy Routing
@@ -185,6 +222,8 @@ The project is designed around adaptive psychological strategy routing. The assi
 - **Safety boundary**: crisis risk, self-harm intent, harm-to-others risk, or situations where ordinary reflection is not appropriate.
 
 At the end of the session, record which strategy was used and which strategy should be tried next. The next session should inherit both continuity and strategy recommendation: it may keep the current lens, combine lenses, or shift to another lens while still using all prior user material.
+
+For the full decision logic, see [Adaptive Strategy Routing](./docs/STRATEGY_ROUTING.md).
 
 ```mermaid
 flowchart LR
@@ -265,6 +304,7 @@ flowchart LR
 ├── Reports/
 ├── docs/
 ├── examples/
+├── .github/
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── SUPPORT.md
@@ -277,10 +317,14 @@ flowchart LR
 ## Docs And Examples
 
 - [Getting Started](./docs/GETTING_STARTED.md)
+- [Session Lifecycle](./docs/SESSION_LIFECYCLE.md)
+- [First-Contact Onboarding Questionnaire](./docs/ONBOARDING_QUESTIONNAIRE.md)
+- [Adaptive Strategy Routing](./docs/STRATEGY_ROUTING.md)
 - [Prompt Recipes](./docs/PROMPT_RECIPES.md)
 - [Privacy And Safety Checklist](./docs/PRIVACY_AND_SAFETY.md)
 - [FAQ](./docs/FAQ.md)
 - [Fictional Session Note Example](./examples/fictional-session-note.md)
+- [Fictional Full Session Lifecycle Example](./examples/full-session-lifecycle-example.md)
 - [Fictional Monthly Report Example](./examples/monthly-report-example.md)
 
 ## Public Template, Private Vault

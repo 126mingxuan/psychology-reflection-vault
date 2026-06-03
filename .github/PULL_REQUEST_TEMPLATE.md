@@ -18,6 +18,8 @@ Why is this useful for the public template?
 
 Do existing users need to update anything in their private vaults?
 
+For a formal release, also use `.github/RELEASE_TEMPLATE.md`.
+
 ## Checklist
 
 - [ ] No private or identifiable personal information is included.

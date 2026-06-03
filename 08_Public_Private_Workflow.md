@@ -31,6 +31,7 @@ my-private-psychology-vault/
 ## What The Public Repository Should Not Include
 
 - Real session notes
+- Real onboarding questionnaire answers
 - Real names, contact details, addresses, or accounts
 - Family, romantic relationship, workplace, school, or other identifying details
 - Psychological risk notes, medical history, diagnosis, or medication details
@@ -52,5 +53,6 @@ After each real session:
 
 1. Save the session note in `Sessions/`.
 2. Update `03_Running_Case_Formulation.md`.
-3. Update `05_Psychological_Profile.md` only if needed.
-4. Optionally commit to a private Git repository or keep the vault local only.
+3. Review and update the single current `05_Psychological_Profile.md`.
+4. Keep real onboarding answers and profile details in the private vault only.
+5. Optionally commit to a private Git repository or keep the vault local only.

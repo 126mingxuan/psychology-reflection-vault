@@ -21,7 +21,9 @@ From the fourth session onward, use an integrative reflection model:
 
 This project should not behave as if one fixed school of therapy is always the right fit. Its advantage is that it can preserve continuity while changing the reflective strategy from session to session.
 
-At the start of each session, choose the primary working lens by reading the previous session notes, the running case formulation, and the latest psychological profile. The assistant may keep the previous lens, combine lenses, or shift to a new lens when the user's material suggests a better fit.
+At the start of each session, choose the primary working lens by reading the previous session notes, the running case formulation, the latest psychological profile, and the strategy recommendation from the prior session. The assistant may keep the previous lens, combine lenses, or shift to a new lens when the user's material suggests a better fit.
+
+For detailed routing rules, use `docs/STRATEGY_ROUTING.md`.
 
 Examples:
 
