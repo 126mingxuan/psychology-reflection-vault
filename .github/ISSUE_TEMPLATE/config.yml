@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Safety or crisis support
-    url: https://findahelpline.com/
-    about: If you are in immediate danger or crisis, seek real-world help instead of opening a GitHub issue.
-  - name: Project support
-    url: https://github.com/126mingxuan/psychology-reflection-vault/blob/main/SUPPORT.md
-    about: Read the support policy before opening an issue.
+  - name: Safety and support boundary
+    url: https://github.com/
+    about: Do not post private or crisis material in public issues. Use local emergency or professional support for urgent safety needs.

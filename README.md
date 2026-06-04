@@ -1,303 +1,247 @@
-# AI-Assisted Therapy Support
-
-**Languages:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [한국어](./README.ko.md) | [Português](./README.pt-BR.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md)
+# AI-Assisted Psychological Reflection
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Template](https://img.shields.io/badge/GitHub-Template-blue.svg)](./08_Public_Private_Workflow.md)
-[![Local Files](https://img.shields.io/badge/Storage-Local%20Files-7C3AED.svg)](./docs/PRIVACY_AND_SAFETY.md)
-[![AI Assisted Support](https://img.shields.io/badge/AI--assisted-Support-111827.svg)](./02_Therapy_Framework.md)
 [![Local First](https://img.shields.io/badge/Privacy-Local--first-0F766E.svg)](./docs/PRIVACY_AND_SAFETY.md)
+[![Installable Skill](https://img.shields.io/badge/Agent-Installable%20Skill-blue.svg)](./skill/psychology-reflection/SKILL.md)
+[![Plain Markdown](https://img.shields.io/badge/Storage-Plain%20Markdown-7C3AED.svg)](./07_Memory_Architecture.md)
 
-[Overview](#overview) · [Core Advantages](#core-advantages) · [Onboarding](#first-contact-onboarding) · [Strategy Routing](#adaptive-strategy-routing) · [Long-term Memory](#long-term-memory-system) · [Privacy Model](#privacy-model) · [Public vs Private](#public-template-private-workspace) · [Quick Start](#quick-start) · [Docs](#docs-and-examples) · [Translations](#readme-translations)
+AI-Assisted Psychological Reflection is a local-first template for recurring, psychologically informed reflection with durable continuity. It helps an AI assistant read prior context, ask one focused opening question, close each session cleanly, and update visible Markdown memory without turning every passing emotion into a permanent label.
 
-## Overview
+> This project is not licensed psychotherapy, medical diagnosis, psychiatric care, or crisis intervention. It is a structured self-reflection and continuity system. If you are in immediate danger, at risk of self-harm, or at risk of harming someone else, contact local emergency services, a qualified professional, or a trusted person immediately.
 
-Build a **private, local-first, AI-assisted therapy support system** that preserves continuity across sessions, adapts its working strategy, and helps turn scattered conversations into a long-term process of psychological understanding.
+## Section Index
 
-Most AI chats start from zero. AI-Assisted Therapy Support gives therapy-oriented conversations durable continuity: session notes, running case formulation, long-term psychological profile, adaptive scheduling, privacy boundaries, and monthly or yearly review.
+- [Why this exists](#why-this-exists)
+- [Feature index](#feature-index)
+- [Quick start](#quick-start)
+- [Install as an agent skill](#install-as-an-agent-skill)
+- [How the workflow runs](#how-the-workflow-runs)
+- [Conversation experience](#conversation-experience)
+- [Long-term operation model](#long-term-operation-model)
+- [Public template and private workspace](#public-template-and-private-workspace)
+- [Repository structure](#repository-structure)
+- [Docs and examples](#docs-and-examples)
+- [Community and maintenance](#community-and-maintenance)
 
-> Important: This project is therapy-oriented, but it is not licensed psychotherapy, medical diagnosis, psychiatric care, or crisis intervention. It should not replace qualified professional care. If you are in immediate danger, at risk of self-harm, or at risk of harming someone else, contact local emergency services, a qualified professional, or a trusted person immediately.
+## Why This Exists
 
-## Core Advantages
+Ordinary AI chats often start from zero. Psychological reflection needs a different shape: continuity, restraint, privacy, session rhythm, and a memory system the user can inspect and correct.
 
-- **Local-first privacy architecture**: your private workspace is plain Markdown on your own device or in your own private repository. The project has no hosted backend, no project server, no hidden database, and no built-in telemetry.
-- **First-contact onboarding**: a light setup questionnaire helps a new private workspace understand the user's preferences, goals, boundaries, and initial strategy needs without collecting unnecessary private information.
-- **Therapy-oriented assistant workflow**: the assistant follows a structured psychological conversation process with assessment, strategy routing, session closure, and durable memory updates.
-- **Adaptive psychological strategy routing**: the assistant can shift its working lens based on what the user says, instead of forcing every session into one fixed coaching or journaling style.
-- **Visible long-term memory**: memory is stored in readable files, not a black-box product database. You can inspect, edit, remove, or migrate it at any time.
-- **Session-based memory updates**: the conversation comes first. Durable memory is written after the session, not after every message.
-- **Layered personality and pattern formation**: session notes stay concrete, running formulations stay tentative, and the psychological profile is reviewed after every session. Stable patterns are integrated into the profile; uncertain clues stay provisional.
-- **Public template, private personal workspace**: this repository can stay public because it contains reusable structure, instructions, and fictional examples. Real therapeutic material belongs in a separate private workspace.
-- **Local file native**: the system works with plain local files, Markdown editors, private repositories, and any AI assistant that can read the working folder.
-- **Model-agnostic and storage-agnostic**: the system is a continuity architecture, not a proprietary platform. You choose your file workflow and AI provider.
-- **Multilingual entry points**: localized README files help users enter the same template from different languages while keeping their private workspace in their preferred language.
+This repository provides that structure with plain Markdown files:
 
-## Why This Is Different
+- session notes for concrete weekly material;
+- a running case formulation for evolving hypotheses;
+- a psychological profile for stable or repeated patterns;
+- an adaptive scheduling policy for the next check-in;
+- a continuity index so future sessions can find the right context quickly;
+- public/private workflow rules so real personal notes do not leak into a public repository.
 
-### 1. Local-first privacy by design
+## Feature Index
 
-This repository is a plain Markdown continuity system. There is no hosted backend, no project server, no hidden database, and no built-in telemetry. Your working files can stay on your own device or in your own private repository.
+Each item links to the detailed explanation below.
 
-That matters for psychological reflection: the most sensitive material should not be forced into a third-party app database just to gain continuity.
+1. [Local-first privacy architecture](#1-local-first-privacy-architecture)
+2. [Installable agent skill workflow](#2-installable-agent-skill-workflow)
+3. [First-contact onboarding](#3-first-contact-onboarding)
+4. [Therapy-informed reflection workflow](#4-therapy-informed-reflection-workflow)
+5. [Adaptive psychological strategy routing](#5-adaptive-psychological-strategy-routing)
+6. [Visible long-term memory](#6-visible-long-term-memory)
+7. [Session-based memory updates](#7-session-based-memory-updates)
+8. [Layered personality and pattern formation](#8-layered-personality-and-pattern-formation)
+9. [Public template, private workspace](#9-public-template-private-workspace)
+10. [Local file native and portable](#10-local-file-native-and-portable)
+11. [Model-agnostic and multilingual-ready](#11-model-agnostic-and-multilingual-ready)
 
-Privacy note: if you choose to paste or connect private workspace content to a cloud AI service, that service may receive the content you provide. The project itself is local-first; your AI provider choice determines any external data transmission.
+### 1. Local-first privacy architecture
 
-### 2. A computer-assisted psychological support workflow
+Psychological material is sensitive. This project keeps the durable memory layer in local Markdown files instead of a hidden hosted database. Users can inspect, edit, remove, or move every important note.
 
-This repository is not a standalone therapy product. It is a local working structure for AI-assisted therapy support: the assistant reads prior context, conducts a structured conversation, closes the session, and writes durable memory back into visible files.
+The template itself has no project server, account system, telemetry layer, or database. If the user connects a cloud AI assistant or sync tool, that separate provider may receive whatever the user chooses to send, but the repository remains local-first by design.
 
-After downloading or forking the repository, use it by asking your AI assistant to read `AGENTS.md`, the core continuity files, the latest psychological profile, and prior session notes. The assistant then uses those files as the framework for the current conversation.
+### 2. Installable agent skill workflow
 
-For a smoother experience, context reading should normally happen once at the beginning of a session. The assistant should avoid repeatedly rereading files unless the user asks, a major new theme requires older material, or safety handling requires it.
+The repository can be installed as an agent skill for Codex and Claude Code-style skill directories. The skill gives the assistant a reusable workflow: read the vault, ask one opening question, conduct a bounded session, close clearly, and update the right memory files.
 
-Durable memory should live in the local continuity files, not in hidden platform-level memory. Platform memory can be helpful, but it should not be the primary source of truth for sensitive psychological material.
+The goal is practical adoption. A user should be able to clone or download the repository, run one installer, and start a structured reflection session without manually copying a long prompt.
 
-### 3. Adaptive multi-strategy psychological work
+### 3. First-contact onboarding
 
-The system is designed for an AI assistant that can switch psychological working lenses based on what the user actually says. It is not locked into one style.
+The first session should not jump straight into interpretation. The onboarding flow asks only enough to establish language preference, current goals, privacy boundaries, preferred response style, and the user's expectations.
 
-Depending on the session, the assistant may lean toward:
+The user may skip any question. The result is a light starting profile, not a diagnosis or clinical assessment.
 
-- psychodynamic or psychoanalytic exploration for recurring emotional conflicts, defenses, shame, attachment, and self-worth;
-- cognitive-behavioral tools for rumination, avoidance, anxiety loops, and concrete action difficulty;
-- family-systems thinking for family roles, loyalty conflicts, and relationship patterns;
-- mindfulness-based reflection for body signals, emotional regulation, and attention;
-- existential reflection for meaning, freedom, loneliness, responsibility, and life direction;
-- humanistic support for warmth, acceptance, and stable emotional holding;
-- safety-first crisis boundaries when ordinary reflection is not appropriate.
+### 4. Therapy-informed reflection workflow
 
-The strategy can change across sessions without losing continuity. Unlike a fixed-style workflow, this system keeps prior notes, formulation, and profile available while allowing the next session to use a different primary lens when the user's material calls for it.
+The workflow resembles a recurring reflective appointment:
 
-### 4. First-contact onboarding without over-collection
+1. Read the local rules and continuity files.
+2. Use the continuity index to avoid rereading the entire archive.
+3. Ask one focused opening question.
+4. Explore the current issue with appropriate psychological lenses.
+5. Begin closing once the main theme is clear.
+6. Save a dated session note.
+7. Update only the memory files that actually changed.
+8. Recommend the next check-in time.
 
-When a user first creates a private working workspace, the assistant can run a brief onboarding questionnaire from `docs/ONBOARDING_QUESTIONNAIRE.md`.
+The assistant must not claim to be a licensed therapist, psychiatrist, emergency service, or medical provider.
 
-This onboarding is not a diagnosis. It asks only for useful setup information: preferred language, response style, current goals, privacy boundaries, reflection preferences, and broad current themes. The user can skip any question.
+### 5. Adaptive psychological strategy routing
 
-Onboarding answers help choose the initial reflective strategy and fill `01_Client_Profile.md`. Later sessions should not repeat the full questionnaire. They should update the profile only when the user corrects information, adds important context, or stable patterns become clear.
+Different material needs different responses. A family conflict may call for family-systems reflection; procrastination may need CBT-style tools; shame or repeated relationship patterns may need psychodynamic depth; meaning questions may need existential exploration; risk signals require safety-first handling.
 
-### 5. Long-term memory without black boxes
+See [Adaptive Strategy Routing](./docs/STRATEGY_ROUTING.md) for the routing rules.
 
-Instead of hiding memory inside an app, this system makes memory visible and editable:
+### 6. Visible long-term memory
 
-- `Sessions/` keeps concrete session records.
-- `03_Running_Case_Formulation.md` keeps evolving hypotheses.
-- `05_Psychological_Profile.md` is reviewed and updated after every completed session. It stores stable, repeated patterns while keeping new uncertain observations provisional.
-- `07_Memory_Architecture.md` prevents one emotional moment from becoming a permanent label.
+Long-term AI memory should not be a black box. This project stores memory in readable files:
 
-The project keeps one current psychological profile file. Do not create a new profile file after every session. Instead, update `05_Psychological_Profile.md` as the latest cumulative portrait of the user and use session notes plus monthly/yearly reports to preserve change history.
+- `Sessions/` for dated session notes;
+- `03_Running_Case_Formulation.md` for evolving hypotheses;
+- `05_Psychological_Profile.md` for stable or repeated patterns;
+- `09_Continuity_Index.md` for quick routing;
+- `Reports/` for monthly and yearly synthesis.
 
-### 6. Public template, private life
+The user can review, correct, or delete any part of the memory.
 
-This repository can be public because it contains only structure, prompts, examples, and blank templates. Real therapeutic material should live in a separate private workspace.
+### 7. Session-based memory updates
 
-### 7. Model-agnostic and storage-agnostic
+Durable memory is updated after a session closes, not after every message. This protects the profile from overreacting to temporary emotion and lets the assistant understand the whole arc before writing lasting notes.
 
-Use it with local folders, private repositories, Markdown editors, or future app interfaces. The core system is the continuity architecture, not any single editor or proprietary platform.
+The core rule is: conversation first, documentation after.
 
-## Highlights
+### 8. Layered personality and pattern formation
 
-- **Local-first privacy**: plain Markdown, no backend, no required account beyond your chosen tools.
-- **First-contact onboarding**: a minimal questionnaire helps the private workspace start with the user's preferences, boundaries, goals, and initial strategy hints.
-- **Therapy-oriented workflow**: supports structured assessment, psychologically informed conversation, active session closure, and continuity across sessions.
-- **Therapeutic conversation model**: supports contact, assessment, working focus, exploration, tentative formulation, timed intervention, and active closing.
-- **Adaptive psychological strategy routing**: shifts between depth exploration, CBT-style tools, family systems, mindfulness, existential reflection, and safety boundaries.
-- **Continuity across sessions**: every conversation can inherit previous notes instead of starting from zero.
-- **Layered memory architecture**: separates facts, emotions, interpretations, recurring patterns, profile updates, provisional observations, risk notes, and next questions.
-- **Local file structure**: readable, editable, portable files that can later support app or web interfaces.
-- **Adaptive scheduling**: recommend the next check-in based on emotional intensity, unfinished material, and stability.
-- **Multilingual README entry points**: English, Chinese, Japanese, Spanish, French, German, Korean, Portuguese, Russian, and Arabic.
+The memory architecture separates facts, emotions, interpretations, recurring patterns, profile updates, risk notes, and next-question logic. A user fact is not the same as an assistant hypothesis. A single intense moment is not automatically a stable personality trait.
 
-## Privacy Model
+This helps the project support depth without premature labeling.
 
-The privacy model is intentionally simple:
+### 9. Public template, private workspace
 
-- the public repository contains templates, instructions, docs, and fictional examples;
-- your real working workspace should stay local or private;
-- the project itself does not provide a server, hosted account system, hidden database, or telemetry layer;
-- all important memory files are plain Markdown and can be reviewed directly;
-- any external data transmission depends on the AI assistant, sync service, or cloud provider you choose to use.
+The public repository should contain reusable templates, rules, fictional examples, and installable skill files. Real session notes, personal history, relationship details, health information, identity information, and risk material belong only in a local or private workspace.
 
-This design is especially important for psychological reflection because sensitive material should not be locked inside an opaque product memory system just to preserve continuity.
+See [Public Template And Private Workspace Workflow](./08_Public_Private_Workflow.md).
+
+### 10. Local file native and portable
+
+The system works with ordinary files. It can be opened in Obsidian, VS Code, a local file manager, a private Git repository, or an AI workspace with file access.
+
+Plain Markdown makes the user's continuity portable across tools.
+
+### 11. Model-agnostic and multilingual-ready
+
+The method is a workflow and memory architecture, not a proprietary model wrapper. It can be adapted to different AI assistants, editors, private repositories, and future apps.
+
+Formal project files are maintained in English. Translation policy and future localization work are tracked in [TRANSLATIONS.md](./TRANSLATIONS.md).
 
 ## Quick Start
 
-1. Click **Use this template** or fork this repository.
-2. Create your own private working workspace. If it will contain real personal material, keep it **private**.
-3. Open the folder in any Markdown editor, local file manager, private repository, or local-first AI workspace.
-4. For a new private workspace, run the first-contact onboarding workflow in `docs/ONBOARDING_QUESTIONNAIRE.md`, or fill in `01_Client_Profile.md` manually with only the background you want your AI assistant to remember.
-5. Start each therapy-support session by invoking the workspace with this prompt:
+1. Clone, download, or use this repository as a template.
+2. Keep this public template separate from any private working vault.
+3. For a private vault, copy the template files into a local or private folder.
+4. Run first-contact onboarding with [docs/ONBOARDING_QUESTIONNAIRE.md](./docs/ONBOARDING_QUESTIONNAIRE.md).
+5. Start each session with the prompt in [docs/PROMPT_RECIPES.md](./docs/PROMPT_RECIPES.md).
+6. After each completed session, save a dated note under `Sessions/`.
+7. Update `03_Running_Case_Formulation.md`, review `05_Psychological_Profile.md`, update `09_Continuity_Index.md`, and recommend the next check-in time.
 
-```text
-Read AGENTS.md, the core continuity files, the latest psychological profile,
-the running case formulation, and prior session notes in Sessions/.
-Use this workspace as the framework for this conversation.
-Continue from previous material instead of starting from zero.
-Use docs/STRATEGY_ROUTING.md to choose the reflective strategy.
-Start with one focused opening question.
+## Install As An Agent Skill
+
+From a cloned or downloaded copy of this repository:
+
+```bash
+./install.sh
 ```
 
-6. After the session, copy `04_Session_Template.md` into `Sessions/` and save it with a date-based filename.
-7. Update `03_Running_Case_Formulation.md`.
-8. Review and update the single current `05_Psychological_Profile.md` after every completed session: stable evidence goes into profile sections, while new uncertain clues go into items to confirm or provisional observations.
-9. Update `09_Continuity_Index.md` so future sessions can find key prior material quickly.
-10. End by recommending the next check-in time using `06_Scheduling_Policy.md`.
+On macOS, users can also double-click:
 
-## Use Cases
+```text
+install.command
+```
 
-- **Personal AI-assisted therapy support**: build continuity across weekly psychologically oriented conversations.
-- **Computer-assisted therapy preparation**: organize themes, emotions, patterns, and questions before or after professional care.
-- **Guided psychological self-work**: structure recurring conversations without storing private material in a hosted app database.
-- **AI memory design example**: study how to separate short-term session notes from long-term profile memory.
-- **Low-cost psychological continuity layer**: preserve structured memory between conversations while avoiding a hosted product database.
+Install for Claude Code-style skill directories:
 
-## Who This Is For
+```bash
+./install.sh --agent claude-code
+```
 
-- people who want a structured, low-cost, psychologically informed support system;
-- users who want local control over sensitive psychological memory;
-- builders studying long-term AI memory design;
-- coaches, educators, or facilitators designing reusable psychological support workflows;
-- people who want a private continuity system around therapy-oriented self-understanding.
+Install for both supported targets:
 
-## Who This Is Not For
+```bash
+./install.sh --agent all
+```
 
-- anyone seeking emergency mental health support;
-- anyone looking for medical diagnosis or treatment;
-- teams that want to collect sensitive user data;
-- public repositories containing real personal session notes.
+After installation, invoke the skill with:
 
-## How It Works
+```text
+Use $psychology-reflection to start a structured reflection session.
+```
+
+One-line install after publishing this repository:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/126mingxuan/ai-assisted-therapy-support/main/install.sh | bash
+```
+
+## How The Workflow Runs
 
 ```mermaid
 flowchart TD
-    A["Create private workspace"] --> B{"Profile already exists?"}
-    B -- No --> C["Run first-contact onboarding"]
-    B -- Yes --> D["Read local continuity files once"]
+    A["Create private workspace"] --> B{"Existing profile?"}
+    B -- "No" --> C["Run first-contact onboarding"]
+    B -- "Yes" --> D["Read continuity index"]
     C --> D
-    D --> E["Read latest relevant session context"]
-    E --> F["Choose reflective lens"]
+    D --> E["Read profile, formulation, latest session"]
+    E --> F["Choose reflective strategy"]
     F --> G["Ask one focused opening question"]
-    G --> H["Explore events, emotions, relationships, and patterns"]
-    H --> I["Close session before durable memory writes"]
+    G --> H["Explore current events, emotions, patterns"]
+    H --> I["Close session"]
     I --> J["Save dated session note"]
-    J --> K["Update running case formulation"]
-    K --> L["Review psychological profile"]
-    L --> M{"Stable or repeated evidence?"}
-    M -- Yes --> N["Integrate into profile"]
-    M -- No --> O["Record as provisional or item to confirm"]
-    N --> P["Recommend next check-in"]
-    O --> P
-    P --> Q["Next session continues from memory"]
+    J --> K["Update formulation"]
+    K --> L["Review profile"]
+    L --> M["Update continuity index"]
+    M --> N["Recommend next check-in"]
 ```
 
-## First-Contact Onboarding
+## Conversation Experience
 
-Use [First-Contact Onboarding Questionnaire](./docs/ONBOARDING_QUESTIONNAIRE.md) when a user first creates a private working workspace.
+The project is optimized for timely feedback:
 
-The onboarding flow collects only the minimum useful setup context:
+- start with one question, not a long analysis;
+- use short bridge summaries when reading prior context;
+- acknowledge emotional intensity before giving tools;
+- keep interventions to one or two useful next moves;
+- close the session once the main theme is organized;
+- write durable notes only after the session has a clear stopping point.
 
-- language and communication preferences;
-- broad current goals and stressors;
-- preferred balance between support, analysis, and practical steps;
-- privacy boundaries and topics to avoid unless the user brings them up;
-- initial hints for strategy routing.
+See [Conversation Experience](./docs/CONVERSATION_EXPERIENCE.md).
 
-The questionnaire should not be repeated every session. It creates a starting profile, while later sessions refine the profile through session notes and stable repeated evidence.
+## Long-Term Operation Model
 
-```mermaid
-flowchart LR
-    Q["Onboarding answers"] --> CP["01_Client_Profile.md"]
-    Q --> FS["First session note"]
-    FS --> CF["03_Running_Case_Formulation.md"]
-    CF --> PP["05_Psychological_Profile.md"]
-    PP --> R["Initial strategy recommendation"]
-```
+Long-term use depends on compression and review:
 
-## Adaptive Strategy Routing
+- `09_Continuity_Index.md` keeps the latest routing map;
+- monthly reports summarize repeated themes when enough material exists;
+- yearly reports summarize long-term change and next-year direction;
+- stale hypotheses should be retired instead of carried forward forever;
+- private notes should stay local or private, even when the template repository is public.
 
-The project is designed around adaptive psychological strategy routing. The assistant should read prior sessions, the current profile, and the user's current response, then choose the most useful reflective lens for the session:
+## Public Template And Private Workspace
 
-- **Psychodynamic or psychoanalytic**: recurring emotional conflicts, defenses, shame, attachment, self-worth, and relationship repetition.
-- **CBT-style tools**: rumination, avoidance, anxiety loops, cognitive distortions, action difficulty, and concrete behavior planning.
-- **Family systems**: family roles, loyalty conflicts, boundaries, inherited expectations, and relationship structure.
-- **Mindfulness-based reflection**: body signals, attention, emotional regulation, and observing experience without immediate over-analysis.
-- **Existential reflection**: meaning, freedom, responsibility, loneliness, mortality, choice, and life direction.
-- **Humanistic support**: warmth, acceptance, emotional holding, self-compassion, and nonjudgmental exploration.
-- **Safety boundary**: crisis risk, self-harm intent, harm-to-others risk, or situations where ordinary reflection is not appropriate.
+This repository is designed to be public-safe. A real user's working vault should be separate.
 
-At the end of the session, record which strategy was used and which strategy should be tried next. The next session should inherit both continuity and strategy recommendation: it may keep the current lens, combine lenses, or shift to another lens while still using all prior user material.
+Before publishing:
 
-For the full decision logic, see [Adaptive Strategy Routing](./docs/STRATEGY_ROUTING.md).
-
-```mermaid
-flowchart LR
-    U["User response"] --> R["Reflection router"]
-    R --> P["Psychodynamic depth"]
-    R --> C["CBT tools"]
-    R --> F["Family systems"]
-    R --> M["Mindfulness"]
-    R --> E["Existential meaning"]
-    R --> H["Humanistic support"]
-    R --> S["Safety boundary"]
-    P --> V["Session note + formulation"]
-    C --> V
-    F --> V
-    M --> V
-    E --> V
-    H --> V
-    S --> V
-```
-
-## Long-term Memory System
-
-The system separates different levels of memory so one emotional moment does not become a permanent identity label:
-
-- `Sessions/` stores concrete dated records: what happened, what was felt, what was discussed, and what should be revisited.
-- `03_Running_Case_Formulation.md` stores evolving hypotheses about repeated conflicts, relationship patterns, defenses, needs, and growth signals.
-- `05_Psychological_Profile.md` is reviewed and updated after every completed session. Stable or repeated evidence is integrated; uncertain material is kept provisional or listed as an item to confirm.
-- `09_Continuity_Index.md` keeps a short routing layer for active themes, source pointers, latest session context, and compression status.
-- `Reports/` turns many sessions into monthly or yearly synthesis.
-- `07_Memory_Architecture.md` defines how to separate raw events, emotions, interpretations, recurring patterns, profile updates, risk notes, and next-question logic.
-
-The core rule is: **conversation first, documentation after**. Do not update durable memory after every message. Read context once at the beginning when possible, close the session, then save one coherent session note, update the running formulation, review the psychological profile, update the continuity index, and recommend the next check-in.
-
-The local continuity files are the durable memory system. Do not rely on platform-level memory as the primary archive for psychological material.
-
-For long-running use, do not reread the full archive by default. Read `09_Continuity_Index.md`, the current profile, the running formulation, monthly/yearly reports, the latest session note, and only the older notes directly relevant to the current theme.
-
-## Continuity Architecture
-
-```mermaid
-flowchart LR
-    subgraph PrivateWorkspace["Private working workspace"]
-        CP["01_Client_Profile.md"]
-        FW["02_Therapy_Framework.md"]
-        CF["03_Running_Case_Formulation.md"]
-        ST["04_Session_Template.md"]
-        PP["05_Psychological_Profile.md"]
-        SP["06_Scheduling_Policy.md"]
-        MA["07_Memory_Architecture.md"]
-        SN["Sessions/"]
-        RP["Reports/"]
-    end
-
-    subgraph PublicTemplate["Public template repository"]
-        PT["Templates"]
-        DOCS["Instructions"]
-        WF["Public/private workflow"]
-    end
-
-    PublicTemplate -->|"Copy or use as template"| PrivateWorkspace
-    SN --> CF
-    CF --> PP
-    SP --> SN
-    MA --> CF
-```
+- keep real `Sessions/*.md` ignored unless they are fictional examples;
+- keep real monthly and yearly reports ignored;
+- remove identity, contact, health, financial, relationship, and crisis details from public files;
+- use `examples/` for fictional material only;
+- review [Privacy And Safety Checklist](./docs/PRIVACY_AND_SAFETY.md).
 
 ## Repository Structure
 
 ```text
 .
+├── AGENTS.md
+├── README.md
 ├── 00_Start_Here.md
 ├── 01_Client_Profile.md
 ├── 02_Therapy_Framework.md
@@ -312,14 +256,9 @@ flowchart LR
 ├── Reports/
 ├── docs/
 ├── examples/
-├── .github/
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── SUPPORT.md
-├── SECURITY.md
-├── ROADMAP.md
-├── CHANGELOG.md
-└── TRANSLATIONS.md
+├── skill/psychology-reflection/
+├── scripts/
+└── .github/
 ```
 
 ## Docs And Examples
@@ -331,37 +270,23 @@ flowchart LR
 - [Conversation Experience](./docs/CONVERSATION_EXPERIENCE.md)
 - [Prompt Recipes](./docs/PROMPT_RECIPES.md)
 - [Privacy And Safety Checklist](./docs/PRIVACY_AND_SAFETY.md)
-- [Continuity Index](./09_Continuity_Index.md)
 - [FAQ](./docs/FAQ.md)
+- [Public Template And Private Workspace Workflow](./08_Public_Private_Workflow.md)
+- [Continuity Index](./09_Continuity_Index.md)
 - [Fictional Session Note Example](./examples/fictional-session-note.md)
 - [Fictional Full Session Lifecycle Example](./examples/full-session-lifecycle-example.md)
 - [Fictional Monthly Report Example](./examples/monthly-report-example.md)
 
-## Public Template, Private Workspace
+## Community And Maintenance
 
-This public repository is only a template. It should contain reusable structure, instructions, fictional examples, and blank templates.
-
-Your real therapeutic or personal material should live in a separate private repository or local folder. Do not publish real session notes, personal history, relationship details, risk notes, contact information, health details, or anything you would not want strangers to read.
-
-See [Public Template And Private Workspace Workflow](./08_Public_Private_Workflow.md) for the recommended setup.
-
-## Community
-
-Contributions are welcome when they improve the template without adding private material or clinical claims.
-
-- Read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening a pull request.
-- Review [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for community expectations.
-- Read [SUPPORT.md](./SUPPORT.md) for where to ask questions.
-- See [ROADMAP.md](./ROADMAP.md) for planned improvements.
-- See [CHANGELOG.md](./CHANGELOG.md) for project history.
-- Use the issue templates to report problems or propose improvements.
-
-## README Translations
-
-GitHub does not provide a built-in README language switch. This project uses separate localized README files and links them at the top of each file.
-
-See [TRANSLATIONS.md](./TRANSLATIONS.md) for the localization maintenance policy.
+- [Contributing](./CONTRIBUTING.md)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
+- [Support](./SUPPORT.md)
+- [Security](./SECURITY.md)
+- [Roadmap](./ROADMAP.md)
+- [Changelog](./CHANGELOG.md)
+- [Translations](./TRANSLATIONS.md)
 
 ## License
 
-MIT
+MIT. See [LICENSE](./LICENSE).

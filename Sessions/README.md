@@ -1,9 +1,5 @@
 # Sessions
 
-Save individual session notes here.
+Private dated session notes belong here in a real working vault.
 
-The public template repository should not contain real session notes. In actual use, copy `../04_Session_Template.md` and name the file by date, for example:
-
-```text
-2026-01-01-session.md
-```
+In this public template repository, real `Sessions/*.md` files should stay ignored. Use `examples/` for fictional public examples.

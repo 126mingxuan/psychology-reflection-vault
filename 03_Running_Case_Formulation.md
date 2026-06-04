@@ -2,9 +2,13 @@
 
 Last updated:
 
+## Purpose
+
+This file stores the evolving working understanding across sessions. It is not a diagnosis. Keep hypotheses provisional unless they are repeated, strongly supported, or directly confirmed by the user.
+
 ## Current Understanding
 
-Record the overall understanding that gradually emerges across multiple sessions. Keep it tentative. Do not turn a single session into a fixed conclusion.
+Record the broad psychological thread that is emerging across sessions.
 
 ## Current Reflective Strategy
 
@@ -18,38 +22,37 @@ Record the overall understanding that gradually emerges across multiple sessions
 
 - Continue current lens / shift lens / combine lenses:
 - Rationale:
-- What prior material should be carried forward:
+- Prior material to carry forward:
 
 ## Currently Observed Stable Tendencies
 
--
+Add only stable, repeated, or confirmed material.
 
 ## Recurring Emotional Themes
 
--
 
-## Recurring Relational Patterns
+## Recurring Relationship Patterns
 
--
 
 ## Possible Core Needs
 
--
 
 ## Possible Defenses Or Coping Strategies
 
--
+
+## Provisional Hypotheses
+
+| Hypothesis | Evidence | What would confirm or disconfirm it |
+| --- | --- | --- |
+|  |  |  |
 
 ## Open Questions
 
--
-
-## Provisional Onboarding Hypotheses
-
-These should come from first-contact onboarding only when the user explicitly shared them. Do not treat them as stable until later sessions support them.
-
--
+- What does the user most want to understand or change first?
+- What themes are repeating across sessions?
+- Which hypothesis most needs confirmation?
+- What should the next session explore?
 
 ## Next Session Focus
 
--
+One focused opening question:

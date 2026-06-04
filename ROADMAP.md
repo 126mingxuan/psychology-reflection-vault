@@ -1,32 +1,31 @@
 # Roadmap
 
-This roadmap focuses on making AI-Assisted Therapy Support easier to understand, safer to use, and more useful as a reusable public template.
+## Current Focus
 
-## Near Term
+- Public-safe template structure.
+- Installable agent skill workflow.
+- Clear README feature index.
+- Privacy and safety documentation.
+- Continuity index for faster long-term sessions.
 
-- Improve README clarity and onboarding.
-- Add examples that are clearly fictional.
-- Refine session note templates.
-- Improve multilingual documentation.
-- Add local setup suggestions for common file-based workflows.
+## Near-Term Improvements
 
-## Mid Term
+- Add stronger installer validation.
+- Add automated README link checks.
+- Add more fictional examples for different session strategies.
+- Improve the skill bootstrap flow for creating a new private vault.
+- Add optional prompts for monthly and yearly synthesis.
 
-- Add optional prompt packs for different reflection styles.
-- Add monthly and yearly report templates.
-- Add a safety and privacy checklist.
-- Add diagrams for memory flow and continuity structure.
-- Add community discussion prompts for non-private template improvements.
+## Later Possibilities
 
-## Long Term
+- More agent adapters.
+- Local-only helper scripts for vault checks.
+- Optional translation files maintained by native speakers.
+- Better migration guidance from existing private notes.
 
-- Build optional automation examples.
-- Provide a minimal starter workspace release.
-- Create a documentation site if the template grows.
-- Add more translations based on contributor interest.
+## Non-Goals
 
-## Not Planned
-
-- Storing user data in a hosted service.
-- Replacing professional therapy or diagnosis.
-- Adding real personal case examples.
+- Replacing professional care.
+- Providing diagnosis or treatment.
+- Hosting private session data.
+- Collecting telemetry.

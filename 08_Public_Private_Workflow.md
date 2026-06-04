@@ -1,58 +1,75 @@
 # Public Template And Private Workspace Workflow
 
-## Core Principle
+## Purpose
 
-The public repository stores the system template. A private repository or local folder stores real personal material.
+This project is designed to support two separate spaces:
 
-## Recommended Structure
+- a public template repository that can be shared on GitHub;
+- a private working workspace that contains real personal reflection material.
 
-```text
-ai-assisted-therapy-support/
-  public templates, instructions, and reusable rules
+Never mix these two spaces casually. Psychological notes can contain sensitive emotional, relational, health, identity, or risk material.
 
-my-private-therapy-support-workspace/
-  real client profile
-  real Sessions/
-  real Reports/
-  real case formulation and psychological profile
-```
+## Public Template Repository
 
-## What The Public Repository May Include
+The public repository may contain:
 
-- General README
-- AGENTS.md instructions
-- Session templates
-- Memory architecture
-- Scheduling policy
-- Blank psychological profile template
-- Blank case formulation template
-- Public/private workflow instructions
+- workflow rules;
+- blank templates;
+- fictional examples;
+- installation scripts;
+- agent skill instructions;
+- documentation for privacy, safety, onboarding, and long-term maintenance.
 
-## What The Public Repository Should Not Include
+The public repository should not contain:
 
-- Real session notes
-- Real onboarding questionnaire answers
-- Real names, contact details, addresses, or accounts
-- Family, romantic relationship, workplace, school, or other identifying details
-- Psychological risk notes, medical history, diagnosis, or medication details
-- AI-generated personal psychological profiles
-- Anything the user would not want strangers to read
+- real session notes;
+- real client history;
+- identity information;
+- contact information;
+- health details;
+- family or relationship details;
+- financial details;
+- crisis or risk material;
+- private messages or private documents.
 
-## Updating The Public Project
+## Private Working Workspace
 
-When a private working workspace produces a reusable improvement:
+The private workspace may contain the user's real continuity files:
 
-1. Validate the mechanism privately first.
-2. Abstract it into a template or rule without personal details.
-3. Update the public project.
-4. Check for private information before committing and pushing.
+- `Sessions/*.md`;
+- monthly and yearly reports;
+- user-specific profile details;
+- case formulation updates;
+- risk notes;
+- personal observation tasks.
 
-## Updating A Private Workspace
+Keep the private workspace local or in a private repository. Review every file before changing visibility.
 
-After each real session:
+## Recommended Setup
 
-1. Save the session note in `Sessions/`.
-2. Update `03_Running_Case_Formulation.md`.
-3. Review and update the single current `05_Psychological_Profile.md`.
-4. Keep real onboarding answers and profile details in the private workspace only.
-5. Optionally commit to a private Git repository or keep the workspace local only.
+1. Keep this repository public-safe.
+2. Create a separate private folder for real use, such as `~/Documents/psychology-reflection`.
+3. Copy the template files into that private folder.
+4. Run first-contact onboarding.
+5. Store real session notes only in the private folder.
+6. Use fictional examples when documenting the project publicly.
+
+## Publish Checklist
+
+Before pushing or publishing:
+
+- confirm `Sessions/*.md` is ignored unless the file is a public README;
+- confirm monthly and yearly reports are ignored unless they are public READMEs;
+- search for private names, addresses, contacts, credentials, tokens, and health details;
+- review the diff instead of using a blind upload;
+- keep examples fictional and clearly labeled.
+
+## Updating The Template From A Private Workspace
+
+If the private workspace reveals a useful workflow improvement:
+
+1. Extract the general rule.
+2. Remove personal details.
+3. Rewrite the improvement as a reusable public instruction.
+4. Add it to the public template, docs, or fictional examples.
+5. Do not copy real session material into the public repository.

@@ -1,112 +1,76 @@
 # Session Lifecycle
 
-This document defines the complete workflow for a private AI-assisted therapy support workspace, from first setup to long-term continuity.
+## 1. Startup
 
-## 1. Create A Private Working Workspace
+Read in this order:
 
-Use the public repository as a template, then keep real personal material local or private.
+1. `AGENTS.md`
+2. `09_Continuity_Index.md`
+3. `01_Client_Profile.md`
+4. `03_Running_Case_Formulation.md`
+5. `05_Psychological_Profile.md`
+6. `06_Scheduling_Policy.md`
+7. `07_Memory_Architecture.md`
+8. the latest note under `Sessions/`
 
-The public repository should contain reusable structure only. Real session notes, personal history, profile details, and risk material belong in the private workspace.
+For early sessions, also read `00_Start_Here.md` and `02_Therapy_Framework.md`.
 
-## 2. First-Contact Onboarding
+## 2. Opening
 
-If `01_Client_Profile.md` is empty or nearly empty, start with `docs/ONBOARDING_QUESTIONNAIRE.md`.
+Start with one focused question in the user's language. The question should come from:
 
-Ask only a few questions at a time. The user may skip any question.
+- the latest unfinished theme;
+- a profile hypothesis that needs confirmation;
+- the most important open question in the running formulation;
+- the user's current message.
 
-After onboarding:
+## 3. Exploration
 
-- update `01_Client_Profile.md` with explicit preferences and basic context;
-- mark early psychological observations as provisional;
-- choose an initial reflective strategy;
-- begin the first session by establishing contact and a clear working focus.
+During the session, track:
 
-## 3. Session Start
+- the concrete situation;
+- expressed emotions;
+- body signals if mentioned;
+- relationship patterns;
+- avoidance, defense, or self-protection;
+- needs, fears, shame, self-worth, or meaning;
+- any safety signal.
 
-At the beginning of a normal session, read the minimum context needed for continuity:
+Use only one or two interventions at a time.
 
-- `AGENTS.md`
-- `00_Start_Here.md`
-- `01_Client_Profile.md`
-- `02_Therapy_Framework.md`
-- `03_Running_Case_Formulation.md`
-- `05_Psychological_Profile.md`
-- `06_Scheduling_Policy.md`
-- `07_Memory_Architecture.md`
-- `09_Continuity_Index.md` when it exists
-- latest and relevant notes under `Sessions/`
+## 4. Strategy Choice
 
-When the archive is large, read `09_Continuity_Index.md`, monthly or yearly summaries, then the latest session note and the notes directly relevant to the current theme. Do not reread the entire archive by default once summaries and the continuity index exist.
+Choose the lightest useful reflective strategy. Record it near the end of the session note:
 
-## 4. Strategy Selection
+- psychodynamic or psychoanalytic;
+- CBT-style;
+- family systems;
+- mindfulness-based;
+- existential;
+- humanistic support;
+- safety-first.
 
-Use `docs/STRATEGY_ROUTING.md` to choose a primary lens.
+## 5. Active Closing
 
-The strategy may continue from the last session, combine lenses, or shift. A strategy change should preserve continuity rather than starting the user over.
+Begin closing when the core theme is clear enough, the user's emotional state is organized, or more questioning would reduce clarity.
 
-## 5. Live Conversation
+Close with:
 
-During the session:
+- a short summary;
+- the main psychological clue;
+- one observation question or small practice;
+- a recommended next check-in time.
 
-- prioritize conversation over documentation;
-- avoid turning the session into a questionnaire;
-- reflect the user's emotional meaning before advice or technique;
-- keep interpretations tentative;
-- use external search only when it genuinely improves the session or the user asks for it;
-- do not update durable memory after every message.
+## 6. Documentation
 
-Mid-session memory checkpoints should be rare. They are appropriate when the user explicitly asks the assistant to remember something, corrects important profile information, introduces a major new theme in a long session, or safety material appears.
+After closing:
 
-## 6. Active Closing
+1. Save the dated session note.
+2. Update `03_Running_Case_Formulation.md` if needed.
+3. Review `05_Psychological_Profile.md`.
+4. Update `09_Continuity_Index.md`.
+5. Create a monthly or yearly report only when enough material exists.
 
-Prepare to close when:
+## 7. Next Session
 
-- the main theme has been explored enough for this session;
-- the central emotion has been named and held;
-- one useful psychological clue or small practice has emerged;
-- the next focus can be stated clearly.
-
-The closing should include:
-
-- a short session summary;
-- the key emotional or relational pattern;
-- one small observation task or practice;
-- the recommended next session time or interval.
-
-## 7. Durable Memory Update
-
-After the conversation closes, write memory in a batch:
-
-1. Create a dated note under `Sessions/` using `04_Session_Template.md`.
-2. Update `03_Running_Case_Formulation.md` if the session changes the working understanding.
-3. Review and update the single current `05_Psychological_Profile.md`.
-4. Record the strategy used and the strategy recommended for next session.
-5. Update `09_Continuity_Index.md` with the latest session pointer, active themes, source map changes, and compression status.
-6. Recommend the next check-in time using `06_Scheduling_Policy.md`.
-
-Stable or repeated material belongs in the profile. One-time events and uncertain interpretations belong in session notes, provisional observations, or items to confirm.
-
-## 8. Next Session Continuity
-
-The next session should not start from zero.
-
-It should inherit:
-
-- latest session summary;
-- current psychological profile;
-- running case formulation;
-- unresolved questions;
-- current strategy recommendation;
-- next session timing and focus.
-
-Continuity does not mean using the same strategy forever. The project is designed to preserve the user's history while adapting the working lens.
-
-## 9. Monthly And Yearly Integration
-
-When enough material exists:
-
-- create a monthly report under `Reports/Monthly/`;
-- create or update a yearly report under `Reports/Yearly/`;
-- use reports and `09_Continuity_Index.md` to reduce the need to reread every old session note.
-
-Reports should synthesize repeated themes, emotional change, relationship patterns, effective strategies, unresolved questions, and next focus.
+The next session should start from the continuity index and latest note, not from a full archive dump.

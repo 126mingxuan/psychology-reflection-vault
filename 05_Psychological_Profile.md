@@ -2,25 +2,26 @@
 
 Last updated:
 
-## Use Principle
+## Usage Principles
 
-This file is not a diagnosis. It is one living, cumulative psychological profile. It should be reviewed and updated after every completed session, while still separating stable patterns from provisional observations.
+This file is not a diagnosis. It is one living, cumulative psychological profile. It should be reviewed after every completed session while still separating stable patterns from provisional observations.
 
 Single emotions or one-time events should usually stay in the relevant session note. Do not turn them into stable personality conclusions too quickly.
 
-Stable, repeated, or strongly supported material belongs in the main profile sections. New but uncertain material belongs in `Items To Confirm` or the change log.
+Stable, repeated, directly confirmed, or strongly supported material belongs in the main profile sections. New but uncertain material belongs in `Items To Confirm` or the change log.
 
 ## Basic Profile
 
--
+- Preferred language:
+- Preferred response style:
+- Current broad goals:
+- Current session rhythm:
 
 ## Possible Core Needs
 
--
 
 ## Communication Preferences
 
--
 
 ## Effective Reflective Strategies
 
@@ -29,32 +30,24 @@ Stable, repeated, or strongly supported material belongs in the main profile sec
 - Preferred depth/action balance:
 - Triggers for shifting strategy:
 
-## Common Emotional Patterns
+## Recurring Emotional Patterns
 
--
 
-## Common Relational Patterns
+## Recurring Relationship Patterns
 
--
 
 ## Common Coping Strategies Or Defenses
 
--
 
 ## Growth Direction
 
--
 
 ## Items To Confirm
 
--
 
 ## Provisional Onboarding Observations
 
 Use this only for early setup clues that are not yet stable. Move an item into the main profile only after it is repeated, strongly supported, or explicitly confirmed by the user.
 
--
-
 ## Change Log
 
--

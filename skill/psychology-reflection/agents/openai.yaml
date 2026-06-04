@@ -1,0 +1,7 @@
+interface:
+  display_name: "Psychology Reflection"
+  short_description: "Run structured psychology reflection sessions"
+  default_prompt: "Use $psychology-reflection to start a structured reflection session."
+
+policy:
+  allow_implicit_invocation: true

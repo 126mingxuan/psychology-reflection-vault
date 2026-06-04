@@ -1,23 +1,17 @@
 ---
 name: Feature request
-about: Suggest a reusable improvement for the public template
+about: Suggest a public-safe improvement
 title: "[Feature]: "
 labels: enhancement
 assignees: ""
 ---
 
-## What would you like to improve?
+## What should improve?
 
-Describe the proposed improvement.
 
-## Why would this help?
+## Why is this useful?
 
-Explain the use case.
 
-## Suggested implementation
+## Public safety check
 
-Optional: describe how it could be added.
-
-## Privacy check
-
-- [ ] This request does not include private or identifiable personal material.
+- [ ] This request does not require publishing real private session material.

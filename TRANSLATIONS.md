@@ -1,51 +1,24 @@
-# Translation Policy
+# Translations
 
-This repository uses English as the source language for the public template.
+## Policy
 
-## Current README Languages
+Formal project files are maintained in English as the source of truth.
 
-- `README.md`: English, source version
-- `README.zh-CN.md`: Simplified Chinese
-- `README.ja.md`: Japanese
-- `README.es.md`: Spanish
-- `README.fr.md`: French
-- `README.de.md`: German
-- `README.ko.md`: Korean
-- `README.pt-BR.md`: Brazilian Portuguese
-- `README.ru.md`: Russian
-- `README.ar.md`: Arabic
+Translations may be added later when they can be maintained accurately and safely. A translation should preserve:
 
-## Maintenance Rules
+- privacy boundaries;
+- non-clinical claims;
+- crisis safety language;
+- public/private workspace separation;
+- clear instructions for local-first use.
 
-1. Update `README.md` first.
-2. Keep all localized README files aligned with the English source.
-3. Keep the same language selector at the top of every localized README.
-4. Translate meaning, not word order.
-5. Do not add personal examples or real session material to localized files.
-6. If a translation becomes outdated, either update it promptly or mark it as needing review.
+## Current Status
 
-## File Naming Convention
+No official translated README files are currently maintained in this repository.
 
-Use locale-aware README names:
+## Adding A Translation
 
-```text
-README.md
-README.zh-CN.md
-README.ja.md
-README.es.md
-README.fr.md
-README.de.md
-README.ko.md
-README.pt-BR.md
-README.ru.md
-README.ar.md
-```
-
-Additional languages should follow the same pattern, for example:
-
-```text
-README.hi.md
-README.it.md
-README.tr.md
-README.id.md
-```
+1. Create a localized README with a clear language suffix.
+2. Keep all safety and privacy warnings equivalent to the English version.
+3. Do not add culture-specific clinical claims unless reviewed carefully.
+4. Update this file and the main README after the translation is ready.

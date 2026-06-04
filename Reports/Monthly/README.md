@@ -1,5 +1,12 @@
-# Monthly Reports
+# Monthly Psychological Summaries
 
-Save monthly summaries here.
+When enough material exists in a month, create one monthly summary here.
 
-Monthly reports are useful for reviewing recurring themes, emotional shifts, relationship patterns, practical experiments, and the next month's focus.
+Recommended contents:
+
+- main events of the month;
+- core emotions of the month;
+- recurring psychological patterns;
+- important changes in relationships, work, or study;
+- coping styles that were effective this month;
+- questions worth observing next month.

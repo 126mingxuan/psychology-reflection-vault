@@ -1,5 +1,13 @@
-# Yearly Reports
+# Yearly Psychological Reports
 
-Save yearly summaries here.
+At the end of each year, create or update a yearly psychological report here.
 
-Yearly reports are useful for reviewing long-term change, core patterns, major turning points, and the next year's psychological growth direction.
+Recommended contents:
+
+- core themes of the year;
+- long-term recurring psychological patterns;
+- important relationship changes;
+- progress in self-understanding;
+- areas with clear improvement;
+- areas that remain stuck;
+- psychological growth directions for the next year.

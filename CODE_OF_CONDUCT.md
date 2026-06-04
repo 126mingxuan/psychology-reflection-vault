@@ -1,25 +1,20 @@
 # Code Of Conduct
 
-## Our Pledge
-
-We want this project to be a respectful, safe, and practical space for improving a public self-reflection template.
-
 ## Expected Behavior
 
-- Be respectful and constructive.
-- Keep feedback focused on the project.
-- Avoid diagnosing other contributors.
-- Avoid sharing private or identifiable psychological material.
-- Respect that this project is not a substitute for professional care.
+Participants should be respectful, precise, and careful with sensitive topics.
+
+This project concerns psychological reflection, so discussions should avoid ridicule, coercion, harassment, or careless interpretation of personal material.
 
 ## Unacceptable Behavior
 
-- Harassment, insults, or personal attacks.
-- Publishing private information.
-- Encouraging unsafe mental health behavior.
-- Presenting unqualified clinical claims as professional advice.
-- Using the project to collect sensitive personal data from others.
+- publishing private personal material;
+- asking contributors to disclose sensitive information;
+- harassment or personal attacks;
+- presenting the project as licensed medical or psychiatric care;
+- encouraging unsafe behavior;
+- using real user material without explicit permission.
 
 ## Enforcement
 
-Maintainers may remove comments, close issues, reject pull requests, or block users when behavior violates these expectations.
+Maintainers may remove content, close issues, block contributors, or take other reasonable actions to protect privacy, safety, and project quality.
