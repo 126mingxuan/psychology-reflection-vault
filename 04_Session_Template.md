@@ -60,6 +60,14 @@ Date:
 - Update running case formulation:
 - Reason for update:
 
+## Continuity Index Updates
+
+- Latest session pointer updated:
+- Active themes changed:
+- Source map changes:
+- Older notes needed next time:
+- Compression backlog changed:
+
 ## Risk And Boundaries
 
 - Any crisis signal:

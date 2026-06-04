@@ -1,4 +1,4 @@
-# Public And Private Vault Workflow
+# Public Template And Private Workspace Workflow
 
 ## Core Principle
 
@@ -7,10 +7,10 @@ The public repository stores the system template. A private repository or local 
 ## Recommended Structure
 
 ```text
-psychology-reflection-vault/
+ai-assisted-therapy-support/
   public templates, instructions, and reusable rules
 
-my-private-psychology-vault/
+my-private-therapy-support-workspace/
   real client profile
   real Sessions/
   real Reports/
@@ -40,19 +40,19 @@ my-private-psychology-vault/
 
 ## Updating The Public Project
 
-When a private working vault produces a reusable improvement:
+When a private working workspace produces a reusable improvement:
 
 1. Validate the mechanism privately first.
 2. Abstract it into a template or rule without personal details.
 3. Update the public project.
 4. Check for private information before committing and pushing.
 
-## Updating A Private Vault
+## Updating A Private Workspace
 
 After each real session:
 
 1. Save the session note in `Sessions/`.
 2. Update `03_Running_Case_Formulation.md`.
 3. Review and update the single current `05_Psychological_Profile.md`.
-4. Keep real onboarding answers and profile details in the private vault only.
-5. Optionally commit to a private Git repository or keep the vault local only.
+4. Keep real onboarding answers and profile details in the private workspace only.
+5. Optionally commit to a private Git repository or keep the workspace local only.

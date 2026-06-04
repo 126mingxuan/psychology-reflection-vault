@@ -1,74 +1,45 @@
-# Psychology Reflection Vault
+# AI-Assisted Therapy Support
 
 **言語:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [한국어](./README.ko.md) | [Português](./README.pt-BR.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Template](https://img.shields.io/badge/GitHub-Template-blue.svg)](./08_Public_Private_Workflow.md)
-[![Made for Obsidian](https://img.shields.io/badge/Made%20for-Obsidian-7C3AED.svg)](https://obsidian.md/)
-[![AI Assisted Reflection](https://img.shields.io/badge/AI--assisted-Reflection-111827.svg)](./02_Therapy_Framework.md)
+継続的で構造化された心理的対話のための、local-first な AI 支援セラピーサポートシステムです。
 
-プライベートで継続的な AI 支援の心理的リフレクションシステムを作るための Obsidian 形式テンプレートです。
+専門的な治療を置き換えるものではありません。目的は、低コストで心理的な継続性を支えることです。セッションノート、ケースフォーミュレーション、心理プロフィール、戦略ルーティング、スケジューリング、月次・年次統合、追跡可能な長期記憶を扱います。
 
-多くの AI チャットは文脈を忘れます。この vault は、セッションノート、継続的なケースフォーミュレーション、長期的な心理プロフィール、スケジューリング、月次・年次レビューを通して、リフレクションに記憶を持たせます。
+> 重要: このプロジェクトはセラピー志向ですが、認可された心理療法、医学的診断、精神科医療、危機介入ではありません。差し迫った危険、自傷のリスク、または他者を傷つけるリスクがある場合は、地域の緊急サービス、資格を持つ専門家、または信頼できる人に連絡してください。
 
-> 重要: このプロジェクトは心理療法、医学的診断、精神科医療、危機介入ではありません。差し迫った危険、自傷のリスク、または他者を傷つけるリスクがある場合は、直ちに地域の緊急サービス、資格を持つ専門家、または信頼できる人に連絡してください。
+## 主な特徴
 
-## Highlights
-
-- **継続性**: 各セッションが以前のノートを引き継ぎます。
-- **Obsidian ネイティブ**: 読みやすく編集しやすい Markdown ファイルです。
-- **階層化された記憶**: 事実、感情、解釈、反復パターン、プロフィール更新、リスク、次の問いを分けます。
-- **public/private 分離**: public にはテンプレートのみ、実際の個人内容は private vault に保存します。
-- **適応的スケジューリング**: 感情の強さ、未完了のテーマ、安定度に基づいて次回を提案します。
+- **local-first のプライバシー**: 実際の内容は個人の作業スペースまたはローカルファイルに保存されます。プロジェクトサーバー、隠れたデータベース、内蔵テレメトリはありません。
+- **人間との対話に近い継続性**: 各セッションは過去の重要な内容を引き継げます。
+- **効率的な長期記憶読み取り**: `09_Continuity_Index.md`、月次レポート、年次レポートにより、全履歴を読み直さずに重要情報を見つけます。
+- **セラピー志向のワークフロー**: 初期評価、構造化された対話、能動的な終了、記憶更新、次回戦略の提案。
+- **適応的な戦略**: 精神力動的探索、CBT ツール、家族システム、マインドフルネス、実存的探究、人間性重視の支援、安全境界。
+- **公開テンプレート、個人作業スペース**: 公開リポジトリには再利用可能な構造のみを置き、実際の個人内容は非公開にします。
 
 ## Quick Start
 
 1. **Use this template** をクリックするか、このリポジトリを fork します。
-2. 実際の個人的な内容を保存する場合は、作業用 vault を **private** にします。
-3. [Obsidian](https://obsidian.md/) または任意の Markdown エディタで開きます。
+2. 自分用の非公開作業スペースを作成します。
+3. ローカルファイルワークフロー、Markdown エディタ、非公開リポジトリ、または local-first AI ワークスペースで開きます。
 4. `01_Client_Profile.md` に AI に覚えてほしい背景を記入します。
 5. 次のプロンプトで開始します。
 
 ```text
-Read the core vault files and the latest note in Sessions/.
-Continue from the existing psychological reflection system.
+Read AGENTS.md, the core continuity files, 09_Continuity_Index.md,
+the latest psychological profile, the running case formulation,
+and the latest relevant notes in Sessions/.
+If the archive is large, read monthly/yearly summaries first.
+Continue from previous material instead of starting from zero.
 Start with one focused opening question.
 ```
 
-6. セッション後、`04_Session_Template.md` を `Sessions/` にコピーし、日付で保存します。
-7. `03_Running_Case_Formulation.md` を更新し、安定したパターンが明確になった場合のみ `05_Psychological_Profile.md` を更新します。
-
 ## Use Cases
 
-- 個人用 AI リフレクション vault
-- Obsidian 個人知識システム
-- コーチングやジャーナリングのテンプレート
-- AI 長期記憶設計の例
-- 専門的支援を置き換えない自己整理ツール
-
-## How It Works
-
-```mermaid
-flowchart TD
-    A["Start a reflection session"] --> B["Read core vault files"]
-    B --> C["Read latest Sessions note"]
-    C --> D["Ask one focused opening question"]
-    D --> E["Explore events, emotions, relationships, and patterns"]
-    E --> F["Save dated session note"]
-    F --> G["Update running case formulation"]
-    G --> H{"Stable pattern repeated?"}
-    H -- Yes --> I["Update psychological profile"]
-    H -- No --> J["Keep insight in session note"]
-    I --> K["Recommend next check-in"]
-    J --> K
-    K --> L["Next session continues from memory"]
-```
-
-## Community
-
-- [CONTRIBUTING.md](./CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
-- [ROADMAP.md](./ROADMAP.md)
+- 継続的で低コストの心理的サポート
+- 専門的治療の前後の整理
+- センシティブな対話の local-first 記憶
+- AI による心理的継続性の設計
 
 ## License
 

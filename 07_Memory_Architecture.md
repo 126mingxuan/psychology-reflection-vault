@@ -14,7 +14,7 @@ Memory should support the session, not interrupt it. File reads should normally 
 
 ### 0. Onboarding Layer
 
-Use the first-contact onboarding questionnaire only when a new private vault has little or no profile context.
+Use the first-contact onboarding questionnaire only when a new private workspace has little or no profile context.
 
 Store explicit user preferences, broad goals, privacy boundaries, and initial strategy preferences in `01_Client_Profile.md`. Treat early psychological observations as provisional until they are supported by later sessions.
 
@@ -67,7 +67,7 @@ If self-harm, suicidal intent, harm to others, severe loss of control, or real-w
 ## Update Rules
 
 - Save a session note after every session.
-- Use first-contact onboarding only for a new or empty private vault. Do not repeat the full questionnaire every session.
+- Use first-contact onboarding only for a new or empty private workspace. Do not repeat the full questionnaire every session.
 - Update the running case formulation when the session changes the overall understanding.
 - Review and update the psychological profile after every completed session. Stable material should be integrated into the profile; uncertain material should be recorded as provisional or as an item to confirm.
 - Keep one current psychological profile file rather than creating a new profile file for every session.
@@ -81,9 +81,58 @@ If self-harm, suicidal intent, harm to others, severe loss of control, or real-w
 
 - The next session must continue from prior material rather than starting from zero.
 - Read the minimum necessary context once at the beginning of the session.
-- Read all prior session notes when the vault is small enough to do so.
-- When the archive becomes large, read monthly/yearly summaries first, then the latest session note and any earlier notes directly relevant to the current theme.
+- Use `09_Continuity_Index.md` as the fast entry point for active themes, relevant source files, latest session pointers, unresolved questions, and compression status.
+- Read all prior session notes only when the workspace archive is small enough to do so.
+- When the archive becomes large, read `09_Continuity_Index.md`, monthly/yearly summaries, the latest session note, and only the earlier notes directly relevant to the current theme.
 - Avoid rereading files repeatedly during the same session unless the user asks, a major new topic requires it, or risk handling requires it.
 - Always read the latest `05_Psychological_Profile.md` before opening the session.
 - Always read the latest strategy recommendation before choosing the working lens for the session.
 - Always end with a recommended next session time or interval based on `06_Scheduling_Policy.md`.
+
+## Scalable Reading Protocol
+
+The project should remain usable after six months, one year, or longer. The assistant should not reread every old session note once the archive becomes large.
+
+### Small Archive
+
+Use this when there are about 12 or fewer session notes.
+
+- Read the core files.
+- Read all session notes if they fit comfortably.
+- Update the running case formulation, psychological profile, and continuity index after the session.
+
+### Medium Archive
+
+Use this when there are about 13-40 session notes.
+
+- Read the core files.
+- Read `09_Continuity_Index.md`.
+- Read the latest 2-3 session notes.
+- Read the latest monthly report.
+- Read older session notes only when the continuity index or current theme points to them.
+
+### Large Archive
+
+Use this when there are more than about 40 session notes or when full reading becomes slow.
+
+- Read the core files.
+- Read `09_Continuity_Index.md`.
+- Read the latest session note.
+- Read the latest monthly report and the latest yearly report if available.
+- Read targeted older notes only when needed to verify a claim, trace a recurring pattern, handle risk material, or continue an unresolved theme.
+
+### Anti-Drift Rules
+
+- The psychological profile should contain stable or strongly supported material, not every recent emotion.
+- The running case formulation should keep hypotheses tentative and source-aware.
+- The continuity index should point to evidence; it should not become a hidden source of unsupported conclusions.
+- If a profile claim has no clear source, mark it for verification instead of treating it as stable.
+- Monthly reports should compress repeated themes, not rewrite the user's identity.
+- Yearly reports should describe change over time, not freeze the user into old patterns.
+
+### Maintenance Rhythm
+
+- After each session: update the session note, running case formulation, psychological profile, strategy recommendation, and continuity index.
+- At the end of each month or after enough sessions: create a monthly report and clear the compression backlog in `09_Continuity_Index.md`.
+- At the end of each quarter: review whether the psychological profile still reflects the user's current state.
+- At the end of each year: create or update a yearly report and mark which old themes are resolved, inactive, or still active.

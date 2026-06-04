@@ -16,7 +16,7 @@ Why is this useful for the public template?
 
 ## Migration Notes
 
-Do existing users need to update anything in their private vaults?
+Do existing users need to update anything in their private workspaces?
 
 For a formal release, also use `.github/RELEASE_TEMPLATE.md`.
 

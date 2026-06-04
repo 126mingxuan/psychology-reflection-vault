@@ -1,6 +1,6 @@
 # First-Contact Onboarding Questionnaire
 
-This questionnaire is for the first time a user turns the public template into a private working vault.
+This questionnaire is for the first time a user turns the public template into a private AI-assisted therapy support workspace.
 
 Its purpose is to gather enough context to start a useful reflection process without collecting more private information than necessary. The user may skip any question.
 
@@ -9,7 +9,7 @@ Its purpose is to gather enough context to start a useful reflection process wit
 Use this questionnaire when:
 
 - `01_Client_Profile.md` is empty or nearly empty;
-- the user is starting a new private vault;
+- the user is starting a new private workspace;
 - the assistant does not yet know the user's communication preferences, reflection goals, or privacy boundaries.
 
 Do not repeat the full questionnaire every session. After the first setup, update the profile only when the user corrects information, adds important context, or a stable pattern becomes clear across sessions.
@@ -20,12 +20,12 @@ Ask for the minimum useful information.
 
 Do not ask for full legal names, addresses, phone numbers, account details, private messages, medical records, medication lists, identity documents, or crisis-event details unless the user explicitly chooses to record something and understands the privacy implications.
 
-If the user wants to keep something outside the vault, respect that boundary.
+If the user wants to keep something outside the workspace, respect that boundary.
 
 ## Short Opening Script
 
 ```text
-Before we start the first reflection session, I can ask a brief setup questionnaire so the vault can remember your preferences and choose a better reflective strategy. You may skip any question. Please share only what you want stored in this private vault.
+Before we start the first therapy-support session, I can ask a brief setup questionnaire so the workspace can remember your preferences and choose a better reflective strategy. You may skip any question. Please share only what you want stored in this private workspace.
 ```
 
 ## Core Questions
@@ -35,7 +35,7 @@ Before we start the first reflection session, I can ask a brief setup questionna
 - What language should the assistant use with you during live reflection?
 - What name or nickname should the assistant use, if any?
 - What is your current work, study, or life situation in broad terms?
-- What are the main themes you hope this reflection vault can help you understand?
+- What are the main themes you hope this AI-assisted support system can help you understand?
 - What should the assistant avoid asking about unless you bring it up first?
 
 ### 2. Current State

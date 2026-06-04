@@ -1,6 +1,6 @@
 # Roadmap
 
-This roadmap focuses on making the vault easier to understand, safer to use, and more useful as a reusable public template.
+This roadmap focuses on making AI-Assisted Therapy Support easier to understand, safer to use, and more useful as a reusable public template.
 
 ## Near Term
 
@@ -8,20 +8,20 @@ This roadmap focuses on making the vault easier to understand, safer to use, and
 - Add examples that are clearly fictional.
 - Refine session note templates.
 - Improve multilingual documentation.
-- Add Obsidian setup suggestions.
+- Add local setup suggestions for common file-based workflows.
 
 ## Mid Term
 
 - Add optional prompt packs for different reflection styles.
 - Add monthly and yearly report templates.
 - Add a safety and privacy checklist.
-- Add diagrams for memory flow and vault structure.
+- Add diagrams for memory flow and continuity structure.
 - Add community discussion prompts for non-private template improvements.
 
 ## Long Term
 
 - Build optional automation examples.
-- Provide a minimal starter vault release.
+- Provide a minimal starter workspace release.
 - Create a documentation site if the template grows.
 - Add more translations based on contributor interest.
 

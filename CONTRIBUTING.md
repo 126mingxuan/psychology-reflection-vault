@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve Psychology Reflection Vault.
+Thank you for helping improve AI-Assisted Therapy Support.
 
 This project is a public template for psychological reflection workflows. Contributions should improve structure, clarity, safety, documentation, localization, or usability without adding private material.
 
@@ -10,7 +10,7 @@ This project is a public template for psychological reflection workflows. Contri
 - better session templates;
 - safer wording around mental health boundaries;
 - improved memory architecture;
-- better Obsidian compatibility;
+- better local file workflow compatibility;
 - localization fixes;
 - issue templates, examples, and documentation improvements.
 
@@ -42,7 +42,7 @@ For each meaningful version update, include a short release note or changelog en
 - What changed compared with the previous version?
 - Why is the new version better or clearer?
 - What are the most important highlights?
-- Do existing users need to change anything in their private vaults?
+- Do existing users need to change anything in their private workspaces?
 
 Use `.github/RELEASE_TEMPLATE.md` when preparing a formal release.
 

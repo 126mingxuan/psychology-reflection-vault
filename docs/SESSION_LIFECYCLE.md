@@ -1,12 +1,12 @@
 # Session Lifecycle
 
-This document defines the complete workflow for a private working vault, from first setup to long-term continuity.
+This document defines the complete workflow for a private AI-assisted therapy support workspace, from first setup to long-term continuity.
 
-## 1. Create A Private Working Vault
+## 1. Create A Private Working Workspace
 
 Use the public repository as a template, then keep real personal material local or private.
 
-The public repository should contain reusable structure only. Real session notes, personal history, profile details, and risk material belong in the private vault.
+The public repository should contain reusable structure only. Real session notes, personal history, profile details, and risk material belong in the private workspace.
 
 ## 2. First-Contact Onboarding
 
@@ -19,7 +19,7 @@ After onboarding:
 - update `01_Client_Profile.md` with explicit preferences and basic context;
 - mark early psychological observations as provisional;
 - choose an initial reflective strategy;
-- begin the first session with one focused question.
+- begin the first session by establishing contact and a clear working focus.
 
 ## 3. Session Start
 
@@ -33,9 +33,10 @@ At the beginning of a normal session, read the minimum context needed for contin
 - `05_Psychological_Profile.md`
 - `06_Scheduling_Policy.md`
 - `07_Memory_Architecture.md`
+- `09_Continuity_Index.md` when it exists
 - latest and relevant notes under `Sessions/`
 
-When the archive is large, read monthly or yearly summaries first, then the latest session note and the notes directly relevant to the current theme.
+When the archive is large, read `09_Continuity_Index.md`, monthly or yearly summaries, then the latest session note and the notes directly relevant to the current theme. Do not reread the entire archive by default once summaries and the continuity index exist.
 
 ## 4. Strategy Selection
 
@@ -48,7 +49,7 @@ The strategy may continue from the last session, combine lenses, or shift. A str
 During the session:
 
 - prioritize conversation over documentation;
-- ask one focused question at a time;
+- avoid turning the session into a questionnaire;
 - reflect the user's emotional meaning before advice or technique;
 - keep interpretations tentative;
 - use external search only when it genuinely improves the session or the user asks for it;
@@ -80,7 +81,8 @@ After the conversation closes, write memory in a batch:
 2. Update `03_Running_Case_Formulation.md` if the session changes the working understanding.
 3. Review and update the single current `05_Psychological_Profile.md`.
 4. Record the strategy used and the strategy recommended for next session.
-5. Recommend the next check-in time using `06_Scheduling_Policy.md`.
+5. Update `09_Continuity_Index.md` with the latest session pointer, active themes, source map changes, and compression status.
+6. Recommend the next check-in time using `06_Scheduling_Policy.md`.
 
 Stable or repeated material belongs in the profile. One-time events and uncertain interpretations belong in session notes, provisional observations, or items to confirm.
 
@@ -105,6 +107,6 @@ When enough material exists:
 
 - create a monthly report under `Reports/Monthly/`;
 - create or update a yearly report under `Reports/Yearly/`;
-- use reports to reduce the need to reread every old session note.
+- use reports and `09_Continuity_Index.md` to reduce the need to reread every old session note.
 
 Reports should synthesize repeated themes, emotional change, relationship patterns, effective strategies, unresolved questions, and next focus.

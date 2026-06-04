@@ -14,8 +14,8 @@ Do not commit:
 - names, contact details, addresses, account identifiers, or workplace details;
 - medical history, diagnosis, medication, or risk-event details;
 - private relationship or family information;
-- data exported from a real personal vault.
+- data exported from a real private workspace.
 
 ## Recommended User Practice
 
-Use this repository as a public template only. Keep your real working vault private or local.
+Use this repository as a public template only. Keep your real working workspace private or local.

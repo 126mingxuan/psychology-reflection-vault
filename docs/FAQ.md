@@ -2,37 +2,37 @@
 
 ## Is this therapy?
 
-No. This is a self-reflection template. It is not psychotherapy, diagnosis, psychiatric care, or crisis intervention.
+No. This is a therapy-oriented psychological support workflow, but it is not licensed psychotherapy, diagnosis, psychiatric care, or crisis intervention. It can help structure ongoing self-understanding, therapy preparation, and continuity between conversations, but it should not replace qualified professional care.
 
 ## Can I use it with any AI assistant?
 
-Yes. The vault is plain Markdown. You can use it with any assistant that can read or reference files.
+Yes. The workspace is plain Markdown. You can use it with any assistant that can read or reference files.
 
 ## Does this project run by itself?
 
-No. It is a vault template, not a standalone app. Start a session by asking your AI assistant to read `AGENTS.md`, the core vault files, the latest psychological profile, the running case formulation, and prior session notes. The assistant then uses those files as the framework for the conversation.
+No. It is a local-first workspace template, not a standalone app. Start a session by asking your AI assistant to read `AGENTS.md`, the core continuity files, the latest psychological profile, the running case formulation, and prior session notes. The assistant then uses those files as the framework for the conversation.
 
-## Do I need Obsidian?
+## Do I need a specific app?
 
-No. Obsidian is recommended because it works well with Markdown vaults, but any Markdown editor can work.
+No. The core system is a local file architecture that can be used with any Markdown editor, private repository, local-first AI workspace, or future app interface.
 
-## Should my personal vault be public?
+## Should my personal workspace be public?
 
 No. If it contains real personal material, keep it private or local.
 
-## Is the vault local-first?
+## Is the workspace local-first?
 
-Yes. The vault is plain Markdown and has no hosted backend, project server, hidden database, or built-in telemetry.
+Yes. The workspace is plain Markdown and has no hosted backend, project server, hidden database, or built-in telemetry.
 
-If you choose to send vault content to a cloud AI service, that service may receive the content you provide. The vault itself is local-first, but your AI provider choice still matters.
+If you choose to send workspace content to a cloud AI service, that service may receive the content you provide. The workspace itself is local-first, but your AI provider choice still matters.
 
 ## Should I rely on AI platform memory?
 
-No. Use the vault files as the source of truth. Platform-level memory may be convenient, but durable psychological memory should be saved in `Sessions/`, `03_Running_Case_Formulation.md`, `05_Psychological_Profile.md`, and `Reports/`.
+No. Use the local continuity files as the source of truth. Platform-level memory may be convenient, but durable psychological memory should be saved in `Sessions/`, `03_Running_Case_Formulation.md`, `05_Psychological_Profile.md`, and `Reports/`.
 
 ## Why is there a first-contact questionnaire?
 
-The first-contact questionnaire helps a new private vault learn the user's language preference, response style, goals, boundaries, and initial strategy needs. It should ask only for minimal useful context, and the user may skip any question.
+The first-contact questionnaire helps a new private workspace learn the user's language preference, response style, goals, boundaries, and initial strategy needs. It should ask only for minimal useful context, and the user may skip any question.
 
 Do not repeat the full questionnaire every session. After setup, update the profile only when the user corrects information, adds important context, or stable patterns become clear.
 

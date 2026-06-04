@@ -28,14 +28,14 @@ Briefly describe what changed since the last published version.
 
 ## Migration Notes
 
-For existing private vault users:
+For existing private workspace users:
 
 - 
 
 If no migration is needed, write:
 
 ```text
-No migration required. Existing private vaults can keep their current files and optionally copy the new templates or docs.
+No migration required. Existing private workspaces can keep their current files and optionally copy the new templates or docs.
 ```
 
 ## Privacy And Safety Check

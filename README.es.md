@@ -1,75 +1,46 @@
-# Psychology Reflection Vault
+# AI-Assisted Therapy Support
 
 **Idiomas:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [한국어](./README.ko.md) | [Português](./README.pt-BR.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Template](https://img.shields.io/badge/GitHub-Template-blue.svg)](./08_Public_Private_Workflow.md)
-[![Made for Obsidian](https://img.shields.io/badge/Made%20for-Obsidian-7C3AED.svg)](https://obsidian.md/)
-[![AI Assisted Reflection](https://img.shields.io/badge/AI--assisted-Reflection-111827.svg)](./02_Therapy_Framework.md)
+Un sistema local-first de apoyo terapéutico asistido por IA para conversaciones psicológicas continuas, estructuradas y con memoria.
 
-Una plantilla estilo Obsidian para construir un sistema privado, continuo y asistido por IA para reflexión psicológica.
+No pretende sustituir la terapia profesional. Su objetivo es ayudar a mantener continuidad psicológica de bajo costo: notas de sesión, formulación de caso, perfil psicológico, enrutamiento de estrategia, seguimiento, revisiones mensuales o anuales y memoria trazable.
 
-La mayoría de los chats con IA olvidan el contexto. Este vault da memoria al proceso: notas de sesión, formulación de caso, perfil psicológico a largo plazo, lógica de programación y revisiones mensuales o anuales.
+> Importante: este proyecto tiene orientación terapéutica, pero no es psicoterapia licenciada, diagnóstico médico, atención psiquiátrica ni intervención en crisis. Si estás en peligro inmediato, en riesgo de autolesión o de hacer daño a otra persona, contacta con servicios de emergencia, un profesional cualificado o una persona de confianza.
 
-> Importante: Este proyecto no es terapia, diagnóstico médico, atención psiquiátrica ni intervención en crisis. Si estás en peligro inmediato, en riesgo de autolesión o de hacer daño a otra persona, contacta de inmediato con servicios de emergencia, un profesional cualificado o una persona de confianza.
+## Puntos Clave
 
-## Highlights
-
-- **Continuidad entre sesiones**: cada conversación hereda notas anteriores.
-- **Estructura nativa de Obsidian**: archivos Markdown legibles, editables y portables.
-- **Memoria por capas**: separa hechos, emociones, interpretaciones, patrones, perfil, riesgos y próximas preguntas.
-- **Flujo público/privado**: este repositorio es plantilla pública; el material real va en un vault privado.
-- **Programación adaptativa**: recomienda el próximo seguimiento según intensidad emocional, temas pendientes y estabilidad.
+- **Privacidad local-first**: el material real permanece en tu espacio privado o en archivos locales. El proyecto no tiene servidor, base de datos oculta ni telemetría integrada.
+- **Continuidad cercana a una conversación humana**: cada sesión puede continuar desde el material anterior en lugar de empezar desde cero.
+- **Lectura eficiente de memoria a largo plazo**: `09_Continuity_Index.md`, informes mensuales e informes anuales ayudan a encontrar lo importante sin releer todo el historial.
+- **Flujo de apoyo terapéutico**: evaluación inicial, conversación estructurada, cierre activo, actualización de memoria y recomendación para la siguiente sesión.
+- **Estrategia adaptativa**: puede combinar exploración psicodinámica, herramientas CBT, sistemas familiares, mindfulness, reflexión existencial, apoyo humanista y límites de seguridad.
+- **Plantilla pública, espacio privado**: el repositorio público contiene estructura reutilizable; el material personal real debe permanecer privado.
 
 ## Quick Start
 
 1. Haz clic en **Use this template** o haz fork del repositorio.
-2. Si guardarás material personal real, mantén tu vault en **private**.
-3. Abre la carpeta en [Obsidian](https://obsidian.md/) o en cualquier editor Markdown.
-4. Completa `01_Client_Profile.md` con el contexto que quieres que recuerde tu asistente de IA.
+2. Crea tu propio espacio privado de trabajo.
+3. Ábrelo con cualquier flujo local de archivos, editor Markdown, repositorio privado o entorno local-first de IA.
+4. Completa `01_Client_Profile.md` con el contexto que quieres que recuerde tu asistente.
 5. Empieza con este prompt:
 
 ```text
-Read the core vault files and the latest note in Sessions/.
-Continue from the existing psychological reflection system.
+Read AGENTS.md, the core continuity files, 09_Continuity_Index.md,
+the latest psychological profile, the running case formulation,
+and the latest relevant notes in Sessions/.
+If the archive is large, read monthly/yearly summaries first.
+Continue from previous material instead of starting from zero.
 Start with one focused opening question.
 ```
 
-6. Después de la sesión, copia `04_Session_Template.md` en `Sessions/` y guárdalo con fecha.
-7. Actualiza `03_Running_Case_Formulation.md`, y actualiza `05_Psychological_Profile.md` solo cuando un patrón estable sea más claro.
+## Casos De Uso
 
-## Use Cases
+- apoyo psicológico continuo y de bajo costo;
+- preparación o seguimiento entre sesiones profesionales;
+- memoria local-first para conversaciones sensibles;
+- diseño de memoria psicológica y continuidad con IA.
 
-- vault personal de reflexión con IA;
-- sistema de conocimiento personal en Obsidian;
-- plantilla de coaching o journaling;
-- ejemplo de diseño de memoria a largo plazo para IA;
-- organización personal sin reemplazar atención profesional.
-
-## How It Works
-
-```mermaid
-flowchart TD
-    A["Start a reflection session"] --> B["Read core vault files"]
-    B --> C["Read latest Sessions note"]
-    C --> D["Ask one focused opening question"]
-    D --> E["Explore events, emotions, relationships, and patterns"]
-    E --> F["Save dated session note"]
-    F --> G["Update running case formulation"]
-    G --> H{"Stable pattern repeated?"}
-    H -- Yes --> I["Update psychological profile"]
-    H -- No --> J["Keep insight in session note"]
-    I --> K["Recommend next check-in"]
-    J --> K
-    K --> L["Next session continues from memory"]
-```
-
-## Community
-
-- [CONTRIBUTING.md](./CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
-- [ROADMAP.md](./ROADMAP.md)
-
-## Licencia
+## License
 
 MIT

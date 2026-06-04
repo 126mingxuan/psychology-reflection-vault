@@ -17,7 +17,7 @@
 - Preferred session pace: slow exploration / direct focus / emotional grounding before analysis
 - Preferred tracking focus: emotions / relationships / work or study / family / romantic relationships / self-worth / other
 - Topics to avoid unless the user raises them first:
-- What should remain out of durable vault memory:
+- What should remain out of durable continuity memory:
 
 ## Onboarding Summary
 

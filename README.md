@@ -1,59 +1,60 @@
-# Psychology Reflection Vault
+# AI-Assisted Therapy Support
 
 **Languages:** [English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [한국어](./README.ko.md) | [Português](./README.pt-BR.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Template](https://img.shields.io/badge/GitHub-Template-blue.svg)](./08_Public_Private_Workflow.md)
-[![Made for Obsidian](https://img.shields.io/badge/Made%20for-Obsidian-7C3AED.svg)](https://obsidian.md/)
-[![AI Assisted Reflection](https://img.shields.io/badge/AI--assisted-Reflection-111827.svg)](./02_Therapy_Framework.md)
+[![Local Files](https://img.shields.io/badge/Storage-Local%20Files-7C3AED.svg)](./docs/PRIVACY_AND_SAFETY.md)
+[![AI Assisted Support](https://img.shields.io/badge/AI--assisted-Support-111827.svg)](./02_Therapy_Framework.md)
 [![Local First](https://img.shields.io/badge/Privacy-Local--first-0F766E.svg)](./docs/PRIVACY_AND_SAFETY.md)
 
-[Overview](#overview) · [Core Advantages](#core-advantages) · [Onboarding](#first-contact-onboarding) · [Strategy Routing](#adaptive-strategy-routing) · [Long-term Memory](#long-term-memory-system) · [Privacy Model](#privacy-model) · [Public vs Private](#public-template-private-vault) · [Quick Start](#quick-start) · [Docs](#docs-and-examples) · [Translations](#readme-translations)
+[Overview](#overview) · [Core Advantages](#core-advantages) · [Onboarding](#first-contact-onboarding) · [Strategy Routing](#adaptive-strategy-routing) · [Long-term Memory](#long-term-memory-system) · [Privacy Model](#privacy-model) · [Public vs Private](#public-template-private-workspace) · [Quick Start](#quick-start) · [Docs](#docs-and-examples) · [Translations](#readme-translations)
 
 ## Overview
 
-Build a **private, local-first, AI-assisted psychological reflection vault** that remembers the previous session, adapts its reflective strategy, and turns scattered conversations into a long-term self-understanding system.
+Build a **private, local-first, AI-assisted therapy support system** that preserves continuity across sessions, adapts its working strategy, and helps turn scattered conversations into a long-term process of psychological understanding.
 
-Most AI chats start from zero. Psychology Reflection Vault gives your reflection process durable memory: session notes, running case formulation, long-term psychological profile, adaptive scheduling, privacy boundaries, and monthly or yearly review.
+Most AI chats start from zero. AI-Assisted Therapy Support gives therapy-oriented conversations durable continuity: session notes, running case formulation, long-term psychological profile, adaptive scheduling, privacy boundaries, and monthly or yearly review.
 
-> Important: This project is not therapy, medical diagnosis, psychiatric care, or crisis intervention. If you are in immediate danger, at risk of self-harm, or at risk of harming someone else, contact local emergency services, a qualified professional, or a trusted person immediately.
+> Important: This project is therapy-oriented, but it is not licensed psychotherapy, medical diagnosis, psychiatric care, or crisis intervention. It should not replace qualified professional care. If you are in immediate danger, at risk of self-harm, or at risk of harming someone else, contact local emergency services, a qualified professional, or a trusted person immediately.
 
 ## Core Advantages
 
-- **Local-first privacy architecture**: your working vault is plain Markdown on your own device or in your own private repository. The project has no hosted backend, no project server, no hidden database, and no built-in telemetry.
-- **First-contact onboarding**: a light setup questionnaire helps a new private vault understand the user's preferences, goals, boundaries, and initial strategy needs without collecting unnecessary private information.
-- **Adaptive psychological strategy routing**: the assistant can shift its reflective lens based on what the user says, instead of forcing every session into one fixed coaching or journaling style.
+- **Local-first privacy architecture**: your private workspace is plain Markdown on your own device or in your own private repository. The project has no hosted backend, no project server, no hidden database, and no built-in telemetry.
+- **First-contact onboarding**: a light setup questionnaire helps a new private workspace understand the user's preferences, goals, boundaries, and initial strategy needs without collecting unnecessary private information.
+- **Therapy-oriented assistant workflow**: the assistant follows a structured psychological conversation process with assessment, strategy routing, session closure, and durable memory updates.
+- **Adaptive psychological strategy routing**: the assistant can shift its working lens based on what the user says, instead of forcing every session into one fixed coaching or journaling style.
 - **Visible long-term memory**: memory is stored in readable files, not a black-box product database. You can inspect, edit, remove, or migrate it at any time.
 - **Session-based memory updates**: the conversation comes first. Durable memory is written after the session, not after every message.
 - **Layered personality and pattern formation**: session notes stay concrete, running formulations stay tentative, and the psychological profile is reviewed after every session. Stable patterns are integrated into the profile; uncertain clues stay provisional.
-- **Public template, private personal vault**: this repository can stay public because it contains reusable structure, instructions, and fictional examples. Real reflections belong in a separate private vault.
-- **Obsidian and Markdown native**: the system works with Obsidian, VS Code, any Markdown editor, and any AI assistant that can read local files.
-- **Model-agnostic and editor-agnostic**: the vault is a file architecture, not a proprietary platform. You choose your editor and AI provider.
-- **Multilingual entry points**: localized README files help users enter the same template from different languages while keeping their private vault in their preferred language.
+- **Public template, private personal workspace**: this repository can stay public because it contains reusable structure, instructions, and fictional examples. Real therapeutic material belongs in a separate private workspace.
+- **Local file native**: the system works with plain local files, Markdown editors, private repositories, and any AI assistant that can read the working folder.
+- **Model-agnostic and storage-agnostic**: the system is a continuity architecture, not a proprietary platform. You choose your file workflow and AI provider.
+- **Multilingual entry points**: localized README files help users enter the same template from different languages while keeping their private workspace in their preferred language.
 
 ## Why This Is Different
 
 ### 1. Local-first privacy by design
 
-This repository is a plain Markdown vault. There is no hosted backend, no project server, no hidden database, and no built-in telemetry. Your working files can stay on your own device or in your own private repository.
+This repository is a plain Markdown continuity system. There is no hosted backend, no project server, no hidden database, and no built-in telemetry. Your working files can stay on your own device or in your own private repository.
 
 That matters for psychological reflection: the most sensitive material should not be forced into a third-party app database just to gain continuity.
 
-Privacy note: if you choose to paste or connect your vault content to a cloud AI service, that service may receive the content you provide. The vault itself is local-first; your AI provider choice determines any external data transmission.
+Privacy note: if you choose to paste or connect private workspace content to a cloud AI service, that service may receive the content you provide. The project itself is local-first; your AI provider choice determines any external data transmission.
 
-### 2. A vault you invoke during conversation
+### 2. A computer-assisted psychological support workflow
 
-This repository is not an app that runs by itself. It is a project structure that an AI assistant can read at the start of a reflection conversation.
+This repository is not a standalone therapy product. It is a local working structure for AI-assisted therapy support: the assistant reads prior context, conducts a structured conversation, closes the session, and writes durable memory back into visible files.
 
-After downloading or forking the repository, use it by asking your AI assistant to read `AGENTS.md`, the core vault files, the latest psychological profile, and prior session notes. The assistant then uses those files as the framework for the current conversation.
+After downloading or forking the repository, use it by asking your AI assistant to read `AGENTS.md`, the core continuity files, the latest psychological profile, and prior session notes. The assistant then uses those files as the framework for the current conversation.
 
 For a smoother experience, context reading should normally happen once at the beginning of a session. The assistant should avoid repeatedly rereading files unless the user asks, a major new theme requires older material, or safety handling requires it.
 
-Durable memory should live in the vault files, not in hidden platform-level memory. Platform memory can be helpful, but it should not be the primary source of truth for sensitive psychological reflection.
+Durable memory should live in the local continuity files, not in hidden platform-level memory. Platform memory can be helpful, but it should not be the primary source of truth for sensitive psychological material.
 
-### 3. Adaptive multi-strategy reflection
+### 3. Adaptive multi-strategy psychological work
 
-The vault is designed for an AI assistant that can switch reflective lenses based on what the user actually says. It is not locked into one style.
+The system is designed for an AI assistant that can switch psychological working lenses based on what the user actually says. It is not locked into one style.
 
 Depending on the session, the assistant may lean toward:
 
@@ -65,11 +66,11 @@ Depending on the session, the assistant may lean toward:
 - humanistic support for warmth, acceptance, and stable emotional holding;
 - safety-first crisis boundaries when ordinary reflection is not appropriate.
 
-The strategy can change across sessions without losing continuity. Unlike a fixed-style workflow, this vault keeps prior notes, formulation, and profile available while allowing the next session to use a different primary lens when the user's material calls for it.
+The strategy can change across sessions without losing continuity. Unlike a fixed-style workflow, this system keeps prior notes, formulation, and profile available while allowing the next session to use a different primary lens when the user's material calls for it.
 
 ### 4. First-contact onboarding without over-collection
 
-When a user first creates a private working vault, the assistant can run a brief onboarding questionnaire from `docs/ONBOARDING_QUESTIONNAIRE.md`.
+When a user first creates a private working workspace, the assistant can run a brief onboarding questionnaire from `docs/ONBOARDING_QUESTIONNAIRE.md`.
 
 This onboarding is not a diagnosis. It asks only for useful setup information: preferred language, response style, current goals, privacy boundaries, reflection preferences, and broad current themes. The user can skip any question.
 
@@ -77,7 +78,7 @@ Onboarding answers help choose the initial reflective strategy and fill `01_Clie
 
 ### 5. Long-term memory without black boxes
 
-Instead of hiding memory inside an app, this vault makes memory visible and editable:
+Instead of hiding memory inside an app, this system makes memory visible and editable:
 
 - `Sessions/` keeps concrete session records.
 - `03_Running_Case_Formulation.md` keeps evolving hypotheses.
@@ -88,20 +89,22 @@ The project keeps one current psychological profile file. Do not create a new pr
 
 ### 6. Public template, private life
 
-This repository can be public because it contains only structure, prompts, examples, and blank templates. Your real reflections should live in a separate private vault.
+This repository can be public because it contains only structure, prompts, examples, and blank templates. Real therapeutic material should live in a separate private workspace.
 
-### 7. Model-agnostic and editor-agnostic
+### 7. Model-agnostic and storage-agnostic
 
-Use it with Obsidian, VS Code, any Markdown editor, and any AI assistant that can read files. The system is the file architecture, not a proprietary platform.
+Use it with local folders, private repositories, Markdown editors, or future app interfaces. The core system is the continuity architecture, not any single editor or proprietary platform.
 
 ## Highlights
 
 - **Local-first privacy**: plain Markdown, no backend, no required account beyond your chosen tools.
-- **First-contact onboarding**: a minimal questionnaire helps the vault start with the user's preferences, boundaries, goals, and initial strategy hints.
+- **First-contact onboarding**: a minimal questionnaire helps the private workspace start with the user's preferences, boundaries, goals, and initial strategy hints.
+- **Therapy-oriented workflow**: supports structured assessment, psychologically informed conversation, active session closure, and continuity across sessions.
+- **Therapeutic conversation model**: supports contact, assessment, working focus, exploration, tentative formulation, timed intervention, and active closing.
 - **Adaptive psychological strategy routing**: shifts between depth exploration, CBT-style tools, family systems, mindfulness, existential reflection, and safety boundaries.
 - **Continuity across sessions**: every conversation can inherit previous notes instead of starting from zero.
 - **Layered memory architecture**: separates facts, emotions, interpretations, recurring patterns, profile updates, provisional observations, risk notes, and next questions.
-- **Obsidian-native structure**: readable, editable, portable files.
+- **Local file structure**: readable, editable, portable files that can later support app or web interfaces.
 - **Adaptive scheduling**: recommend the next check-in based on emotional intensity, unfinished material, and stability.
 - **Multilingual README entry points**: English, Chinese, Japanese, Spanish, French, German, Korean, Portuguese, Russian, and Arabic.
 
@@ -110,7 +113,7 @@ Use it with Obsidian, VS Code, any Markdown editor, and any AI assistant that ca
 The privacy model is intentionally simple:
 
 - the public repository contains templates, instructions, docs, and fictional examples;
-- your real working vault should stay local or private;
+- your real working workspace should stay local or private;
 - the project itself does not provide a server, hosted account system, hidden database, or telemetry layer;
 - all important memory files are plain Markdown and can be reviewed directly;
 - any external data transmission depends on the AI assistant, sync service, or cloud provider you choose to use.
@@ -120,15 +123,15 @@ This design is especially important for psychological reflection because sensiti
 ## Quick Start
 
 1. Click **Use this template** or fork this repository.
-2. Create your own working vault. If it will contain real personal material, keep it **private**.
-3. Open the folder in [Obsidian](https://obsidian.md/) or any Markdown editor.
-4. For a new private vault, run the first-contact onboarding workflow in `docs/ONBOARDING_QUESTIONNAIRE.md`, or fill in `01_Client_Profile.md` manually with only the background you want your AI assistant to remember.
-5. Start each reflection session by invoking the vault with this prompt:
+2. Create your own private working workspace. If it will contain real personal material, keep it **private**.
+3. Open the folder in any Markdown editor, local file manager, private repository, or local-first AI workspace.
+4. For a new private workspace, run the first-contact onboarding workflow in `docs/ONBOARDING_QUESTIONNAIRE.md`, or fill in `01_Client_Profile.md` manually with only the background you want your AI assistant to remember.
+5. Start each therapy-support session by invoking the workspace with this prompt:
 
 ```text
-Read AGENTS.md, the core vault files, the latest psychological profile,
+Read AGENTS.md, the core continuity files, the latest psychological profile,
 the running case formulation, and prior session notes in Sessions/.
-Use this vault as the framework for this conversation.
+Use this workspace as the framework for this conversation.
 Continue from previous material instead of starting from zero.
 Use docs/STRATEGY_ROUTING.md to choose the reflective strategy.
 Start with one focused opening question.
@@ -137,23 +140,24 @@ Start with one focused opening question.
 6. After the session, copy `04_Session_Template.md` into `Sessions/` and save it with a date-based filename.
 7. Update `03_Running_Case_Formulation.md`.
 8. Review and update the single current `05_Psychological_Profile.md` after every completed session: stable evidence goes into profile sections, while new uncertain clues go into items to confirm or provisional observations.
-9. End by recommending the next check-in time using `06_Scheduling_Policy.md`.
+9. Update `09_Continuity_Index.md` so future sessions can find key prior material quickly.
+10. End by recommending the next check-in time using `06_Scheduling_Policy.md`.
 
 ## Use Cases
 
-- **Personal AI reflection vault**: build continuity across weekly self-reflection conversations.
-- **Obsidian personal knowledge system**: connect emotional patterns, life events, and long-term self-understanding.
-- **Coaching or journaling template**: structure recurring reflective conversations without storing private data in an app.
+- **Personal AI-assisted therapy support**: build continuity across weekly psychologically oriented conversations.
+- **Computer-assisted therapy preparation**: organize themes, emotions, patterns, and questions before or after professional care.
+- **Guided psychological self-work**: structure recurring conversations without storing private material in a hosted app database.
 - **AI memory design example**: study how to separate short-term session notes from long-term profile memory.
-- **Therapy-adjacent self-organization**: organize thoughts before or after professional therapy without replacing professional care.
+- **Low-cost psychological continuity layer**: preserve structured memory between conversations while avoiding a hosted product database.
 
 ## Who This Is For
 
-- people who already use AI for journaling or reflection;
-- Obsidian users who want a structured personal vault;
+- people who want a structured, low-cost, psychologically informed support system;
+- users who want local control over sensitive psychological memory;
 - builders studying long-term AI memory design;
-- coaches, educators, or facilitators designing reusable reflection templates;
-- people who want a private self-organization system around therapy-adjacent topics.
+- coaches, educators, or facilitators designing reusable psychological support workflows;
+- people who want a private continuity system around therapy-oriented self-understanding.
 
 ## Who This Is Not For
 
@@ -166,9 +170,9 @@ Start with one focused opening question.
 
 ```mermaid
 flowchart TD
-    A["Create private working vault"] --> B{"Profile already exists?"}
+    A["Create private workspace"] --> B{"Profile already exists?"}
     B -- No --> C["Run first-contact onboarding"]
-    B -- Yes --> D["Read local vault files once"]
+    B -- Yes --> D["Read local continuity files once"]
     C --> D
     D --> E["Read latest relevant session context"]
     E --> F["Choose reflective lens"]
@@ -188,7 +192,7 @@ flowchart TD
 
 ## First-Contact Onboarding
 
-Use [First-Contact Onboarding Questionnaire](./docs/ONBOARDING_QUESTIONNAIRE.md) when a user first creates a private working vault.
+Use [First-Contact Onboarding Questionnaire](./docs/ONBOARDING_QUESTIONNAIRE.md) when a user first creates a private working workspace.
 
 The onboarding flow collects only the minimum useful setup context:
 
@@ -246,23 +250,26 @@ flowchart LR
 
 ## Long-term Memory System
 
-The vault separates different levels of memory so one emotional moment does not become a permanent identity label:
+The system separates different levels of memory so one emotional moment does not become a permanent identity label:
 
 - `Sessions/` stores concrete dated records: what happened, what was felt, what was discussed, and what should be revisited.
 - `03_Running_Case_Formulation.md` stores evolving hypotheses about repeated conflicts, relationship patterns, defenses, needs, and growth signals.
 - `05_Psychological_Profile.md` is reviewed and updated after every completed session. Stable or repeated evidence is integrated; uncertain material is kept provisional or listed as an item to confirm.
+- `09_Continuity_Index.md` keeps a short routing layer for active themes, source pointers, latest session context, and compression status.
 - `Reports/` turns many sessions into monthly or yearly synthesis.
 - `07_Memory_Architecture.md` defines how to separate raw events, emotions, interpretations, recurring patterns, profile updates, risk notes, and next-question logic.
 
-The core rule is: **conversation first, documentation after**. Do not update durable memory after every message. Read context once at the beginning when possible, close the session, then save one coherent session note, update the running formulation, review the psychological profile, and recommend the next check-in.
+The core rule is: **conversation first, documentation after**. Do not update durable memory after every message. Read context once at the beginning when possible, close the session, then save one coherent session note, update the running formulation, review the psychological profile, update the continuity index, and recommend the next check-in.
 
-The vault files are the durable memory system. Do not rely on platform-level memory as the primary archive for psychological material.
+The local continuity files are the durable memory system. Do not rely on platform-level memory as the primary archive for psychological material.
 
-## Vault Architecture
+For long-running use, do not reread the full archive by default. Read `09_Continuity_Index.md`, the current profile, the running formulation, monthly/yearly reports, the latest session note, and only the older notes directly relevant to the current theme.
+
+## Continuity Architecture
 
 ```mermaid
 flowchart LR
-    subgraph PrivateVault["Private working vault"]
+    subgraph PrivateWorkspace["Private working workspace"]
         CP["01_Client_Profile.md"]
         FW["02_Therapy_Framework.md"]
         CF["03_Running_Case_Formulation.md"]
@@ -280,7 +287,7 @@ flowchart LR
         WF["Public/private workflow"]
     end
 
-    PublicTemplate -->|"Copy or use as template"| PrivateVault
+    PublicTemplate -->|"Copy or use as template"| PrivateWorkspace
     SN --> CF
     CF --> PP
     SP --> SN
@@ -300,6 +307,7 @@ flowchart LR
 ├── 06_Scheduling_Policy.md
 ├── 07_Memory_Architecture.md
 ├── 08_Public_Private_Workflow.md
+├── 09_Continuity_Index.md
 ├── Sessions/
 ├── Reports/
 ├── docs/
@@ -320,20 +328,22 @@ flowchart LR
 - [Session Lifecycle](./docs/SESSION_LIFECYCLE.md)
 - [First-Contact Onboarding Questionnaire](./docs/ONBOARDING_QUESTIONNAIRE.md)
 - [Adaptive Strategy Routing](./docs/STRATEGY_ROUTING.md)
+- [Conversation Experience](./docs/CONVERSATION_EXPERIENCE.md)
 - [Prompt Recipes](./docs/PROMPT_RECIPES.md)
 - [Privacy And Safety Checklist](./docs/PRIVACY_AND_SAFETY.md)
+- [Continuity Index](./09_Continuity_Index.md)
 - [FAQ](./docs/FAQ.md)
 - [Fictional Session Note Example](./examples/fictional-session-note.md)
 - [Fictional Full Session Lifecycle Example](./examples/full-session-lifecycle-example.md)
 - [Fictional Monthly Report Example](./examples/monthly-report-example.md)
 
-## Public Template, Private Vault
+## Public Template, Private Workspace
 
 This public repository is only a template. It should contain reusable structure, instructions, fictional examples, and blank templates.
 
-Your real personal reflections should live in a separate private repository or local folder. Do not publish real session notes, personal history, relationship details, risk notes, contact information, health details, or anything you would not want strangers to read.
+Your real therapeutic or personal material should live in a separate private repository or local folder. Do not publish real session notes, personal history, relationship details, risk notes, contact information, health details, or anything you would not want strangers to read.
 
-See [Public And Private Vault Workflow](./08_Public_Private_Workflow.md) for the recommended setup.
+See [Public Template And Private Workspace Workflow](./08_Public_Private_Workflow.md) for the recommended setup.
 
 ## Community
 

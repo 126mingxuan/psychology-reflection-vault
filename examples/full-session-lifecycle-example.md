@@ -6,7 +6,7 @@ This is a fictional example. It does not describe a real person.
 
 ```text
 Assistant:
-Before we start the first reflection session, I can ask a brief setup questionnaire so the vault can remember your preferences and choose a better reflective strategy. You may skip any question. Please share only what you want stored in this private vault.
+Before we start the first therapy-support session, I can ask a brief setup questionnaire so the workspace can remember your preferences and choose a better reflective strategy. You may skip any question. Please share only what you want stored in this private workspace.
 
 User:
 I want to understand why I become tense whenever I need to ask for help. I prefer a balanced style: emotional reflection first, then practical steps. Please do not push too quickly into family history unless I bring it up.
@@ -31,8 +31,8 @@ I want to understand why I become tense whenever I need to ask for help. I prefe
 ## 3. Standard Session Invocation
 
 ```text
-Read AGENTS.md, the core vault files, the latest psychological profile, the running case formulation, and prior session notes in Sessions/.
-Use this vault as the framework for this conversation.
+Read AGENTS.md, the core continuity files, the latest psychological profile, the running case formulation, and prior session notes in Sessions/.
+Use this workspace as the framework for this conversation.
 Continue from previous material instead of starting from zero.
 Read context once at the start unless I explicitly ask you to reread.
 Use adaptive strategy routing to choose the reflective lens.
