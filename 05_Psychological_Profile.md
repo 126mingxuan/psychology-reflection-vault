@@ -13,9 +13,12 @@ Stable, repeated, directly confirmed, or strongly supported material belongs in 
 ## Basic Profile
 
 - Preferred language:
+- Mother tongue or emotionally natural language:
+- Language switching or translation preference:
 - Preferred response style:
 - Current broad goals:
 - Current session rhythm:
+- Dream mini-session preference:
 
 ## Possible Core Needs
 
@@ -29,6 +32,8 @@ Stable, repeated, directly confirmed, or strongly supported material belongs in 
 - Strategies that seem less helpful:
 - Preferred depth/action balance:
 - Triggers for shifting strategy:
+- Dream material use preference:
+- Preferred dream mini-session output:
 
 ## Recurring Emotional Patterns
 
@@ -50,4 +55,3 @@ Stable, repeated, directly confirmed, or strongly supported material belongs in 
 Use this only for early setup clues that are not yet stable. Move an item into the main profile only after it is repeated, strongly supported, or explicitly confirmed by the user.
 
 ## Change Log
-

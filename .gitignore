@@ -2,6 +2,8 @@
 .obsidian/
 Sessions/*.md
 !Sessions/README.md
+Dreams/*.md
+!Dreams/README.md
 Reports/Monthly/*.md
 Reports/Yearly/*.md
 !Reports/Monthly/README.md

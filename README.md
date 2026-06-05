@@ -51,6 +51,7 @@ Each item links to the detailed explanation below.
 9. [Public template, private workspace](#9-public-template-private-workspace)
 10. [Local file native and portable](#10-local-file-native-and-portable)
 11. [Model-agnostic and multilingual-ready](#11-model-agnostic-and-multilingual-ready)
+12. [Dream mini-sessions](#12-dream-mini-sessions)
 
 ### 1. Local-first privacy architecture
 
@@ -66,9 +67,11 @@ The goal is practical adoption. A user should be able to clone or download the r
 
 ### 3. First-contact onboarding
 
-The first session should not jump straight into interpretation. The onboarding flow asks only enough to establish language preference, current goals, privacy boundaries, preferred response style, and the user's expectations.
+The first session should not jump straight into interpretation. The onboarding flow starts with live-session language, mother tongue or emotionally natural language, role boundaries, privacy preferences, current goals, preferred response style, and the user's expectations.
 
 The user may skip any question. The result is a light starting profile, not a diagnosis or clinical assessment.
+
+The standardized questionnaire is in [First-Contact Onboarding Questionnaire](./docs/ONBOARDING_QUESTIONNAIRE.md). It uses a psychotherapy-intake-inspired structure covering language, privacy, purpose, current concern, functional impact, emotional baseline, safety, support, relationship context, repeating patterns, continuity preferences, and optional dream tracking.
 
 ### 4. Therapy-informed reflection workflow
 
@@ -133,15 +136,24 @@ The method is a workflow and memory architecture, not a proprietary model wrappe
 
 Formal project files are maintained in English. Translation policy and future localization work are tracked in [TRANSLATIONS.md](./TRANSLATIONS.md).
 
+### 12. Dream mini-sessions
+
+The project supports optional dream-based mini-sessions. A dream mini-session is a brief supplemental conversation, not a full weekly session or diagnostic process.
+
+It can capture the dream, waking emotion, the user's own associations, and a tentative theme. The output is user-selected: no summary, a one-sentence takeaway, a brief private note, a structured dream note, or a carry-forward note. Dream material is carried into full-session continuity only when the user permits it, the theme repeats, or the current session clearly makes it relevant.
+
+See [Dream Mini-Session Workflow](./docs/DREAM_MINI_SESSION.md).
+
 ## Quick Start
 
 1. Clone, download, or use this repository as a template.
 2. Keep this public template separate from any private working vault.
 3. For a private vault, copy the template files into a local or private folder.
 4. Run first-contact onboarding with [docs/ONBOARDING_QUESTIONNAIRE.md](./docs/ONBOARDING_QUESTIONNAIRE.md).
-5. Start each session with the prompt in [docs/PROMPT_RECIPES.md](./docs/PROMPT_RECIPES.md).
-6. After each completed session, save a dated note under `Sessions/`.
-7. Update `03_Running_Case_Formulation.md`, review `05_Psychological_Profile.md`, update `09_Continuity_Index.md`, and recommend the next check-in time.
+5. Optionally use [docs/DREAM_MINI_SESSION.md](./docs/DREAM_MINI_SESSION.md) for brief dream-based reflections.
+6. Start each full session with the prompt in [docs/PROMPT_RECIPES.md](./docs/PROMPT_RECIPES.md).
+7. After each completed session, save a dated note under `Sessions/`.
+8. Update `03_Running_Case_Formulation.md`, review `05_Psychological_Profile.md`, update `09_Continuity_Index.md`, and recommend the next check-in time.
 
 ## Install As An Agent Skill
 
@@ -223,6 +235,7 @@ Long-term use depends on compression and review:
 - yearly reports summarize long-term change and next-year direction;
 - stale hypotheses should be retired instead of carried forward forever;
 - private notes should stay local or private, even when the template repository is public.
+- dream notes should stay brief, optional, private, and separate from full sessions unless a repeated theme becomes relevant.
 
 ## Public Template And Private Workspace
 
@@ -231,6 +244,7 @@ This repository is designed to be public-safe. A real user's working vault shoul
 Before publishing:
 
 - keep real `Sessions/*.md` ignored unless they are fictional examples;
+- keep real `Dreams/*.md` ignored unless they are fictional examples;
 - keep real monthly and yearly reports ignored;
 - remove identity, contact, health, financial, relationship, and crisis details from public files;
 - use `examples/` for fictional material only;
@@ -253,6 +267,7 @@ Before publishing:
 ├── 08_Public_Private_Workflow.md
 ├── 09_Continuity_Index.md
 ├── Sessions/
+├── Dreams/
 ├── Reports/
 ├── docs/
 ├── examples/
@@ -266,6 +281,7 @@ Before publishing:
 - [Getting Started](./docs/GETTING_STARTED.md)
 - [Session Lifecycle](./docs/SESSION_LIFECYCLE.md)
 - [First-Contact Onboarding Questionnaire](./docs/ONBOARDING_QUESTIONNAIRE.md)
+- [Dream Mini-Session Workflow](./docs/DREAM_MINI_SESSION.md)
 - [Adaptive Strategy Routing](./docs/STRATEGY_ROUTING.md)
 - [Conversation Experience](./docs/CONVERSATION_EXPERIENCE.md)
 - [Prompt Recipes](./docs/PROMPT_RECIPES.md)

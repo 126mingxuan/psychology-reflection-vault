@@ -12,6 +12,7 @@ Use this as the fast routing layer for long-running continuity.
 - Current formulation:
 - Current profile:
 - Scheduling rule:
+- Dream mini-session workflow:
 
 ## Active Themes
 
@@ -33,6 +34,12 @@ Use this as the fast routing layer for long-running continuity.
 | Hypothesis | Reason retired | Date |
 | --- | --- | --- |
 
-## Next Opening Question
+## Dream Mini-Session Pointers
 
+Use this only for repeated or user-approved dream themes. Do not list every dream.
+
+| Theme Or Image | Source | Status | Next use |
+| --- | --- | --- |
+
+## Next Opening Question
 

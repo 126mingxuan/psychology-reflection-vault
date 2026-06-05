@@ -9,7 +9,8 @@
 5. Profile layer: stable information for future sessions.
 6. Question layer: one next opening question.
 7. Continuity index layer: short routing map for long-term use.
-8. Risk layer: safety material that overrides ordinary reflection.
+8. Dream mini-session layer: short optional dream notes, user associations, and user-requested outputs.
+9. Risk layer: safety material that overrides ordinary reflection.
 
 ## Update Rules
 
@@ -17,7 +18,9 @@
 - Update the running formulation when understanding changes.
 - Update the profile only for stable, repeated, or confirmed material.
 - Update `09_Continuity_Index.md` after each session.
+- Save dream mini-session notes under `Dreams/` only when the user asks to record them.
 - Do not turn one intense moment into a stable personality conclusion.
+- Do not diagnose the user from a single dream.
 - Do not write assistant speculation as user fact.
 
 ## Opening Question

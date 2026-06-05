@@ -11,7 +11,10 @@ This private vault is for recurring psychological reflection conversations with 
 5. Close when the main theme has been organized.
 6. Save a dated session note.
 7. Update the running formulation, profile, continuity index, and scheduling recommendation as needed.
+8. Use `Dreams/` only for brief dream mini-session notes or user-approved repeated dream themes.
 
 ## Boundary
 
 This vault supports reflection and emotional pattern tracking. It is not licensed psychotherapy, medical diagnosis, psychiatric care, or emergency support.
+
+Dream mini-sessions are supplemental and should not become diagnosis or full psychological explanation.

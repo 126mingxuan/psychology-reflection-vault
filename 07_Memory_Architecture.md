@@ -101,7 +101,26 @@ Use it to track:
 
 This layer protects the user experience by reducing startup time in a long-running vault.
 
-### 8. Risk Layer
+### 8. Dream Mini-Session Layer
+
+Dream notes belong under `Dreams/` and should remain short, optional, and supplemental.
+
+Record:
+
+- the dream content the user chose to share;
+- emotions during the dream and on waking;
+- the user's own associations;
+- the user-requested output, if any;
+- whether the dream should be carried into a later full session.
+
+Do not:
+
+- diagnose the user from a dream;
+- treat a single dream as a stable personality pattern;
+- impose universal symbolic meanings;
+- carry dream material into full sessions unless the user permits it, repeats it, or the current session makes it relevant.
+
+### 9. Risk Layer
 
 If self-harm, suicidal intent, intent to harm others, severe loss of control, or real-world safety problems appear, stop ordinary psychological analysis and prioritize safety.
 
@@ -111,6 +130,7 @@ If self-harm, suicidal intent, intent to harm others, severe loss of control, or
 - The running case formulation may be updated after every session, but it must distinguish hypotheses from relatively stable patterns.
 - The psychological profile should be updated only when information is stable or repeated.
 - The continuity index should be updated after each completed session so the next session can start quickly.
+- Dream mini-session notes should be saved under `Dreams/` only when the user asks to record them.
 - Monthly reports compress several sessions into monthly themes.
 - Yearly reports summarize long-term changes.
 - Do not label the user's personality based on one intense emotion.

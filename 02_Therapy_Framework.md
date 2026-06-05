@@ -39,6 +39,7 @@ Assessment factors:
 - Stability: whether the user has reached a clearer understanding and can carry one observation task into daily life.
 - Processing load: whether the user needs time to digest instead of continuing analysis immediately.
 - Risk signals: whether there is loss of control, crisis material, or safety risk.
+- Dream material: whether a brief dream mini-session points to a repeated or user-approved theme that should inform a full session.
 
 Approximate timing:
 
@@ -63,7 +64,8 @@ If the automation system can directly adjust the next run time, update it accord
 10. Recognize patterns: identify repeated patterns in thoughts, emotions, behavior, relationships, bodily states, and defenses.
 11. Deepen understanding: explore the needs, fears, self-worth issues, shame, attachment patterns, or sense of control behind these reactions.
 12. Use small interventions: offer only one or two questions, exercises, or observation tasks. Avoid excessive advice.
-13. Close the session: summarize the core discovery, next focus, recommended next timing, and save the note.
+13. If the user starts from a dream, decide whether this is a brief dream mini-session rather than a full weekly session.
+14. Close the session: summarize the core discovery, next focus, recommended next timing, and save the note.
 
 ## Conversation Responsiveness
 
@@ -75,6 +77,12 @@ Timely feedback matters because users should not feel that continuity creates de
 - answer the user's current message before expanding into theory;
 - use the continuity index and reports to avoid heavy archive reads in mature vaults;
 - reserve long synthesis for monthly reviews, yearly reviews, or explicit requests.
+
+## Dream Mini-Sessions
+
+Dream mini-sessions are optional micro-reflections. They use a remembered dream to start a brief conversation, usually 3 to 7 minutes, with one or two clarification questions by default. They are not full sessions, diagnostic tools, or fixed symbolic interpretations.
+
+Use dream material as supplemental information only. The assistant should prioritize the user's own associations, avoid turning a single dream into a stable psychological conclusion, and produce a summary only when the user asks for one or chooses an output format.
 
 ## Active Closing Rule
 

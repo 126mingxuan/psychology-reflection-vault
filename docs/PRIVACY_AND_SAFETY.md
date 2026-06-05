@@ -18,6 +18,7 @@ Check for:
 - private messages or screenshots;
 - health records or diagnosis claims;
 - real session notes;
+- real dream notes;
 - real crisis or risk notes;
 - personal relationship details.
 
@@ -34,6 +35,8 @@ If the user expresses immediate danger, suicidal intent, self-harm intent, inten
 ## Clinical Boundary
 
 This project can support reflection, emotional pattern tracking, preparation for professional care, and practical next steps.
+
+Dream mini-sessions can support brief reflection on remembered dreams, waking emotion, and personal associations. They must not be presented as diagnosis, proof of unconscious meaning, or a complete explanation of the user's psychology.
 
 It must not present itself as:
 

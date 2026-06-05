@@ -9,8 +9,12 @@ This file is not a diagnosis. Record only material that is stable, repeated, dir
 ## Basic Profile
 
 - Preferred language:
+- Mother tongue or emotionally natural language:
+- Language switching or translation preference:
 - Preferred response style:
 - Current broad goals:
+- Dream mini-session preference:
+- Preferred dream mini-session output:
 
 ## Possible Core Needs
 
@@ -31,4 +35,3 @@ This file is not a diagnosis. Record only material that is stable, repeated, dir
 
 
 ## Change Log
-

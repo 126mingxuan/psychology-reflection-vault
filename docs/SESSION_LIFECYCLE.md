@@ -15,6 +15,8 @@ Read in this order:
 
 For early sessions, also read `00_Start_Here.md` and `02_Therapy_Framework.md`.
 
+Read `Dreams/` only when the user starts from a dream, the continuity index points to a relevant dream theme, or the current issue clearly connects to prior user-approved dream material.
+
 ## 2. Opening
 
 Start with one focused question in the user's language. The question should come from:
@@ -22,6 +24,7 @@ Start with one focused question in the user's language. The question should come
 - the latest unfinished theme;
 - a profile hypothesis that needs confirmation;
 - the most important open question in the running formulation;
+- a user-approved repeated dream theme;
 - the user's current message.
 
 ## 3. Exploration
@@ -74,3 +77,17 @@ After closing:
 ## 7. Next Session
 
 The next session should start from the continuity index and latest note, not from a full archive dump.
+
+## Dream Mini-Session Variant
+
+When the user wants to open with a dream, use `docs/DREAM_MINI_SESSION.md` instead of the full weekly session flow.
+
+Keep the exchange brief:
+
+1. Capture the dream in the user's words.
+2. Ask one or two short clarification questions by default.
+3. Use the user's own associations before interpretation.
+4. Offer a tentative short reflection.
+5. Ask or infer whether the user wants no summary, a one-sentence takeaway, a brief private note, a structured dream note, or a carry-forward note.
+6. Save a dream note under `Dreams/` only if the user wants it recorded.
+7. Carry the dream into full-session continuity only if the user permits it, the theme repeats, or the current session makes it clearly relevant.

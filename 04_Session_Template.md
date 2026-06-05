@@ -24,6 +24,11 @@ Date:
 
 -
 
+## Supplemental Material Reviewed
+
+- Dream mini-session notes reviewed:
+- Reason this material was relevant:
+
 ## Psychological Understanding In This Session
 
 - Provisional hypothesis:

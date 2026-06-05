@@ -37,6 +37,7 @@ The public repository should not contain:
 The private workspace may contain the user's real continuity files:
 
 - `Sessions/*.md`;
+- `Dreams/*.md`;
 - monthly and yearly reports;
 - user-specific profile details;
 - case formulation updates;
@@ -59,6 +60,7 @@ Keep the private workspace local or in a private repository. Review every file b
 Before pushing or publishing:
 
 - confirm `Sessions/*.md` is ignored unless the file is a public README;
+- confirm `Dreams/*.md` is ignored unless the file is a public README;
 - confirm monthly and yearly reports are ignored unless they are public READMEs;
 - search for private names, addresses, contacts, credentials, tokens, and health details;
 - review the diff instead of using a blind upload;

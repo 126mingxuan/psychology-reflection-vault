@@ -15,12 +15,21 @@ Keep this file short. It should point to source files rather than duplicate them
 - Current profile: `05_Psychological_Profile.md`
 - Scheduling rule: `06_Scheduling_Policy.md`
 - Memory update rules: `07_Memory_Architecture.md`
+- Dream mini-session workflow: `docs/DREAM_MINI_SESSION.md`
 
 ## Active Themes
 
 Use this section to list live themes that deserve attention in the next session.
 
 | Theme | Source | Status | Next use |
+| --- | --- | --- | --- |
+|  |  |  |  |
+
+## Dream Mini-Session Pointers
+
+Use this section only for repeated or user-approved dream themes that may help route future full sessions. Do not list every dream.
+
+| Theme Or Image | Source | Status | Next use |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
