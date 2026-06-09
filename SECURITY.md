@@ -1,21 +1,25 @@
-# Security And Privacy Policy
+# Security Policy
 
-This project is a public template and should not contain real personal psychological material.
+## Reporting Sensitive Issues
 
-## Reporting Privacy Or Safety Issues
+Do not open a public issue containing passwords, tokens, private keys, personal records, private messages, health details, or real session notes.
 
-If you find personal information, unsafe mental health language, or a privacy risk in the public template, please open an issue or contact the maintainer privately if the issue itself contains sensitive material.
+For ordinary documentation or installer problems, open a GitHub issue without private material.
 
-## Sensitive Content Policy
+## Privacy Scope
 
-Do not commit:
+This project is local-first and has no server component. Security and privacy risk usually comes from:
 
-- real session notes;
-- names, contact details, addresses, account identifiers, or workplace details;
-- medical history, diagnosis, medication, or risk-event details;
-- private relationship or family information;
-- data exported from a real private workspace.
+- publishing a private vault;
+- syncing private notes to a public location;
+- sending sensitive content to a third-party AI provider;
+- committing credentials or personal records by mistake.
 
-## Recommended User Practice
+## Maintainer Expectations
 
-Use this repository as a public template only. Keep your real working workspace private or local.
+Maintainers should:
+
+- keep public examples fictional;
+- reject changes containing private user material;
+- avoid adding telemetry or hidden data collection;
+- document any network behavior clearly.

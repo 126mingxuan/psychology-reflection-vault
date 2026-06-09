@@ -1,38 +1,47 @@
 # Privacy And Safety Checklist
 
-Use this checklist before publishing, sharing, or forking a private working workspace.
+## Privacy Principles
 
-## Local-First Privacy Model
+- Use the minimum personal data needed.
+- Keep real session notes local or private.
+- Do not publish identity, contact, health, relationship, financial, credential, or crisis details.
+- Prefer fictional examples in public documentation.
+- Make memory visible and editable.
+- Let the user remove or correct stored material.
 
-This workspace is made of local Markdown files. The template has no hosted backend, no project server, no hidden database, and no built-in telemetry.
+## Before Publishing
 
-That means your working workspace can stay entirely on your own device or in your own private repository.
+Check for:
 
-Important limitation: if you paste, upload, or connect private workspace content to a cloud AI service, that service may receive the content you provide. The architecture is local-first; your AI provider choice determines any external data transmission.
-
-## Never Publish
-
+- real names or contact details;
+- passwords, tokens, private keys, API keys, or financial data;
+- private messages or screenshots;
+- health records or diagnosis claims;
 - real session notes;
-- real psychological profiles;
-- names, contact details, addresses, account names, or workplace details;
-- medical history, diagnosis, medication, or crisis details;
-- relationship, family, school, or workplace details that identify real people;
-- screenshots containing private information;
-- AI-generated summaries of real personal material.
-
-## Before Pushing To A Public Repository
-
-Check:
-
-- [ ] `Sessions/` contains only placeholder files or fictional examples.
-- [ ] `03_Running_Case_Formulation.md` is blank or fictional.
-- [ ] `05_Psychological_Profile.md` is blank or fictional.
-- [ ] No real names, emails, phone numbers, addresses, accounts, or locations appear.
-- [ ] No real health, diagnosis, medication, or risk material appears.
-- [ ] README examples are generic or clearly fictional.
+- real dream notes;
+- real crisis or risk notes;
+- personal relationship details.
 
 ## Safety Boundary
 
-This workspace can support therapy-oriented reflection, emotional organization, and continuity. It cannot provide emergency support, diagnosis, or treatment.
+If the user expresses immediate danger, suicidal intent, self-harm intent, intent to harm others, or severe loss of control:
 
-If immediate danger, suicidal intent, self-harm risk, or risk of harming someone else appears, stop ordinary reflection and contact local emergency services, qualified professionals, or a trusted person.
+1. Stop ordinary reflection.
+2. Ask whether they are in immediate danger.
+3. Encourage contacting local emergency services or a trusted person immediately.
+4. Keep the response direct and concrete.
+5. Record risk material only in the private workspace.
+
+## Clinical Boundary
+
+This project can support reflection, emotional pattern tracking, preparation for professional care, and practical next steps.
+
+Dream mini-sessions can support brief reflection on remembered dreams, waking emotion, and personal associations. They must not be presented as diagnosis, proof of unconscious meaning, or a complete explanation of the user's psychology.
+
+It must not present itself as:
+
+- licensed psychotherapy;
+- psychiatric care;
+- diagnosis;
+- medical treatment;
+- emergency support.

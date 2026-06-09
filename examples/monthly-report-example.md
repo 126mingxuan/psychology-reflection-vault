@@ -1,28 +1,35 @@
-# 2026-01 Fictional Monthly Report Example
+# Fictional Monthly Report Example
 
-This is a fictional example. It does not describe a real person.
+This example is fictional and public-safe.
+
+## Month
+
+January 2026
 
 ## Main Themes
 
-- Difficulty shifting from performance mode to rest.
-- Rumination after ambiguous social or work signals.
-- Growing awareness that the mind tries to regain control by replaying details.
+- Avoidance around visible work.
+- Shame after postponement.
+- Relief when tasks were made smaller and private before public review.
 
 ## Emotional Pattern
 
-- Anxiety is strongest when situations feel unresolved.
-- Relief appears when the user can name the specific uncertainty.
+Anxiety tended to appear before the user could name the specific thought. Shame appeared afterward and made restarting harder.
 
-## Helpful Practices
+## Working Formulation
 
-- Writing down the question behind rumination.
-- Ending sessions with one small observation task rather than many goals.
+Provisional: avoidance may protect the user from imagined evaluation. Smaller private steps may reduce the intensity enough for action to begin.
 
-## Possible Long-Term Pattern
+## Useful Interventions
 
-- Tentative: the user may experience uncertainty as a threat to competence or safety.
-- Needs more evidence before adding to the psychological profile.
+- 15-minute private outline.
+- Naming body signals before switching tasks.
+- Separating draft quality from personal worth.
+
+## Changes This Month
+
+The user became faster at noticing the first body signal before avoidance.
 
 ## Next Month Focus
 
-- Explore the difference between useful reflection and repetitive rumination.
+Explore whether fear of evaluation appears in relationships as well as work.

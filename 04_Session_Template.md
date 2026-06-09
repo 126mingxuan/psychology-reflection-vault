@@ -4,25 +4,17 @@ Date:
 
 ## Session Phase
 
-- Initial assessment / stable working phase / short follow-up / monthly integration:
-- First-contact onboarding completed or updated:
-
-## Reflective Strategy Used
-
-- Primary lens:
-- Supporting lenses:
-- Why this strategy fit this session:
-- Should the next session continue or shift strategy:
+- Initial assessment phase / stable working phase / short-term support phase / monthly integration phase:
 
 ## Explicit Facts Mentioned By The User
 
 -
 
-## Main Events Discussed
+## Main Events In This Session
 
 -
 
-## Emotions And Body State
+## Emotions And Bodily State
 
 -
 
@@ -30,16 +22,23 @@ Date:
 
 -
 
-## Psychological Understanding From This Session
+-
 
-- Tentative hypothesis:
-- Needs further validation:
+## Supplemental Material Reviewed
+
+- Dream mini-session notes reviewed:
+- Reason this material was relevant:
+
+## Psychological Understanding In This Session
+
+- Provisional hypothesis:
+- Needs further verification:
 
 ## Observed Patterns
 
 -
 
-## Possible Defenses Or Coping Strategies
+## Possible Defenses Or Coping Styles
 
 -
 
@@ -51,36 +50,24 @@ Date:
 
 -
 
-## Long-Term Memory Updates
+## Long-Term Memory Update
 
 - Update psychological profile:
-- Profile sections changed:
-- New provisional profile observations:
-- Client profile sections changed:
 - Update running case formulation:
 - Reason for update:
 
-## Continuity Index Updates
+## Risk And Boundary
 
-- Latest session pointer updated:
-- Active themes changed:
-- Source map changes:
-- Older notes needed next time:
-- Compression backlog changed:
-
-## Risk And Boundaries
-
-- Any crisis signal:
-- Need for real-world support or professional service:
+- Crisis signals present:
+- Real-world support or professional service needed:
 
 ## Next Scheduling Recommendation
 
-- Session closure assessment:
-- Suggested next trigger time:
+- Session closure judgment:
+- Recommended next trigger time:
 - Scheduling rationale:
-- Next opening-question direction:
-- Recommended strategy for the next session:
+- Direction for the next opening question:
 
-## Short Summary For The Next Session
+## Brief Summary For Next Session
 
 -

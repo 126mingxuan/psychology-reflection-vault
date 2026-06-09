@@ -1,23 +1,20 @@
 # Changelog
 
-This project keeps a simple human-readable changelog.
+## 2026-06-05
 
-## Unreleased
+- Expanded first-contact onboarding into a standardized, staged intake questionnaire.
+- Refined onboarding into a psychotherapy-intake-inspired flow with language, mother tongue, privacy, safety, functioning, support, context, and continuity preferences.
+- Added optional dream mini-session workflow for brief dream-based reflection.
+- Shortened dream mini-sessions to a 3 to 7 minute micro-session model with user-selected outputs.
+- Added `Dreams/` templates and ignore rules so real dream notes stay private by default.
+- Updated conversation experience, session lifecycle, memory architecture, prompt recipes, README, and skill references to keep dream material supplemental rather than diagnostic.
 
-- Future template improvements, documentation refinements, examples, and translations.
-- Clarified that live conversation should match the user's language while public GitHub project files remain English, except optional localized README files.
-- Added session-based memory rules: no durable memory write after every message, automatic session notes after each session, profile review after every session, continuity from prior notes, and next-session timing recommendations.
-- Clarified downloaded workspace usage, local continuity files as the source of truth, one current psychological profile file, and adaptive strategy routing across sessions.
-- Added smoother session UX rules: read context once at the start when possible, allow rare mid-session checkpoints, save a session note after every completed session, and update the single current profile after every completed session.
-- Added release-note expectations so each meaningful GitHub update explains differences from the previous version, user-facing improvements, highlights, and migration notes.
-- Added a first-contact onboarding questionnaire, detailed strategy routing guide, complete session lifecycle guide, standard workspace invocation prompt, full fictional lifecycle example, and release template.
+## 2026-06-04
 
-## 2026-05-27
-
-- Strengthened README positioning around local-first privacy, adaptive multi-strategy reflection, and visible long-term memory.
-- Prepared README positioning for future visual workflow assets.
-- Added German, Korean, Brazilian Portuguese, Russian, and Arabic README entry points.
-- Published the initial public workspace template.
-- Added multilingual README files.
-- Added community files: contributing guide, code of conduct, security policy, roadmap, issue templates, and pull request template.
-- Improved the README with highlights, quick start, use cases, diagrams, and public/private guidance.
+- Reworked README around a clickable section index and detailed feature index.
+- Added public/private workspace workflow documentation.
+- Added continuity index for faster long-term operation.
+- Added conversation experience, session lifecycle, strategy routing, onboarding, privacy, and FAQ docs.
+- Added fictional public examples.
+- Added community, support, security, roadmap, translation, and license files.
+- Updated ignore rules so real session notes stay local by default.

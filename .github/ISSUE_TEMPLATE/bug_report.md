@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a problem in the template, docs, links, or repository structure
+about: Report a problem with the public template, docs, or installer
 title: "[Bug]: "
 labels: bug
 assignees: ""
@@ -8,16 +8,13 @@ assignees: ""
 
 ## What happened?
 
-Describe the problem clearly.
-
-## Where is it?
-
-File or section:
 
 ## Expected behavior
 
-What should happen instead?
 
-## Additional context
+## Files or area affected
 
-Do not include private personal reflection content.
+
+## Privacy check
+
+- [ ] This issue contains no private session notes or sensitive personal material.

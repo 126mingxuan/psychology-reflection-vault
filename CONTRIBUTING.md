@@ -1,53 +1,44 @@
 # Contributing
 
-Thank you for helping improve AI-Assisted Therapy Support.
+Thank you for helping improve this project.
 
-This project is a public template for psychological reflection workflows. Contributions should improve structure, clarity, safety, documentation, localization, or usability without adding private material.
+## Contribution Principles
 
-## What Contributions Are Welcome
+- Keep public files in English.
+- Do not include real personal session material.
+- Use fictional examples only.
+- Avoid clinical claims, diagnosis language, or promises of treatment.
+- Preserve the local-first and user-editable memory model.
+- Prefer concise, practical documentation.
 
-- clearer README or setup instructions;
-- better session templates;
-- safer wording around mental health boundaries;
-- improved memory architecture;
-- better local file workflow compatibility;
-- localization fixes;
-- issue templates, examples, and documentation improvements.
+## Good Contributions
 
-## What Should Not Be Added
-
-- real session notes;
-- identifiable personal information;
-- medical diagnosis claims;
-- claims that the project replaces therapy;
-- private psychological profiles;
-- examples based on real people unless fully fictionalized.
+- clearer workflow instructions;
+- better privacy and safety checks;
+- improved onboarding questions;
+- better prompt recipes;
+- fictional examples;
+- installer improvements;
+- documentation for new agent environments.
 
 ## Pull Request Checklist
 
 Before opening a pull request:
 
-- [ ] The change does not include private or identifiable information.
-- [ ] Mental health language stays careful and non-clinical.
-- [ ] Public templates remain reusable by strangers.
-- [ ] The update explains what changed compared with the previous version.
-- [ ] The update explains the practical improvement or highlight users should notice.
-- [ ] README translations are updated if the English README changed.
-- [ ] Links are relative when pointing to files inside the repository.
+- run the installer smoke test if you changed `install.sh`, `install.command`, `scripts/`, or `skill/`;
+- check README links;
+- confirm no private notes are included;
+- confirm examples are fictional;
+- update `CHANGELOG.md` when the change is user-visible.
 
-## Release Notes
+## Public Safety
 
-For each meaningful version update, include a short release note or changelog entry that answers:
+Do not submit:
 
-- What changed compared with the previous version?
-- Why is the new version better or clearer?
-- What are the most important highlights?
-- Do existing users need to change anything in their private workspaces?
-
-Use `.github/RELEASE_TEMPLATE.md` when preparing a formal release.
-
-## Translation Contributions
-
-English is the source language. If you update a localized README, preserve the same language selector at the top and translate meaning rather than word order.
-
-See `TRANSLATIONS.md` for details.
+- real session notes;
+- identity details;
+- health records;
+- private messages;
+- credentials;
+- crisis details;
+- anything copied from a real user's private vault.

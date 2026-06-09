@@ -1,32 +1,19 @@
 # Support
 
-This project is a public template. Support is limited to template usage, documentation, repository structure, and public workflow design.
+## Project Support
 
-## Good Places To Ask
+Use GitHub issues for:
 
-- Open a GitHub issue for bugs, broken links, unclear documentation, or reusable template improvements.
-- Open a translation issue for README localization problems.
-- Use discussions if they are enabled in the repository.
+- documentation problems;
+- broken links;
+- installer bugs;
+- unclear workflow rules;
+- feature requests for the public template.
 
-## What This Project Cannot Support
+Do not post private session notes, identity details, health details, credentials, or crisis material in public issues.
 
-This project cannot provide:
+## Personal Or Clinical Support
 
-- therapy;
-- diagnosis;
-- psychiatric advice;
-- crisis response;
-- interpretation of real personal trauma or risk material;
-- private review of sensitive session notes.
+This repository is not a clinical service. It does not provide licensed therapy, diagnosis, treatment, emergency support, or medical advice.
 
-If you are in immediate danger or at risk of self-harm or harming someone else, contact local emergency services, a qualified professional, or a trusted person immediately.
-
-## Before Asking For Help
-
-Please check:
-
-- `README.md`
-- `docs/GETTING_STARTED.md`
-- `docs/FAQ.md`
-- `docs/PRIVACY_AND_SAFETY.md`
-- `08_Public_Private_Workflow.md`
+If you are in immediate danger, at risk of self-harm, or at risk of harming someone else, contact local emergency services, a qualified professional, or a trusted person immediately.

@@ -1,110 +1,147 @@
 # First-Contact Onboarding Questionnaire
 
-This questionnaire is for the first time a user turns the public template into a private AI-assisted therapy support workspace.
+## Purpose
 
-Its purpose is to gather enough context to start a useful reflection process without collecting more private information than necessary. The user may skip any question.
+Use this when a user first creates a private working vault or when the assistant needs a more standardized intake before recurring reflection begins.
 
-## When To Use
+The goal is to mirror the structure of a careful first psychotherapy intake while staying within this project's boundary: it supports psychological reflection and continuity, not diagnosis, treatment, medical assessment, emergency care, or licensed psychotherapy.
 
-Use this questionnaire when:
+Ask one question at a time. The user may skip any question. Do not pressure the user for identity details, medical history, financial details, private messages, credentials, or other sensitive data.
 
-- `01_Client_Profile.md` is empty or nearly empty;
-- the user is starting a new private workspace;
-- the assistant does not yet know the user's communication preferences, reflection goals, or privacy boundaries.
+## Administration Rules
 
-Do not repeat the full questionnaire every session. After the first setup, update the profile only when the user corrects information, adds important context, or a stable pattern becomes clear across sessions.
+- Keep the intake conversational, but follow the sections in order.
+- Begin with language, consent, and privacy boundaries.
+- Use the core intake as the default path for a new user.
+- Use optional follow-ups only when the user's answer makes them relevant.
+- Stop, pause, or move into the first session when enough context exists.
+- Mark all interpretations as provisional.
+- Save only continuity-useful information.
+- If risk signals appear, pause ordinary onboarding and follow the safety boundary in `docs/PRIVACY_AND_SAFETY.md`.
 
-## Privacy Principle
+## Intake Completion Levels
 
-Ask for the minimum useful information.
+- Minimal intake: language, privacy boundary, current concern, safety screen, and preferred response style.
+- Standard intake: all core sections below, usually completed over one or two conversations.
+- Expanded intake: optional follow-ups for users who want a fuller self-reflection baseline.
 
-Do not ask for full legal names, addresses, phone numbers, account details, private messages, medical records, medication lists, identity documents, or crisis-event details unless the user explicitly chooses to record something and understands the privacy implications.
+The assistant should not force the expanded intake before the user can begin talking about what matters.
 
-If the user wants to keep something outside the workspace, respect that boundary.
+## Core Intake Sequence
 
-## Short Opening Script
+### 1. Language, Access, And Communication
 
-```text
-Before we start the first therapy-support session, I can ask a brief setup questionnaire so the workspace can remember your preferences and choose a better reflective strategy. You may skip any question. Please share only what you want stored in this private workspace.
-```
+1. What language should we use for live sessions?
+2. Is that your mother tongue or the language in which emotional reflection feels most natural?
+3. If you use more than one language, when should the assistant switch language, translate, or preserve your original wording?
+4. What response style helps you most: warm support, direct analysis, practical steps, reflective questions, or a balanced style?
+5. What pace feels safest and most useful: slow exploration, focused and direct, grounding before analysis, or flexible?
 
-## Core Questions
+### 2. Consent, Role Boundary, And Privacy
 
-### 1. Basic Context
+6. Do you understand that this is a structured self-reflection system, not licensed therapy, medical diagnosis, psychiatric care, or emergency support?
+7. Are there topics the assistant should not bring up unless you mention them first?
+8. What should remain out of durable continuity memory unless you explicitly ask to save it?
 
-- What language should the assistant use with you during live reflection?
-- What name or nickname should the assistant use, if any?
-- What is your current work, study, or life situation in broad terms?
-- What are the main themes you hope this AI-assisted support system can help you understand?
-- What should the assistant avoid asking about unless you bring it up first?
+### 3. Purpose And Timing
 
-### 2. Current State
+9. What made you want to start this recurring reflection space now?
+10. What would you most like to understand, change, or track through this process?
+11. What would make this process feel genuinely useful after several sessions?
 
-- What has been emotionally most present for you recently?
-- Are there any recurring situations, relationships, or inner conflicts you keep returning to?
-- What usually happens when you feel stressed, ashamed, anxious, angry, lonely, stuck, or overwhelmed?
-- What helps you calm down or think more clearly?
+### 4. Current Main Concern
 
-### 3. Reflection Preferences
+12. What has felt most emotionally important, difficult, or repetitive recently?
+13. If there are several concerns, what are the top one to three?
+14. When did the current concern begin, and has it changed over time?
+15. What tends to trigger it, intensify it, or make it easier to carry?
+16. Which area matters most right now: emotions, relationships, family, study or work, self-worth, habits, sleep and health, creativity, or life direction?
 
-- Do you prefer more emotional support, deeper analysis, practical steps, or a balance?
-- Do you prefer slow exploration or a more direct focus?
-- When something painful appears, should the assistant stay close to the emotion first, or move sooner toward structure and action?
-- Do you want the assistant to challenge contradictions gently when they appear?
+### 5. Impact On Daily Functioning
 
-### 4. Strategy Preferences
+17. How is this affecting your daily life, such as study, work, relationships, sleep, health habits, motivation, or concentration?
+18. Are there situations you are avoiding, delaying, over-controlling, or repeatedly replaying in your mind?
+19. What still works relatively well, even during difficult periods?
 
-- Are you currently more interested in understanding patterns, changing behaviors, improving relationships, regulating emotions, clarifying life direction, or something else?
-- Which kind of reflection feels most useful right now: depth exploration, cognitive tools, relationship mapping, grounding, meaning-focused reflection, or supportive conversation?
-- Are there approaches that usually feel unhelpful, too abstract, too mechanical, too intense, or too directive?
+### 6. Emotional And Bodily Baseline
 
-### 5. Continuity And Memory
+20. Over the past one to two weeks, what has your usual emotional baseline been?
+21. Which emotions have been most frequent or intense recently?
+22. When things become difficult, what do you usually notice first: thoughts, emotions, body sensations, avoidance, conflict, numbness, or something else?
+23. Have sleep, appetite, energy, attention, or body tension changed in a way that feels relevant?
 
-- What should the assistant remember across future sessions?
-- What should remain only in the current conversation and not be written into long-term files?
-- Are there any stable facts about your communication style, boundaries, or goals that should go into `01_Client_Profile.md`?
-- Are there any uncertain themes that should be marked as provisional rather than treated as stable?
+### 7. Safety And Stabilization
 
-### 6. Safety Boundary
+24. Is there any current safety concern that the assistant should treat with extra care, such as immediate danger, loss of control, self-harm risk, or risk of harming someone else?
+25. If you become overwhelmed, what usually helps you regain steadiness?
+26. Who or what could be part of your real-world support system if you needed support beyond this reflection space?
 
-- Are there any current safety concerns that would make ordinary reflection inappropriate?
-- If intense distress appears, what general support path should the assistant remind you to use: local emergency services, a qualified professional, a trusted person, grounding first, or another safe option?
+### 8. Personal And Relational Context
 
-Do not turn this into a clinical risk assessment. If immediate danger, suicidal intent, self-harm intent, or risk of harming someone else appears, stop ordinary reflection and prioritize real-world safety.
+27. What life context feels important for the assistant to understand, such as study, work, family, relationships, identity, health habits, or major transitions?
+28. Are there relationship patterns or family patterns that often affect your emotional state?
+29. Are there cultural, spiritual, community, or personal values that should shape how reflection is handled?
 
-## Recording Map
+### 9. Repeating Patterns And Coping
 
-Use the answers this way:
+30. Is there a reaction, conflict, fear, or behavior that keeps repeating even when the situation changes?
+31. When you feel stuck, do you usually move toward overthinking, self-criticism, withdrawal, pleasing others, control, procrastination, anger, or shutting down?
+32. What coping strategies help in the short term but may create problems later?
+33. What personal strengths, values, or capacities should not be overlooked?
 
-| User Answer | Record In | Memory Status |
-| --- | --- | --- |
-| Language and response style | `01_Client_Profile.md` | Stable preference if explicit |
-| Broad life context | `01_Client_Profile.md` | Stable fact if the user wants it stored |
-| Current stressors | First session note | Concrete current material |
-| Repeated emotional themes | `03_Running_Case_Formulation.md` | Tentative hypothesis |
-| Communication boundaries | `01_Client_Profile.md` | Stable preference if explicit |
-| Strategy preference | `05_Psychological_Profile.md` under effective strategies | Provisional until tested |
-| Safety boundary preference | `01_Client_Profile.md` or session note | Practical support context |
+### 10. Prior Reflection Or Support
 
-## Initial Strategy Hints
+34. Have you used journaling, coaching, counseling, therapy, meditation, or other forms of reflection before?
+35. What helped, did not help, or felt uncomfortable in those experiences?
 
-Use onboarding answers to choose a starting lens:
+### 11. Continuity, Memory, And Session Preferences
 
-- Recurring shame, self-worth conflict, attachment pain, or repeated relational patterns: start with psychodynamic or psychoanalytic reflection.
-- Anxiety loops, avoidance, rumination, procrastination, or action difficulty: add cognitive-behavioral tools.
-- Family roles, loyalty conflicts, inherited expectations, or boundary stress: add family-systems thinking.
-- Emotional flooding, body tension, panic-like activation, or difficulty staying present: start with grounding or mindfulness-based reflection.
-- Meaning, choice, loneliness, freedom, responsibility, or life direction: add existential reflection.
-- Need for acceptance, gentleness, or emotional holding: keep a humanistic base.
-- Any immediate safety concern: use safety-first boundaries instead of ordinary reflection.
+36. What should be remembered for future sessions?
+37. What should be treated as session-only material rather than durable memory?
+38. How often would you prefer check-ins at the beginning: weekly, flexible, only when requested, or another rhythm?
+39. In a typical session, do you want more depth, more practical action, more emotional holding, or a balance?
 
-## First-Session Output
+### 12. Optional Dream Mini-Session Setup
 
-After onboarding, create or update:
+40. Would you like dreams to be available as short supplemental mini-sessions, separate from full weekly sessions?
+41. If yes, should dream material stay as private short summaries only, or may repeated dream themes be carried into full-session continuity?
+42. When a dream mini-session ends, what output do you usually want: no summary, one-sentence takeaway, brief private note, structured dream note, or carry-forward note?
 
-- `01_Client_Profile.md` with the user's explicit preferences and basic context;
-- a first session note under `Sessions/`;
-- `03_Running_Case_Formulation.md` with tentative first hypotheses only;
-- `05_Psychological_Profile.md` with provisional strategy preferences and items to confirm.
+## Optional Follow-Up Bank
 
-Do not treat onboarding answers as a diagnosis or fixed personality profile.
+Use these only when the user's answer naturally opens the topic.
+
+- What would make this process feel genuinely useful after several sessions?
+- What kind of question usually helps you open up rather than feel pressured?
+- When you avoid something, what feeling might the avoidance be protecting you from?
+- What would be too much for the assistant to store or revisit?
+- Are there situations where you prefer grounding or practical steps before analysis?
+- If you use dream mini-sessions, what level of detail feels private enough to write down?
+- What warning signs show that a conversation is becoming too intense?
+- What should the assistant do if you become overwhelmed: slow down, summarize, ground, ask fewer questions, or stop?
+
+## What To Save
+
+Save only what is useful for continuity:
+
+- preferred live-session language;
+- mother tongue or emotionally natural language, if the user wants this remembered;
+- language-switching preferences;
+- broad current goals;
+- current main concerns;
+- onset, triggers, and functional impact when useful;
+- emotional baseline;
+- safety and support notes needed for responsible reflection;
+- preferred session style and pace;
+- privacy and memory boundaries;
+- topics to avoid unless user-led;
+- relevant life context;
+- repeated patterns and coping styles;
+- strengths or stabilizing resources;
+- initial areas of concern;
+- whether dream mini-sessions are enabled;
+- whether repeated dream themes may be carried into full sessions;
+- preferred dream mini-session output type;
+- one first-session opening direction.
+
+Do not store sensitive identity details, credentials, private messages, medical records, financial details, or anything the user asks to keep out of durable memory.

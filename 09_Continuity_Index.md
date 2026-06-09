@@ -1,63 +1,68 @@
 # Continuity Index
 
-Last updated:
+Last updated: 2026-06-04
 
 ## Purpose
 
-This file is the fast entry point for long-running AI-assisted therapy support.
+This file is a routing layer for long-term use. It helps the assistant find the most relevant prior material quickly without rereading every historical note in every session.
 
-It should help the assistant start each session without rereading the entire archive. It is not a replacement for session notes, monthly reports, yearly reports, the running case formulation, or the psychological profile. It is a navigation layer that points to the most relevant sources.
+Keep this file short. It should point to source files rather than duplicate them.
 
-## Current Reading Route
+## Current Session State
 
-Use this section to decide what to read at the start of the next session.
-
-- Latest session note:
-- Latest monthly report:
-- Latest yearly report:
-- Most relevant older session notes:
-- Current primary theme:
-- Current strategy recommendation:
-- Open safety or boundary considerations:
+- Latest session note: see the newest file in `Sessions/`.
+- Current formulation: `03_Running_Case_Formulation.md`
+- Current profile: `05_Psychological_Profile.md`
+- Scheduling rule: `06_Scheduling_Policy.md`
+- Memory update rules: `07_Memory_Architecture.md`
+- Dream mini-session workflow: `docs/DREAM_MINI_SESSION.md`
 
 ## Active Themes
 
-Record only themes that are currently active or likely to matter in the next few sessions.
+Use this section to list live themes that deserve attention in the next session.
 
-| Theme | Current status | Key source files | Next question |
+| Theme | Source | Status | Next use |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
-## Source Map
+## Dream Mini-Session Pointers
 
-Use this section to prevent memory drift. Important long-term claims should point back to their strongest evidence.
+Use this section only for repeated or user-approved dream themes that may help route future full sessions. Do not list every dream.
 
-| Claim or pattern | Evidence strength | Source files | Status |
+| Theme Or Image | Source | Status | Next use |
 | --- | --- | --- | --- |
-|  | Provisional / repeated / stable |  | Active / resolved / watch |
+|  |  |  |  |
 
-## Recent Session Window
+## Confirmed Stable Patterns
 
-Keep the latest few completed sessions visible here. Do not summarize every old session forever; move older material into monthly or yearly reports.
+Only add patterns here when they are repeated, directly confirmed, or strongly supported.
 
-| Date | Main theme | Emotional tone | Strategy used | Carry forward |
-| --- | --- | --- | --- | --- |
-|  |  |  |  |  |
+| Pattern | Evidence | Last reviewed |
+| --- | --- | --- |
+|  |  |  |
 
-## Compression Status
+## Provisional Hypotheses
 
-Use this to keep the workspace usable after many months.
+Hypotheses belong here when they may be useful but are not yet stable.
 
-- Sessions not yet included in a monthly report:
-- Monthly reports not yet included in a yearly report:
-- Profile items that need source verification:
-- Running case hypotheses that need review:
+| Hypothesis | Evidence | What would confirm or disconfirm it |
+| --- | --- | --- |
+|  |  |  |
 
-## Maintenance Rules
+## Retired Or Weakened Hypotheses
 
-- Update this file after each completed session.
-- Keep it short enough to read quickly at session start.
-- Do not store full session content here.
-- Do not turn this file into a second psychological profile.
-- Every stable claim should remain traceable to session notes, monthly reports, or yearly reports.
-- If this file becomes long, archive resolved themes into monthly or yearly reports and keep only active material here.
+Use this section to prevent stale interpretations from being carried forward forever.
+
+| Hypothesis | Reason retired | Date |
+| --- | --- | --- |
+|  |  |  |
+
+## Next Opening Question
+
+Add one specific, answerable question after the latest completed session.
+
+## Compression Notes
+
+- Read this file first after `AGENTS.md`.
+- Then read the current profile, running formulation, scheduling policy, memory architecture, and latest session note.
+- Read older notes only when this index points to them or the user brings up a related theme.
